@@ -60,7 +60,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 资源收集站 2.0 正式上线！ | 🚀 新增 178+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
+    🎉 资源收集站 2.0 正式上线！ | 🚀 新增 220+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
   </div>
 </div>
 
