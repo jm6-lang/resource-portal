@@ -25,6 +25,7 @@
 | AI换脸10 | [迅雷网盘](https://pan.xunlei.com/s/VOQBZq70LnlUbHA45Jg4GXKcA1?pwd=x4sh#) |
 | AI换脸11 | [迅雷网盘](https://pan.xunlei.com/s/VOQBZwUyKUAl4DNNfMGcsABPA1?pwd=c2g4#) |
 | AI换脸12 | [迅雷网盘](https://pan.xunlei.com/s/VOQB_yHrz7MdEh5qGBzMq6KiA1?pwd=9fn3#) |
+| AI软件系统教程，大神带你感受AI的矢量魔法 | [Quark/UC](https://drive.uc.cn/s/1500f5a08f744) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

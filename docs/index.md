@@ -60,7 +60,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 400+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
+    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 440+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
   </div>
 </div>
 
@@ -68,17 +68,17 @@ features:
   <span class="live-updates-label">实时动态</span>
   <div class="vertical-marquee-wrapper">
     <div class="vertical-marquee">
-      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_001">最新上传：🤖人工智能AIGC专题资源汇总</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_001">最新上传：🎬13万部短剧资源合集持续更新</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_001">最新上传：📚2000本精选电子书大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_001">最新上传：🛠️全能嗅觉浏览器高级版</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_001">最新上传：🎓职场102项核心技能提升课</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_053">最新上传：🎬精品美剧全集系列</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_033">最新上传：🎓黑帽SEO全套进阶课程</a></div>
       <!-- 循环显示 -->
-      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_001">最新上传：🤖人工智能AIGC专题资源汇总</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_001">最新上传：🎬13万部短剧资源合集持续更新</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_001">最新上传：📚2000本精选电子书大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_001">最新上传：🛠️全能嗅觉浏览器高级版</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_001">最新上传：🎓职场102项核心技能提升课</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_053">最新上传：🎬精品美剧全集系列</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_033">最新上传：🎓黑帽SEO全套进阶课程</a></div>
     </div>
   </div>
 </div>

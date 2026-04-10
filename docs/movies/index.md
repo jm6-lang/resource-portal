@@ -23,6 +23,8 @@
 | 音乐合集17 | [迅雷网盘](https://pan.xunlei.com/s/VOP3sStc1dckpi3HngYIQBEGA1?pwd=9335#) |
 | 音乐合集18 | [迅雷网盘](https://pan.xunlei.com/s/VOP3sqXERLFd38dbpR7Ew2dUA1?pwd=xhkt#) |
 | 音乐合集19 | [迅雷网盘](https://pan.xunlei.com/s/VOP3rnoD-wEAtCmsdBlggRXRA1?pwd=4m5x#) |
+| 高品质车载DJ【音乐大碟】 | [Quark/UC](https://drive.uc.cn/s/6b6622c1d37d4?public=1) |
+| 🎵精选音乐Mp3合集 | [Quark/UC](https://drive.uc.cn/s/15e7b0d47d884) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

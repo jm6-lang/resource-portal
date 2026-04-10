@@ -43,6 +43,7 @@
 | 软件工具28 | [迅雷网盘](https://pan.xunlei.com/s/VOYdALqV30NTW53quTQfWHhmA1?pwd=beb8#) |
 | 软件工具29 | [迅雷网盘](https://pan.xunlei.com/s/VOYiL6cH2GCVrbv91FRy7uEZA1?pwd=whn8#) |
 | 软件工具30 | [迅雷网盘](https://pan.xunlei.com/s/VOYnT0SsriDNDGjCciy_H67PA1?pwd=9jbk#) |
+| 软件合集 | [Quark/UC](https://drive.uc.cn/s/759efdc1128a4) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

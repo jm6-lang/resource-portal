@@ -1,23 +1,23 @@
 ---
-title: "影视资源17"
-description: "点击免费下载 影视资源17。本资源由资源收集站整理，包含 影视、短剧 相关内容，支持 迅雷网盘 极速转存。"
-keywords: "影视, 电影, 电视剧, 短剧, 4K, 影视资源17, 资源下载, 迅雷网盘"
+title: "🎵精选音乐Mp3合集"
+description: "点击免费下载 🎵精选音乐Mp3合集。本资源由资源收集站整理，包含 音乐 相关内容，支持 Quark/UC 极速转存。"
+keywords: "音乐, 无损音乐, 歌曲下载, 车载音乐, 🎵精选音乐Mp3合集, 资源下载, Quark/UC"
 head:
   - - meta
     - name: keywords
-      content: "影视, 电影, 电视剧, 短剧, 4K, 影视资源17, 资源下载, 迅雷网盘"
+      content: "音乐, 无损音乐, 歌曲下载, 车载音乐, 🎵精选音乐Mp3合集, 资源下载, Quark/UC"
 ---
 
-# 影视资源17
+# 🎵精选音乐Mp3合集
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **影视资源17** 的免费下载链接。该资源属于 **影视、短剧** 分类。
+欢迎访问资源收集站！本页面提供 **🎵精选音乐Mp3合集** 的免费下载链接。该资源属于 **音乐** 分类。
 
 ## 资源详情
-- **资源名称**: 影视资源17
-- **资源类型**: 影视、短剧
-- **存储平台**: 迅雷网盘
-- **下载链接**: <a href="https://pan.xunlei.com/s/VOOuLYoTRTmQCQcZcBrRvzs-A1?pwd=2xtq#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOOuLYoTRTmQCQcZcBrRvzs-A1?pwd=2xtq#</a>
+- **资源名称**: 🎵精选音乐Mp3合集
+- **资源类型**: 音乐
+- **存储平台**: Quark/UC
+- **下载链接**: <a href="https://drive.uc.cn/s/15e7b0d47d884" target="_blank" rel="noopener noreferrer">https://drive.uc.cn/s/15e7b0d47d884</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
