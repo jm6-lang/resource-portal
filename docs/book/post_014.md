@@ -1,23 +1,22 @@
 ---
-title: "tongren漫画"
-description: "点击免费下载 tongren漫画。本资源由资源收集站整理，包含 漫画、小说 相关内容，支持 Quark/UC 极速转存。"
-keywords: "漫画, 小说, 动漫, 资源, tongren漫画, 资源下载, Quark/UC"
+title: "动漫小说合集4"
+description: "点击免费下载 动漫小说合集4。本资源由小二郎资源站整理，支持 迅雷网盘 极速转存。"
+keywords: "漫画, 小说, 动漫, 资源, 动漫小说合集4, 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "漫画, 小说, 动漫, 资源, tongren漫画, 资源下载, Quark/UC"
+      content: "漫画, 小说, 动漫, 资源, 动漫小说合集4, 资源下载, 迅雷网盘"
 ---
 
-# tongren漫画
+# 动漫小说合集4
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **tongren漫画** 的免费下载链接。该资源属于 **漫画、小说** 分类。
+欢迎访问小二郎资源站！本页面提供 **动漫小说合集4** 的免费下载链接。
 
 ## 资源详情
-- **资源名称**: tongren漫画
-- **资源类型**: 漫画、小说
-- **存储平台**: Quark/UC
-- **下载链接**: <a href="https://drive.uc.cn/s/740f6eb0c39a4" target="_blank" rel="noopener noreferrer">https://drive.uc.cn/s/740f6eb0c39a4</a>
+- **资源名称**: 动漫小说合集4
+- **存储平台**: 迅雷网盘
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOOk9cvlMTfrgvL65SsfAEYZA1?pwd=btpw#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOOk9cvlMTfrgvL65SsfAEYZA1?pwd=btpw#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
@@ -28,4 +27,4 @@ head:
 - **链接失效**: 如果您发现下载链接已失效，请发送邮件至：`644428571@qq.com` 告知我们，我们将尽快修复。
 
 ---
-💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 100TB+ 免费资源库。
+💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 700TB+ 免费资源库。

@@ -1,23 +1,22 @@
 ---
-title: "影视资源35"
-description: "点击免费下载 影视资源35。本资源由资源收集站整理，包含 影视、短剧 相关内容，支持 迅雷网盘 极速转存。"
-keywords: "影视, 电影, 电视剧, 短剧, 4K, 影视资源35, 资源下载, 迅雷网盘"
+title: "影视资源13"
+description: "点击免费下载 影视资源13。本资源由小二郎资源站整理，支持 迅雷网盘 极速转存。"
+keywords: "音乐, 无损音乐, 歌曲下载, 车载音乐, 影视资源13, 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "影视, 电影, 电视剧, 短剧, 4K, 影视资源35, 资源下载, 迅雷网盘"
+      content: "音乐, 无损音乐, 歌曲下载, 车载音乐, 影视资源13, 资源下载, 迅雷网盘"
 ---
 
-# 影视资源35
+# 影视资源13
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **影视资源35** 的免费下载链接。该资源属于 **影视、短剧** 分类。
+欢迎访问小二郎资源站！本页面提供 **影视资源13** 的免费下载链接。
 
 ## 资源详情
-- **资源名称**: 影视资源35
-- **资源类型**: 影视、短剧
+- **资源名称**: 影视资源13
 - **存储平台**: 迅雷网盘
-- **下载链接**: <a href="https://pan.xunlei.com/s/VOVjsNkfZafTzbx1_YscGDyYA1?pwd=399y#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOVjsNkfZafTzbx1_YscGDyYA1?pwd=399y#</a>
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOOuM32D4_-Pa6ix4UC9NF-YA1?pwd=dn96#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOOuM32D4_-Pa6ix4UC9NF-YA1?pwd=dn96#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
@@ -28,4 +27,4 @@ head:
 - **链接失效**: 如果您发现下载链接已失效，请发送邮件至：`644428571@qq.com` 告知我们，我们将尽快修复。
 
 ---
-💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 100TB+ 免费资源库。
+💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 700TB+ 免费资源库。

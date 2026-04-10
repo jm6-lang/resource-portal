@@ -60,7 +60,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 700+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
+    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 600+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
   </div>
 </div>
 
@@ -108,7 +108,7 @@ features:
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">存储容量</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
-    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">700+</div>
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">600+</div>
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">资源条目</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">

@@ -1,9 +1,46 @@
-# 学习课程 资源合集
+# 学习课程 / 个人技能类 / 学习课程类资源 资源合集
 
 ## 📂 分类概览
 
 | 资源名称 | 网盘链接 |
 | :--- | :--- |
+| 健身房私教内部视频课程 | [Quark](https://pan.quark.cn/s/fa4f12ba4f7c) |
+| 健身新手入门训练经验视频课程（37讲） | [Quark](https://pan.quark.cn/s/cc6f76c8985a) |
+| 一人公司：失业潮中的高新技术工作者（万相） | [Quark](https://pan.quark.cn/s/6c9ce3c3c605) |
+| 27种盈利模式课程合集 | [Quark](https://pan.quark.cn/s/3c56ea959744) |
+| 年赚百万的知识付费网站搭建 超详细教程 | [Quark](https://pan.quark.cn/s/e2ae374d9a34) |
+| 《颈椎保养课 保重身体要紧》视频课程 坐办公室 看电脑多的必备身体调节[mp4] | [Quark](https://pan.quark.cn/s/1115387cc15a) |
+| 女性必备的20堂情趣指南课（完结） | [Quark](https://pan.quark.cn/s/c48e0855d272) |
+| 【心理控制术】 | [Quark](https://pan.quark.cn/s/c7edd747378f) |
+| 66个赚钱技巧 | [Quark](https://pan.quark.cn/s/db28c0dec87b) |
+| 零基础趣学Linux | [Quark](https://pan.quark.cn/s/d05b550f64cd) |
+| 八节课帮你攻克社交障碍 | [Quark](https://pan.quark.cn/s/03e566da8c8a) |
+| 高情商沟通技巧视频课程 | [Quark](https://pan.quark.cn/s/8f5fa4334622) |
+| 国内34个省的近300个城市景区旅游攻略分享 | [Quark](https://pan.quark.cn/s/b7d74f000894) |
+| 全国旅游攻略 国内穷游自驾游旅行地图电子版美食指南 | [Quark](https://pan.quark.cn/s/bcca02404735) |
+| 副业起跑营第2期，挑一门好副业，三周干起来 | [Quark](https://pan.quark.cn/s/c5bc2b28e963) |
+| 上班族必备的瑜伽减肥训练营【完结】 | [Quark](https://pan.quark.cn/s/661e745e054b) |
+| 普通人的精致生活修炼手册技能宝典  电子书籍 合集 | [Quark](https://pan.quark.cn/s/6716561e194d) |
+| 各种酿酒教程合集～ | [Quark](https://pan.quark.cn/s/73e248320385) |
+| 八十种各种快餐类美食做法技术大全 | [Quark](https://pan.quark.cn/s/416411e8cb11) |
+| 笔记本电脑维修完全手册 | [Quark](https://pan.quark.cn/s/0b28a167e109) |
+| 美食实体店配方（合集） | [Quark](https://pan.quark.cn/s/5b7444819477) |
+| 99套小吃配方+创业落地指南 | [Quark](https://pan.quark.cn/s/1866e2ec8103) |
+| 美食实体店配方专题，价值上万！ | [Quark](https://pan.quark.cn/s/e8d828090e8f) |
+| 30多套小吃技术全套视频教程合集 | [Quark](https://pan.quark.cn/s/2153af3ea584) |
+| 手办制作视频教程 | [Quark](https://pan.quark.cn/s/f26e42bd23ca) |
+| 超详细生存指南 | [Quark](https://pan.quark.cn/s/e82d53c5a7ef) |
+| 编绳手工坊：编绳基础结法 (犀文图书)【多格式】 | [Quark](https://pan.quark.cn/s/aba89bae4edb) |
+| 零基础钩针教程-（视频+PDF教程） | [Quark](https://pan.quark.cn/s/bfd2acf4b881) |
+| 麻将学技术训练与技巧（完结） | [Quark](https://pan.quark.cn/s/de4f133a1549) |
+| 厨师长教你做菜系列合集【71GB】 | [Quark](https://pan.quark.cn/s/8363225a0eed) |
+| 厨师长教你做菜系列合集【71GB】 | [Quark](https://pan.quark.cn/s/e91162128386) |
+| （饭店常点的35套菜     详细视频教学） | [Quark](https://pan.quark.cn/s/83a2aface3a4) |
+| （饭店常点的35套菜     详细视频教学） | [Quark](https://pan.quark.cn/s/c5cf90a62b23) |
+| 【摄影】超全付费课程合集（335GB）(1) | [Quark](https://pan.quark.cn/s/d24f483a8390) |
+| 创业资料价值几万的小吃美食教程（522道美食） | [Quark](https://pan.quark.cn/s/2cc0a730c8d4) |
+| 手机维修课程 | [Xunlei](https://pan.xunlei.com/s/VOOuKnMFlFjUlpMDhOty4N25A1?pwd=ac94#) |
+| 手机维修课程 | [Xunlei](https://pan.xunlei.com/s/VOOuLP7RcTHXBSgoQ8TUE9u5A1?pwd=y5ey#) |
 | 学习课程1 | [迅雷网盘](https://pan.xunlei.com/s/VOP43vvv1uIGNBJn5Z3gMqj6A1?pwd=xy8a#) |
 | 学习课程2 | [迅雷网盘](https://pan.xunlei.com/s/VOP447l0eHRZY2IUihc2awLMA1?pwd=nyzc#) |
 | 学习课程3 | [迅雷网盘](https://pan.xunlei.com/s/VOP44D4GPMbWlfaBLu59XMIiA1?pwd=iqzb#) |

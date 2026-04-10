@@ -1,23 +1,22 @@
 ---
-title: "书籍资源11"
-description: "点击免费下载 书籍资源11。本资源由资源收集站整理，包含 古籍、书籍，资料 相关内容，支持 迅雷网盘 极速转存。"
-keywords: "书籍, 电子书, 古籍, PDF, 资料下载, 书籍资源11, 资源下载, 迅雷网盘"
+title: "动漫小说合集2"
+description: "点击免费下载 动漫小说合集2。本资源由小二郎资源站整理，支持 迅雷网盘 极速转存。"
+keywords: "漫画, 小说, 动漫, 资源, 动漫小说合集2, 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "书籍, 电子书, 古籍, PDF, 资料下载, 书籍资源11, 资源下载, 迅雷网盘"
+      content: "漫画, 小说, 动漫, 资源, 动漫小说合集2, 资源下载, 迅雷网盘"
 ---
 
-# 书籍资源11
+# 动漫小说合集2
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **书籍资源11** 的免费下载链接。该资源属于 **古籍、书籍，资料** 分类。
+欢迎访问小二郎资源站！本页面提供 **动漫小说合集2** 的免费下载链接。
 
 ## 资源详情
-- **资源名称**: 书籍资源11
-- **资源类型**: 古籍、书籍，资料
+- **资源名称**: 动漫小说合集2
 - **存储平台**: 迅雷网盘
-- **下载链接**: <a href="https://pan.xunlei.com/s/VOXBRniSZWYhuK2DRAmIJ3HLA1?pwd=gy5h#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOXBRniSZWYhuK2DRAmIJ3HLA1?pwd=gy5h#</a>
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOOk9969bGwx5MQQ0QJfb-CpA1?pwd=8zzp#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOOk9969bGwx5MQQ0QJfb-CpA1?pwd=8zzp#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
@@ -28,4 +27,4 @@ head:
 - **链接失效**: 如果您发现下载链接已失效，请发送邮件至：`644428571@qq.com` 告知我们，我们将尽快修复。
 
 ---
-💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 100TB+ 免费资源库。
+💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 700TB+ 免费资源库。

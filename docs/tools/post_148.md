@@ -1,23 +1,22 @@
 ---
-title: "https://pan.quark.cn/s/aba89bae4edb"
-description: "点击免费下载 https://pan.quark.cn/s/aba89bae4edb。本资源由资源收集站整理，包含 其它网盘资源合集 相关内容，支持 网盘资源 极速转存。"
-keywords: "网盘资源, 资源合集, 夸克, 混合资源, https://pan.quark.cn/s/aba89bae4edb, 资源下载, 网盘资源"
+title: "Optics 2022.5.2.20221129汉化版"
+description: "点击免费下载 Optics 2022.5.2.20221129汉化版。本资源由小二郎资源站整理，支持 百度网盘 极速转存。"
+keywords: "网盘资源, 资源合集, 夸克, 混合资源, Optics 2022.5.2.20221129汉化版, 资源下载, 百度网盘"
 head:
   - - meta
     - name: keywords
-      content: "网盘资源, 资源合集, 夸克, 混合资源, https://pan.quark.cn/s/aba89bae4edb, 资源下载, 网盘资源"
+      content: "网盘资源, 资源合集, 夸克, 混合资源, Optics 2022.5.2.20221129汉化版, 资源下载, 百度网盘"
 ---
 
-# https://pan.quark.cn/s/aba89bae4edb
+# Optics 2022.5.2.20221129汉化版
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **https://pan.quark.cn/s/aba89bae4edb** 的免费下载链接。该资源属于 **其它网盘资源合集** 分类。
+欢迎访问小二郎资源站！本页面提供 **Optics 2022.5.2.20221129汉化版** 的免费下载链接。
 
 ## 资源详情
-- **资源名称**: https://pan.quark.cn/s/aba89bae4edb
-- **资源类型**: 其它网盘资源合集
-- **存储平台**: 网盘资源
-- **下载链接**: <a href="https://pan.quark.cn/s/aba89bae4edb" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/aba89bae4edb</a>
+- **资源名称**: Optics 2022.5.2.20221129汉化版
+- **存储平台**: 百度网盘
+- **下载链接**: <a href="https://pan.baidu.com/s/1ueo0nJl_6yT3Ga9yg9Urbg?pwd=r6ck" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1ueo0nJl_6yT3Ga9yg9Urbg?pwd=r6ck</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
@@ -28,4 +27,4 @@ head:
 - **链接失效**: 如果您发现下载链接已失效，请发送邮件至：`644428571@qq.com` 告知我们，我们将尽快修复。
 
 ---
-💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 100TB+ 免费资源库。
+💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 700TB+ 免费资源库。

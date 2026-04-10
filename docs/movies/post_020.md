@@ -1,23 +1,22 @@
 ---
-title: "高品质车载DJ【音乐大碟】"
-description: "点击免费下载 高品质车载DJ【音乐大碟】。本资源由资源收集站整理，包含 音乐 相关内容，支持 Quark/UC 极速转存。"
-keywords: "音乐, 无损音乐, 歌曲下载, 车载音乐, 高品质车载DJ【音乐大碟】, 资源下载, Quark/UC"
+title: "无耻之徒1-11季（高清未删减版）"
+description: "点击免费下载 无耻之徒1-11季（高清未删减版）。本资源由小二郎资源站整理，支持 Quark 极速转存。"
+keywords: "音乐, 无损音乐, 歌曲下载, 车载音乐, 无耻之徒1-11季（高清未删减版）, 资源下载, Quark"
 head:
   - - meta
     - name: keywords
-      content: "音乐, 无损音乐, 歌曲下载, 车载音乐, 高品质车载DJ【音乐大碟】, 资源下载, Quark/UC"
+      content: "音乐, 无损音乐, 歌曲下载, 车载音乐, 无耻之徒1-11季（高清未删减版）, 资源下载, Quark"
 ---
 
-# 高品质车载DJ【音乐大碟】
+# 无耻之徒1-11季（高清未删减版）
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **高品质车载DJ【音乐大碟】** 的免费下载链接。该资源属于 **音乐** 分类。
+欢迎访问小二郎资源站！本页面提供 **无耻之徒1-11季（高清未删减版）** 的免费下载链接。
 
 ## 资源详情
-- **资源名称**: 高品质车载DJ【音乐大碟】
-- **资源类型**: 音乐
-- **存储平台**: Quark/UC
-- **下载链接**: <a href="https://drive.uc.cn/s/6b6622c1d37d4?public=1" target="_blank" rel="noopener noreferrer">https://drive.uc.cn/s/6b6622c1d37d4?public=1</a>
+- **资源名称**: 无耻之徒1-11季（高清未删减版）
+- **存储平台**: Quark
+- **下载链接**: <a href="https://pan.quark.cn/s/49ffb153d7ed" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/49ffb153d7ed</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
@@ -28,4 +27,4 @@ head:
 - **链接失效**: 如果您发现下载链接已失效，请发送邮件至：`644428571@qq.com` 告知我们，我们将尽快修复。
 
 ---
-💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 100TB+ 免费资源库。
+💡 **更多资源**: 访问首页 [docs.skillxm.cn](https://docs.skillxm.cn/) 探索 700TB+ 免费资源库。
