@@ -18,4 +18,4 @@
 
 - **GitHub**: [jm6-lang/resource-portal](https://github.com/jm6-lang/resource-portal)
 - **反馈建议**: [提交 Issue](https://github.com/jm6-lang/resource-portal/issues)
-- **Email**: langjinming18@gmail.com
+- **Email**: 644428571@qq.com
