@@ -1,5 +1,5 @@
 /**
- * Custom Luxury Theme
+ * Custom Luxury Theme - Optimized for 小二郎资源分享站
  */
 
 :root {
@@ -10,6 +10,29 @@
   
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(120deg, #6366f1 0%, #a855f7 100%);
+}
+
+/* --- Search Box Optimization (Larger) --- */
+.VPNavBarSearch {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .VPNavBarSearch .DocSearch-Button {
+    width: 240px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: var(--vp-c-bg-soft) !important;
+    border: 1px solid var(--vp-c-divider) !important;
+    padding: 0 12px !important;
+    margin-left: 12px !important;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button-Placeholder {
+    font-size: 0.95rem !important;
+    color: var(--vp-c-text-2) !important;
+  }
 }
 
 /* Feature Card Enhancements */
@@ -93,11 +116,11 @@
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1.2rem;
   margin: 1.5rem 0;
   overflow: hidden;
   position: relative;
-  height: 40px;
+  height: 48px;
   display: flex;
   align-items: center;
 }
@@ -105,11 +128,11 @@
 .latest-updates-label {
   background: var(--vp-c-brand-1);
   color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 1.2rem;
   z-index: 2;
   white-space: nowrap;
 }
@@ -117,10 +140,10 @@
 .latest-updates-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 30s linear infinite;
+  animation: marquee 35s linear infinite;
   padding-left: 100%;
   color: var(--vp-c-text-1);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @keyframes marquee {
@@ -132,14 +155,14 @@
   animation-play-state: paused;
 }
 
-/* Vertical Scrolling Live Updates Box */
+/* --- Vertical Scrolling Live Updates Box (Larger) --- */
 .live-updates-container {
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin: 1rem 0;
-  height: 44px;
+  border-radius: 14px;
+  padding: 0 1.2rem;
+  margin: 1.2rem 0;
+  height: 56px; /* Increased height */
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -148,17 +171,18 @@
 
 .live-updates-label {
   color: var(--vp-c-brand-1);
-  font-weight: bold;
-  font-size: 0.85rem;
-  margin-right: 12px;
+  font-weight: 800;
+  font-size: 1rem; /* Larger font */
+  margin-right: 16px;
   white-space: nowrap;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 
 .live-updates-label::before {
-  content: "🔔";
+  content: "🚀"; /* Updated icon */
+  font-size: 1.2rem;
 }
 
 .vertical-marquee-wrapper {
@@ -170,7 +194,7 @@
 .vertical-marquee {
   position: absolute;
   width: 100%;
-  animation: scroll-up-v2 15s linear infinite;
+  animation: scroll-up-v2 18s linear infinite;
 }
 
 .vertical-marquee:hover {
@@ -178,10 +202,10 @@
 }
 
 .update-item {
-  height: 44px;
+  height: 56px; /* Matching container height */
   display: flex;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 1.05rem; /* Larger font */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -190,23 +214,25 @@
 .update-item a {
   color: var(--vp-c-text-1);
   text-decoration: none;
-  transition: color 0.2s;
+  font-weight: 500;
+  transition: all 0.2s;
 }
 
 .update-item a:hover {
   color: var(--vp-c-brand-1);
+  padding-left: 4px;
 }
 
 .update-item .time {
   background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
-  font-size: 0.7rem;
-  padding: 1px 4px;
-  border-radius: 4px;
-  margin-right: 8px;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-right: 12px;
 }
 
 @keyframes scroll-up-v2 {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-50%); } /* Half of the doubled list */
+  100% { transform: translateY(-50%); }
 }
