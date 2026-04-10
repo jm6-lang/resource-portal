@@ -26,12 +26,12 @@ function getSidebarItems(dir: string) {
 
 export default defineConfig({
   base: process.env.BASE || '/',
-  title: "资源收集站",
-  titleTemplate: ":title - 海量免费资源聚合",
+  title: "小二郎资源站",
+  titleTemplate: ":title - 全球优质资源聚合平台",
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  description: "全网最全的 100TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
+  description: "小二郎资源站：全网最全的 100TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
@@ -52,9 +52,7 @@ export default defineConfig({
           { text: '🎓 教育知识', link: '/edu-knowlege/' },
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
-      },
-      { text: '📢 关于我们', link: '/about' },
-      { text: '⚖️ 免责声明', link: '/disclaimer' }
+      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
@@ -177,6 +175,11 @@ export default defineConfig({
     lastUpdatedText: '最近更新于',
     darkModeSwitchLabel: '深色模式切换',
     outlineTitle: '本页目录',
+    sidebarMenuLabel: '侧边栏',
+    returnToTopLabel: '返回顶部',
+  }
+})
+   outlineTitle: '本页目录',
     sidebarMenuLabel: '侧边栏',
     returnToTopLabel: '返回顶部',
   }
