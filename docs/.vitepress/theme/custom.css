@@ -12,26 +12,35 @@
   --vp-home-hero-name-background: linear-gradient(120deg, #6366f1 0%, #a855f7 100%);
 }
 
-/* --- Search Box Optimization (Larger) --- */
+/* --- Search Box Optimization (ULTRA LARGER) --- */
 .VPNavBarSearch {
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  justify-content: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .VPNavBarSearch .DocSearch-Button {
-    width: 240px !important;
-    height: 40px !important;
-    border-radius: 10px !important;
+    width: 350px !important; /* Increased from 240px */
+    height: 46px !important; /* Increased from 40px */
+    border-radius: 12px !important;
     background-color: var(--vp-c-bg-soft) !important;
-    border: 1px solid var(--vp-c-divider) !important;
-    padding: 0 12px !important;
-    margin-left: 12px !important;
+    border: 2px solid var(--vp-c-divider) !important;
+    padding: 0 16px !important;
+    margin: 0 20px !important;
+    transition: all 0.3s ease;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button:hover {
+    border-color: var(--vp-c-brand-1) !important;
+    background-color: var(--vp-c-bg) !important;
   }
   
   .VPNavBarSearch .DocSearch-Button-Placeholder {
-    font-size: 0.95rem !important;
-    color: var(--vp-c-text-2) !important;
+    font-size: 1.1rem !important; /* Increased */
+    color: var(--vp-c-text-1) !important;
+    font-weight: 500;
   }
 }
 
@@ -120,7 +129,7 @@
   margin: 1.5rem 0;
   overflow: hidden;
   position: relative;
-  height: 48px;
+  height: 52px; /* Increased */
   display: flex;
   align-items: center;
 }
@@ -128,11 +137,11 @@
 .latest-updates-label {
   background: var(--vp-c-brand-1);
   color: white;
-  padding: 4px 12px;
+  padding: 4px 14px;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
-  margin-right: 1.2rem;
+  margin-right: 1.5rem;
   z-index: 2;
   white-space: nowrap;
 }
@@ -140,10 +149,10 @@
 .latest-updates-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 35s linear infinite;
+  animation: marquee 40s linear infinite;
   padding-left: 100%;
   color: var(--vp-c-text-1);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 @keyframes marquee {
@@ -155,34 +164,35 @@
   animation-play-state: paused;
 }
 
-/* --- Vertical Scrolling Live Updates Box (Larger) --- */
+/* --- Vertical Scrolling Live Updates Box (MAXI SIZE) --- */
 .live-updates-container {
   background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 14px;
-  padding: 0 1.2rem;
-  margin: 1.2rem 0;
-  height: 56px; /* Increased height */
+  border: 2px solid var(--vp-c-brand-soft);
+  border-radius: 16px;
+  padding: 0 1.5rem;
+  margin: 1.5rem 0;
+  height: 72px; /* Significantly increased from 56px */
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
 }
 
 .live-updates-label {
   color: var(--vp-c-brand-1);
-  font-weight: 800;
-  font-size: 1rem; /* Larger font */
-  margin-right: 16px;
+  font-weight: 900;
+  font-size: 1.2rem; /* Larger font */
+  margin-right: 20px;
   white-space: nowrap;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .live-updates-label::before {
-  content: "🚀"; /* Updated icon */
-  font-size: 1.2rem;
+  content: "🔥"; /* Updated to fire for hotspots */
+  font-size: 1.4rem;
 }
 
 .vertical-marquee-wrapper {
@@ -194,7 +204,7 @@
 .vertical-marquee {
   position: absolute;
   width: 100%;
-  animation: scroll-up-v2 18s linear infinite;
+  animation: scroll-up-v2 15s linear infinite;
 }
 
 .vertical-marquee:hover {
@@ -202,10 +212,10 @@
 }
 
 .update-item {
-  height: 56px; /* Matching container height */
+  height: 72px; /* Matching container height */
   display: flex;
   align-items: center;
-  font-size: 1.05rem; /* Larger font */
+  font-size: 1.2rem; /* Much larger font */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -214,22 +224,23 @@
 .update-item a {
   color: var(--vp-c-text-1);
   text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 .update-item a:hover {
   color: var(--vp-c-brand-1);
-  padding-left: 4px;
+  transform: translateX(6px);
 }
 
 .update-item .time {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
-  font-size: 0.75rem;
-  padding: 2px 6px;
-  border-radius: 5px;
-  margin-right: 12px;
+  background: var(--vp-c-brand-1);
+  color: white;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
 @keyframes scroll-up-v2 {

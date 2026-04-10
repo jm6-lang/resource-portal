@@ -27,7 +27,7 @@ function getSidebarItems(dir: string) {
 export default defineConfig({
   base: process.env.BASE || '/',
   title: "小二郎资源分享站",
-  titleTemplate: ":title | 小二郎资源分享站",
+  titleTemplate: "全网优质资源聚合平台",
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
@@ -194,7 +194,7 @@ export default defineConfig({
     ],
     footer: {
       message: '[📢 关于我们](/about) | [⚖️ 免责声明](/disclaimer) | 如有侵权，请联系管理员核实删除。<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
-      copyright: 'Copyright © 2026-present 644428571@qq.com'
+      copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     docFooter: {
       prev: '上一篇',
