@@ -57,6 +57,13 @@ features:
     linkText: "运营干货 →"
 ---
 
+<div class="latest-updates-box">
+  <span class="latest-updates-label">最新动态</span>
+  <div class="latest-updates-content">
+    🎉 资源收集站 2.0 正式上线！ | 🚀 新增 178+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
+  </div>
+</div>
+
 ::: tip 📢 重要通告
 本站已成功迁移至全新架构，加载速度提升 200%。如遇资源失效，请联系管理员及时反馈。
 :::
