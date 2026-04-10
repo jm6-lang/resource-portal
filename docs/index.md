@@ -1,126 +1,110 @@
 ---
 layout: home
 
-title: 资源收集站 - 海量免费资源下载
-description: 免费提供海量资源下载，包含AI知识、书籍资料、跨境电商、自媒体、教育、健康、影视、工具等各类资源，持续更新，全部免费下载
+title: 资源收集站 - 全球优质资源聚合平台
+description: 专注分享 100TB+ 免费优质资源，包含 AI 知识、书籍、跨境电商、自媒体、影视、工具等，每日更新，极速下载。
 
 hero:
   name: "资源收集站"
-  text: "海量免费资源下载"
-  tagline: "🚀 免费 · 海量 · 持续更新 | 专注提供优质免费资源下载"
+  text: "海量优质资源 · 全球免费共享"
+  tagline: "🚀 100TB+ 海量存储 | 📂 12 大分类 | 📅 每日持续更新"
+  image:
+    src: /logo.png
+    alt: 资源收集站 Logo
   actions:
     - theme: brand
-      text: "🚀 开始探索免费资源"
+      text: "🚀 开启资源探索"
       link: "/AIknowledge/"
     - theme: alt
-      text: "📢 关于我们"
+      text: "📢 关于平台"
       link: "/about"
 
 features:
   - icon: "🤖"
-    title: "AI 知识"
-    details: "人工智能学习资料、提示词工程、AI工具教程、机器学习课程等前沿技术内容"
+    title: "AI 知识库"
+    details: "深度学习、提示词工程、AIGC 工具全集，紧跟 AI 时代步伐。"
     link: "/AIknowledge/"
-    linkText: "探索AI资源 →"
+    linkText: "进入专区 →"
 
-  - icon: "📖"
-    title: "书籍资料"
-    details: "电子书、技术文档、学术论文、小说文学、专业教材等丰富阅读资源"
+  - icon: "📚"
+    title: "精品书籍"
+    details: "涵盖技术、人文、心理、理财等精选电子书，打造指尖图书馆。"
     link: "/book/"
-    linkText: "浏览书籍 →"
+    linkText: "开启阅读 →"
 
-  - icon: "🌍"
+  - icon: "📈"
     title: "跨境电商"
-    details: "亚马逊开店、TikTok营销、外贸实操、选品工具、数据分析完整教程"
+    details: "亚马逊、TikTok、选品运营全攻略，助力品牌出海致胜。"
     link: "/cross-border/"
-    linkText: "学习电商 →"
-
-  - icon: "📱"
-    title: "自媒体运营"
-    details: "流量获取、内容创作、变现策略、短视频制作、直播运营全套资料"
-    link: "/self-media/"
-    linkText: "运营技巧 →"
-
-  - icon: "🎓"
-    title: "教育资源"
-    details: "从幼儿园到大学全阶段教育材料、考试资料、职业培训精选内容"
-    link: "/edu-knowlege/"
-    linkText: "教育资料 →"
-
-  - icon: "🔧"
-    title: "工具合集"
-    details: "软件工具、浏览器插件、系统优化、开发工具、设计素材应有尽有"
-    link: "/tools/"
-    linkText: "实用工具 →"
+    linkText: "学习出海 →"
 
   - icon: "🎬"
-    title: "影视娱乐"
-    details: "高清电影、纪录片、音乐资源、演唱会、综艺节目海量收藏"
+    title: "影视媒体"
+    details: "精选高清电影、纪录片及短剧资源，享受极致视听盛宴。"
     link: "/movies/"
-    linkText: "影视资源 →"
+    linkText: "立即观看 →"
 
-  - icon: "💪"
-    title: "健康养生"
-    details: "健身教程、营养指南、心理健康、中医养生、康复训练系统资源"
-    link: "/healthy/"
-    linkText: "健康生活 →"
+  - icon: "🛠️"
+    title: "工具合集"
+    details: "黑科技软件、提效插件、开发素材，一站式解决工具需求。"
+    link: "/tools/"
+    linkText: "查找工具 →"
 
-  - icon: "🏛️"
-    title: "传统文化"
-    details: "中医课程、传统文化资料等国学精华内容"
-    link: "/chinese-traditional/"
-    linkText: "文化传承 →"
-
-  - icon: "💻"
-    title: "自动化工具"
-    details: "各种自动化脚本 and 工具，提升工作效率必备"
-    link: "/auto/"
-    linkText: "效率提升 →"
+  - icon: "💡"
+    title: "自媒体运营"
+    details: "流量增长、内容变现、短视频分发，掌握全网运营底层逻辑。"
+    link: "/self-media/"
+    linkText: "运营干货 →"
 ---
 
-## 🚀 关于我们的资源收集站
+::: tip 📢 重要通告
+本站已成功迁移至全新架构，加载速度提升 200%。如遇资源失效，请联系管理员及时反馈。
+:::
 
-> 🎯 **专注免费** · 🌟 **品质保证** · 📈 **持续更新** · 🔥 **社区驱动**
+## 💎 为什么选择我们的资源收集站？
 
-我们致力于为全球用户提供海量优质资源，覆盖学习、工作、娱乐等各个生活场景。
+我们不只是资源的搬运工，更是内容的深度筛选者。
 
-### 🎯 为什么选择我们？
-
-**💯 完全免费**
-所有资源100%免费下载，永无隐藏费用，让知识传播无障碍
-
-**🔄 持续更新**
-定期更新最新优质资源，紧跟时代潮流，保持内容新鲜度
-
-**⭐ 品质保证**
-专业团队精心筛选，严格把关资源质量，拒绝低质灌水内容
-
-**🎯 分类清晰**
-科学的分类体系和智能搜索，帮您快速精准找到所需资源
-
-**🌐 多平台支持**
-支持夸克网盘、阿里网盘、百度网盘等主流平台，下载便捷
-
-### 📈 平台数据一览
-
-**📦 资源总量**
-超过 100TB
-
-**🏷️ 分类数量**
-12 个主要类别
-
-**📅 更新频率**
-每日更新
-
-**🌍 支持平台**
-夸克网盘、阿里网盘、百度网盘等
-
-### 🔍 热门搜索关键词
-
-`免费资源下载` `AI教程` `电子书下载` `跨境电商教程` `自媒体运营` `在线教育` `健身视频` `电影资源` `软件工具` `设计素材` `编程教程` `考试资料` `夸克网盘` `阿里网盘` `TikTok营销` `亚马逊开店` `提示词工程` `机器学习`
+| ✨ 核心优势 | 📝 详细说明 |
+| :--- | :--- |
+| **完全免费** | 所有资源 100% 免费分享，不设任何隐藏收费项目。 |
+| **纯净体验** | 页面简洁无弹窗，为您提供专注的搜索与下载体验。 |
+| **多云支持** | 整合夸克、阿里、百度等多网盘，确保资源永久在线。 |
+| **极速响应** | 基于 VitePress 全量静态化，即使在弱网环境下也能秒开。 |
 
 ---
 
-💡 **温馨提示**: 所有资源仅供学习交流使用，请支持正版。如有版权问题，请及时联系我们处理。
+### 📦 平台核心数据看板
 
-📧 **联系方式**: 644428571@qq.com
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+  <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">100TB+</div>
+    <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">存储容量</div>
+  </div>
+  <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">5000+</div>
+    <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">资源条目</div>
+  </div>
+  <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">Daily</div>
+    <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">更新频率</div>
+  </div>
+</div>
+
+---
+
+### 🔍 热门分类搜索
+
+`#AIGC` `#Stable Diffusion` `#电子书` `#亚马逊选品` `#短视频变现` `#中医养生` `#高清电影` `#提效工具` `#破解软件` `#考公资料` `#夸克网盘` `#阿里网盘`
+
+---
+
+### 🛡️ 法律及反馈
+
+- **关于侵权**：本站尊重版权，如有内容侵权，请联系管理员核实删除。
+- **资源缺失**：如您有急需的资源但在站内未找到，欢迎提交建议。
+- **联系管理员**：644428571@qq.com
+
+---
+
+💡 **温馨提示**: 为了您的数据安全，建议注册网盘账号后转存资源再进行查看，避免直接在线浏览。
