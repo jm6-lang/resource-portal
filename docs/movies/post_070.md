@@ -1,20 +1,20 @@
 ---
-title: "音乐合集12"
-description: "点击免费下载 音乐合集12。小二郎资源分享站优质推荐，支持极速转存。"
+title: "高品质车载DJ【音乐大碟"
+description: "点击免费下载 高品质车载DJ【音乐大碟。小二郎资源分享站优质推荐，支持极速转存。"
 ---
 
-# 音乐合集12
+# 高品质车载DJ【音乐大碟
 
-<Badge type="tip" text="迅雷网盘" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品推荐" />
 
 ## 📋 资源详情
-- **资源名称**: 音乐合集12
+- **资源名称**: 高品质车载DJ【音乐大碟
 - **包含链接**: 1 个
 - **更新日期**: 2026-04-10
 
 ## 📥 下载入口
 <ul class="download-list">
-<li><a href="https://pan.xunlei.com/s/VOP3rYTukWzziTqwUC0y_PoFA1?pwd=safr#" target="_blank">🔗 点击打开 迅雷网盘 链接</a></li>
+<li><a href="https://drive.uc.cn/s/6b6622c1d37d4?public=1" target="_blank">🔗 点击打开 Quark/UC 链接</a></li>
 </ul>
 
 ---

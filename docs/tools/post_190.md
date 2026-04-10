@@ -1,20 +1,20 @@
 ---
-title: "音乐合集2"
-description: "点击免费下载 音乐合集2。小二郎资源分享站优质推荐，支持极速转存。"
+title: "首尔之春 韩国 蓝光原盘REMUX 内封字幕"
+description: "点击免费下载 首尔之春 韩国 蓝光原盘REMUX 内封字幕。小二郎资源分享站优质推荐，支持极速转存。"
 ---
 
-# 音乐合集2
+# 首尔之春 韩国 蓝光原盘REMUX 内封字幕
 
-<Badge type="tip" text="网盘资源" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品推荐" />
 
 ## 📋 资源详情
-- **资源名称**: 音乐合集2
+- **资源名称**: 首尔之春 韩国 蓝光原盘REMUX 内封字幕
 - **包含链接**: 1 个
 - **更新日期**: 2026-04-10
 
 ## 📥 下载入口
 <ul class="download-list">
-<li><a href="https://pan.xunlei.com/s/VOP3syDPNlevTgYvIlxXySjnA1?pwd=6zbe#" target="_blank">🔗 点击打开 网盘资源 链接</a></li>
+<li><a href="https://drive.uc.cn/s/089d02ae8ef04" target="_blank">🔗 点击打开 Quark/UC 链接</a></li>
 </ul>
 
 ---

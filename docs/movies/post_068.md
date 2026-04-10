@@ -1,20 +1,20 @@
 ---
-title: "音乐合集10"
-description: "点击免费下载 音乐合集10。小二郎资源分享站优质推荐，支持极速转存。"
+title: "音乐资源3"
+description: "点击免费下载 音乐资源3。小二郎资源分享站优质推荐，支持极速转存。"
 ---
 
-# 音乐合集10
+# 音乐资源3
 
 <Badge type="tip" text="迅雷网盘" /> <Badge type="warning" text="精品推荐" />
 
 ## 📋 资源详情
-- **资源名称**: 音乐合集10
+- **资源名称**: 音乐资源3
 - **包含链接**: 1 个
 - **更新日期**: 2026-04-10
 
 ## 📥 下载入口
 <ul class="download-list">
-<li><a href="https://pan.xunlei.com/s/VOP3rIlTNUlzBbd7cRYvoMgbA1?pwd=2t78#" target="_blank">🔗 点击打开 迅雷网盘 链接</a></li>
+<li><a href="https://pan.xunlei.com/s/VOQ6K-KHNSmMb1YsHO_RG5U5A1?pwd=6kmd#" target="_blank">🔗 点击打开 迅雷网盘 链接</a></li>
 </ul>
 
 ---

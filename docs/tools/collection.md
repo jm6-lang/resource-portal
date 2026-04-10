@@ -1,6 +1,6 @@
 ---
 title: "🎁 全网精选资源大合集 (持续更新)"
-description: "小二郎资源分享站：各类精选资源汇总列表。"
+description: "小二郎资源分享站：精选资源汇总列表。"
 ---
 
 # 🎁 全网精选资源大合集 (持续更新)
@@ -40,6 +40,8 @@ description: "小二郎资源分享站：各类精选资源汇总列表。"
 | 精选资源 | 网盘资源 | <a href="https://pan.quark.cn/s/e9bde4b4632e" target="_blank">🔗 打开</a> |
 | 精选资源 | 网盘资源 | <a href="https://pan.quark.cn/s/0c74d5077d75" target="_blank">🔗 打开</a> |
 | 精选资源 | 网盘资源 | <a href="https://pan.quark.cn/s/46969ebc99ea" target="_blank">🔗 打开</a> |
+| 精选资源 | 网盘资源 | <a href="https://pan.xunlei.com/s/VOP3sixUKjtMjvAjm26Zf61EA1?pwd=fr6n#" target="_blank">🔗 打开</a> |
+| 精选资源 | 网盘资源 | <a href="https://pan.xunlei.com/s/VOP3syDPNlevTgYvIlxXySjnA1?pwd=6zbe#" target="_blank">🔗 打开</a> |
 | 精选资源 | 网盘资源 | <a href="https://pan.xunlei.com/s/VOQ6L46CEA2Y8YjpMwYDDG6-A1?pwd=2fyt#" target="_blank">🔗 打开</a> |
 | 精选资源 | 网盘资源 | <a href="https://pan.xunlei.com/s/VOQ6LMiJWgP9dP95bXLWytT_A1?pwd=bxb8#" target="_blank">🔗 打开</a> |
 | 精选资源 | 网盘资源 | <a href="https://pan.xunlei.com/s/VOQ6LSQLaY8k8FITC81_goFhA1?pwd=gkp9#" target="_blank">🔗 打开</a> |
