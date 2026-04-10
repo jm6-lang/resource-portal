@@ -1,24 +1,24 @@
 ---
-title: "软件工具19"
-description: "点击免费下载 软件工具19。本资源由小二郎资源分享站整理，支持 迅雷网盘 极速转存。"
-keywords: "网盘资源, 资源合集, 综合资源, 软件工具19, 资源下载, 迅雷网盘, 小二郎"
+title: "软件合集"
+description: "点击免费下载 软件合集。本资源由小二郎资源分享站深度整理，支持 Quark/UC 极速转存。"
+keywords: "网盘资源, 资源合集, 综合资源, 软件合集, 资源下载"
 head:
   - - meta
     - name: keywords
-      content: "网盘资源, 资源合集, 综合资源, 软件工具19, 资源下载, 迅雷网盘, 小二郎"
+      content: "网盘资源, 资源合集, 综合资源, 软件合集, 资源下载"
 ---
 
-# 软件工具19
+# 软件合集
 
-<Badge type="tip" text="迅雷网盘" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品推荐" />
 
 ## 📋 资源详情
-- **资源名称**: 软件工具19
-- **存储平台**: 迅雷网盘
+- **资源名称**: 软件合集
+- **存储平台**: Quark/UC
 - **更新日期**: 2026-04-10
-- **下载地址**: <a href="https://pan.xunlei.com/s/VOXaFh7CRwAxaJVLO94ZJrKiA1?pwd=ppf6#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+- **直达链接**: <a href="https://drive.uc.cn/s/759efdc1128a4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
 
-## ⚡ 极速下载建议
+## ⚡ 极速转存建议
 1. 点击上方链接跳转至网盘页面。
 2. 建议**先转存到自己的网盘**，以防链接失效。
 3. 转存后使用客户端下载，速度更快且支持断点续传。
@@ -26,7 +26,7 @@ head:
 ---
 ### 🛡️ 申明与反馈
 - **版权申明**: 本站所有资源均收集自互联网，版权归原作者所有。仅供个人学习研究，请于下载后24小时内删除。
-- **链接失效**: 如果您发现下载链接已失效，请联系管理员核实。
+- **链接失效**: 如果您发现下载链接已失效，请告知管理员。
 
 ---
 💡 **更多资源**: 返回首页 [小二郎资源分享站](/) 探索 200TB+ 免费资源库。
