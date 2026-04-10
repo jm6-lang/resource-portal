@@ -3,6 +3,11 @@ layout: home
 
 title: 小二郎资源分享站 - 全球优质资源聚合平台
 description: 小二郎资源分享站：专注分享 200TB+ 免费优质资源，包含 AI 知识、书籍、跨境电商、自媒体、影视、工具等，每日更新，极速下载。
+keywords: 免费资源, 资源下载, AI知识, 跨境电商, 电子书下载, 自媒体运营, 软件工具, 影视资源, 200TB资源, 小二郎, 资源分享站
+head:
+  - - meta
+    - name: keywords
+      content: 免费资源, 资源下载, AI知识, 跨境电商, 电子书下载, 自媒体运营, 软件工具, 影视资源, 200TB资源, 小二郎, 资源分享站
 
 hero:
   name: "小二郎资源分享站"
@@ -100,7 +105,7 @@ features:
 
 ---
 
-### 📦 平台核心数据看板
+### 📦 platform 核心数据看板
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">

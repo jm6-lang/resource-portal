@@ -27,17 +27,45 @@ function getSidebarItems(dir: string) {
 export default defineConfig({
   base: process.env.BASE || '/',
   title: "小二郎资源分享站",
-  titleTemplate: ":title - 全球优质资源聚合平台",
+  titleTemplate: ":title | 小二郎资源分享站",
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
+  description: "小二郎资源分享站：提供全网最全的 200TB+ 免费资源下载，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
+  
+  // SEO Sitemap Generation
+  sitemap: {
+    hostname: 'https://docs.skillxm.cn'
+  },
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Canonical URL script
+    ['script', {}, `
+      (function() {
+        var link = document.createElement('link');
+        link.rel = 'canonical';
+        link.href = window.location.protocol + '//' + window.location.host + window.location.pathname;
+        document.head.appendChild(link);
+      })();
+    `],
+    // JSON-LD Structured Data
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "小二郎资源分享站",
+      "url": "https://docs.skillxm.cn/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://docs.skillxm.cn/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    })],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
   ],
+
   themeConfig: {
-    logo: '/logo.png',
+    logo: { src: '/logo.png', alt: '小二郎资源分享站 Logo' },
     nav: [
       { text: '🏠 首页', link: '/' },
       { 
