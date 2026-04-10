@@ -1,25 +1,18 @@
 ---
-title: "PS抠图0基础从入门到精通教学 秒变大神(1"
-description: "点击免费下载 PS抠图0基础从入门到精通教学 秒变大神(1。小二郎资源分享站优质推荐，支持极速转存。"
+title: "Html5+Css3由浅入深教程"
+description: "点击免费下载 Html5+Css3由浅入深教程。小二郎资源分享站深度整理，分类：学习课程 / 职场技能。"
+keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 编程教程, Html5+Css3由浅入深教程"
 ---
 
-# PS抠图0基础从入门到精通教学 秒变大神(1
+# Html5+Css3由浅入深教程
 
-<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: PS抠图0基础从入门到精通教学 秒变大神(1
-- **包含链接**: 1 个
+- **资源名称**: Html5+Css3由浅入深教程
+- **所属分类**: 学习课程 / 职场技能
 - **更新日期**: 2026-04-10
-
-## 📥 下载入口
-<ul class="download-list">
-<li><a href="https://drive.uc.cn/s/d444f96adca34" target="_blank">🔗 点击打开 Quark/UC 链接</a></li>
-</ul>
+- **链接**: <a href="https://drive.uc.cn/s/4b1848d6e36b4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
 
 ---
-### 🛡️ 申明与反馈
-本站资源搜集自网络，版权归原作者。如有侵权请联系删除。
-
----
-💡 **更多内容**: 返回首页 [小二郎资源分享站](/)
+💡 **更多资源**: 返回 [小二郎资源分享站](/) 

@@ -31,16 +31,14 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  description: "小二郎资源分享站：提供全网最全的 200TB+ 免费资源下载，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
+  description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
   
-  // SEO Sitemap Generation
   sitemap: {
     hostname: 'https://docs.skillxm.cn'
   },
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    // Canonical URL script
     ['script', {}, `
       (function() {
         var link = document.createElement('link');
@@ -49,18 +47,6 @@ export default defineConfig({
         document.head.appendChild(link);
       })();
     `],
-    // JSON-LD Structured Data
-    ['script', { type: 'application/ld+json' }, JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "小二郎资源分享站",
-      "url": "https://docs.skillxm.cn/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://docs.skillxm.cn/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    })],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
   ],
 
@@ -73,11 +59,12 @@ export default defineConfig({
         items: [
           { text: '🤖 AI 知识', link: '/AIknowledge/' },
           { text: '📚 精品书籍', link: '/book/' },
-          { text: '📉 跨境电商', link: '/cross-border/' },
-          { text: '🎬 影视媒体', link: '/movies/' },
-          { text: '🛠️ 工具合集', link: '/tools/' },
-          { text: '📱 自媒体运营', link: '/self-media/' },
-          { text: '🎓 教育知识', link: '/edu-knowlege/' },
+          { text: '🎬 影视娱乐', link: '/movies/' },
+          { text: '📉 跨境电商', link: '/self-media/' },
+          { text: '🎓 学习课程', link: '/curriculum/' },
+          { text: '🍎 教育资源', link: '/edu-knowlege/' },
+          { text: '🛠️ 软件工具', link: '/tools/' },
+          { text: '💊 健康养生', link: '/healthy/' },
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
       }
@@ -89,106 +76,24 @@ export default defineConfig({
       provider: 'local',
       options: {
         translations: {
-          button: {
-            buttonText: '搜索海量资源...',
-            buttonAriaLabel: '搜索资源'
-          },
-          modal: {
-            noResultsText: '未找到相关资源',
-            resetButtonTitle: '清除查询条件',
-            footer: {
-              selectText: '选择',
-              navigateText: '切换',
-              closeText: '关闭'
-            }
-          }
+          button: { buttonText: '搜索海量资源...' },
+          modal: { noResultsText: '未找到相关资源' }
         }
       }
     },
     sidebar: [
       {
-        text: '📖 资源地图',
+        text: '📖 资源导航',
         items: [
-          {
-            text: '🤖 AI 知识',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/AIknowledge/' },
-              ...getSidebarItems('AIknowledge')
-            ]
-          },
-          {
-            text: '📚 精品书籍',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/book/' },
-              ...getSidebarItems('book')
-            ]
-          },
-          {
-            text: '🏛️ 传统文化',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/chinese-traditional/' },
-              ...getSidebarItems('chinese-traditional')
-            ]
-          },
-          {
-            text: '📉 跨境电商',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/cross-border/' },
-              ...getSidebarItems('cross-border')
-            ]
-          },
-          {
-            text: '🎓 课程专栏',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/curriculum/' },
-              ...getSidebarItems('curriculum')
-            ]
-          },
-          {
-            text: '🍎 教育知识',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/edu-knowlege/' },
-              ...getSidebarItems('edu-knowlege')
-            ]
-          },
-          {
-            text: '💊 健康养生',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/healthy/' },
-              ...getSidebarItems('healthy')
-            ]
-          },
-          {
-            text: '🎬 影视剧集',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/movies/' },
-              ...getSidebarItems('movies')
-            ]
-          },
-          {
-            text: '📱 自媒体运营',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/self-media/' },
-              ...getSidebarItems('self-media')
-            ]
-          },
-          {
-            text: '🛠️ 工具大全',
-            collapsed: true,
-            items: [
-              { text: '✨ 全部资源', link: '/tools/' },
-              ...getSidebarItems('tools')
-            ]
-          },
+          { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
+          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
+          { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
+          { text: '📈 自媒体/电商', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
+          { text: '🎓 职场/技能课', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
+          { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege/' }, ...getSidebarItems('edu-knowlege')] },
+          { text: '🛠️ 常用工具箱', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
+          { text: '💊 健康养生堂', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
+          { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional/' }, ...getSidebarItems('chinese-traditional')] },
         ]
       }
     ],
@@ -196,14 +101,10 @@ export default defineConfig({
       message: '[📢 关于我们](/about) | [⚖️ 免责声明](/disclaimer) | 如有侵权，请联系管理员核实删除。<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇'
-    },
     lastUpdatedText: '最近更新于',
     darkModeSwitchLabel: '深色模式切换',
     outlineTitle: '本页目录',
-    sidebarMenuLabel: '侧边栏',
+    sidebarMenuLabel: '菜单',
     returnToTopLabel: '返回顶部',
   }
 })

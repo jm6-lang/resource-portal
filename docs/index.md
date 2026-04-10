@@ -65,7 +65,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 小二郎资源分享站 2.0 正式上线！ | 🚀 已收录 500+ 精选 AI 及电商资源 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用网盘客户端进行极速转存...
+    🎉 小二郎资源分享站 2.0 正式上线！ | 🚀 已收录 600+ 精选资源并完成精准分类 | 📅 每日持续更新中...
   </div>
 </div>
 
@@ -74,15 +74,15 @@ features:
   <div class="vertical-marquee-wrapper">
     <div class="vertical-marquee">
       <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/AIknowledge/post_037">最新上传：🤖AI生成古代英雄故事</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/movies/post_024">最新上传：🎬精选豆瓣高分电影合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器解锁版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
       <!-- 循环显示 -->
       <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/AIknowledge/post_037">最新上传：🤖AI生成古代英雄故事</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/movies/post_024">最新上传：🎬精选豆瓣高分电影合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器解锁版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
     </div>
   </div>

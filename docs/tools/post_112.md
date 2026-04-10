@@ -1,25 +1,18 @@
 ---
-title: "平面设计速成，从小白到大神（完结）"
-description: "点击免费下载 平面设计速成，从小白到大神（完结）。小二郎资源分享站优质推荐，支持极速转存。"
+title: "音乐合集8"
+description: "点击免费下载 音乐合集8。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
+keywords: "工具软件, 破解软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 音乐合集8"
 ---
 
-# 平面设计速成，从小白到大神（完结）
+# 音乐合集8
 
-<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="迅雷网盘" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: 平面设计速成，从小白到大神（完结）
-- **包含链接**: 1 个
+- **资源名称**: 音乐合集8
+- **所属分类**: 软件工具 / 实用插件
 - **更新日期**: 2026-04-10
-
-## 📥 下载入口
-<ul class="download-list">
-<li><a href="https://drive.uc.cn/s/f33174c45c424" target="_blank">🔗 点击打开 Quark/UC 链接</a></li>
-</ul>
+- **链接**: <a href="https://pan.xunlei.com/s/VOP3r1GPeb6v-im-wVm3VuSSA1?pwd=ynhr#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
 
 ---
-### 🛡️ 申明与反馈
-本站资源搜集自网络，版权归原作者。如有侵权请联系删除。
-
----
-💡 **更多内容**: 返回首页 [小二郎资源分享站](/)
+💡 **更多资源**: 返回 [小二郎资源分享站](/) 

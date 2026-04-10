@@ -1,25 +1,18 @@
 ---
-title: "初中各科知识点梳理"
-description: "点击免费下载 初中各科知识点梳理。小二郎资源分享站优质推荐，支持极速转存。"
+title: "傻瓜英语VIP解锁版"
+description: "点击免费下载 傻瓜英语VIP解锁版。小二郎资源分享站深度整理，分类：教育资源 / 学科知识。"
+keywords: "教育资源, 学习知识, 考试资料, 历史故事, 学科知识, 幼儿教育, 傻瓜英语VIP解锁版"
 ---
 
-# 初中各科知识点梳理
+# 傻瓜英语VIP解锁版
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: 初中各科知识点梳理
-- **包含链接**: 1 个
+- **资源名称**: 傻瓜英语VIP解锁版
+- **所属分类**: 教育资源 / 学科知识
 - **更新日期**: 2026-04-10
-
-## 📥 下载入口
-<ul class="download-list">
-<li><a href="https://pan.quark.cn/s/74153e93c83e" target="_blank">🔗 点击打开 Quark 链接</a></li>
-</ul>
+- **链接**: <a href="https://pan.quark.cn/s/0f69354ca70f" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
 
 ---
-### 🛡️ 申明与反馈
-本站资源搜集自网络，版权归原作者。如有侵权请联系删除。
-
----
-💡 **更多内容**: 返回首页 [小二郎资源分享站](/)
+💡 **更多资源**: 返回 [小二郎资源分享站](/) 
