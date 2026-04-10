@@ -1,27 +1,25 @@
 ---
-title: "DxO.PhotoLabRAW后期编辑软件"
-description: "点击免费下载 DxO.PhotoLabRAW后期编辑软件。本资源由小二郎资源分享站深度整理，支持 百度网盘 极速转存。"
-keywords: "网盘资源, 资源合集, 综合资源, DxO.PhotoLabRAW后期编辑软件, 资源下载"
-head:
-  - - meta
-    - name: keywords
-      content: "网盘资源, 资源合集, 综合资源, DxO.PhotoLabRAW后期编辑软件, 资源下载"
+title: "Capture One 23 Pro"
+description: "点击免费下载 Capture One 23 Pro。本资源由小二郎资源分享站深度整理。"
+keywords: "网盘资源, 资源合集, 综合资源, Capture One 23 Pro"
 ---
 
-# DxO.PhotoLabRAW后期编辑软件
+# Capture One 23 Pro
 
-<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: DxO.PhotoLabRAW后期编辑软件
-- **存储平台**: 百度网盘
+- **资源名称**: Capture One 23 Pro
+- **包含内容**: 1 个有效下载地址
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.baidu.com/s/1zXoAXevcY4xhqOY3oKWYkg?pwd=dyqi" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+
+## 📥 下载地址
+<ul class="download-list">
+<li><a href="https://pan.baidu.com/s/1OdxPbvwMKEWnTUX25V8C6g?pwd=jxmh" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开百度网盘链接</a></li>
+</ul>
 
 ## ⚡ 极速转存建议
-1. 点击上方链接跳转至网盘页面。
-2. 建议**先转存到自己的网盘**，以防链接失效。
-3. 转存后使用客户端下载，速度更快且支持断点续传。
+建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
 
 ---
 ### 🛡️ 申明与反馈

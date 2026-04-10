@@ -1,27 +1,25 @@
 ---
-title: "漫画屋"
-description: "点击免费下载 漫画屋。本资源由小二郎资源分享站深度整理，支持 Quark 极速转存。"
-keywords: "网盘资源, 资源合集, 综合资源, 漫画屋, 资源下载"
-head:
-  - - meta
-    - name: keywords
-      content: "网盘资源, 资源合集, 综合资源, 漫画屋, 资源下载"
+title: "宅男深夜小确幸【特殊，你懂得！"
+description: "点击免费下载 宅男深夜小确幸【特殊，你懂得！。本资源由小二郎资源分享站深度整理。"
+keywords: "网盘资源, 资源合集, 综合资源, 宅男深夜小确幸【特殊，你懂得！"
 ---
 
-# 漫画屋
+# 宅男深夜小确幸【特殊，你懂得！
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: 漫画屋
-- **存储平台**: Quark
+- **资源名称**: 宅男深夜小确幸【特殊，你懂得！
+- **包含内容**: 1 个有效下载地址
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/aec95a35f1ee" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+
+## 📥 下载地址
+<ul class="download-list">
+<li><a href="https://drive.uc.cn/s/23b8b1f486fd4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开Quark/UC链接</a></li>
+</ul>
 
 ## ⚡ 极速转存建议
-1. 点击上方链接跳转至网盘页面。
-2. 建议**先转存到自己的网盘**，以防链接失效。
-3. 转存后使用客户端下载，速度更快且支持断点续传。
+建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
 
 ---
 ### 🛡️ 申明与反馈

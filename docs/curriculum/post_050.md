@@ -1,27 +1,25 @@
 ---
-title: "爆款自媒体起号训练营--14天落地实操训练营"
-description: "点击免费下载 爆款自媒体起号训练营--14天落地实操训练营。本资源由小二郎资源分享站深度整理，支持 百度网盘 极速转存。"
-keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 爆款自媒体起号训练营--14天落地实操训练营, 资源下载"
-head:
-  - - meta
-    - name: keywords
-      content: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 爆款自媒体起号训练营--14天落地实操训练营, 资源下载"
+title: "正则表达式入门"
+description: "点击免费下载 正则表达式入门。本资源由小二郎资源分享站深度整理。"
+keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 正则表达式入门"
 ---
 
-# 爆款自媒体起号训练营--14天落地实操训练营
+# 正则表达式入门
 
-<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: 爆款自媒体起号训练营--14天落地实操训练营
-- **存储平台**: 百度网盘
+- **资源名称**: 正则表达式入门
+- **包含内容**: 1 个有效下载地址
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.baidu.com/s/1Q_6UUhM8qG8Iud7DYY9svQ?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+
+## 📥 下载地址
+<ul class="download-list">
+<li><a href="https://drive.uc.cn/s/e5179da8a5d74" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开Quark/UC链接</a></li>
+</ul>
 
 ## ⚡ 极速转存建议
-1. 点击上方链接跳转至网盘页面。
-2. 建议**先转存到自己的网盘**，以防链接失效。
-3. 转存后使用客户端下载，速度更快且支持断点续传。
+建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
 
 ---
 ### 🛡️ 申明与反馈

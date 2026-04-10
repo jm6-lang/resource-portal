@@ -1,27 +1,25 @@
 ---
-title: "国语经典成名曲(100首)，转存即听"
-description: "点击免费下载 国语经典成名曲(100首)，转存即听。本资源由小二郎资源分享站深度整理，支持 Quark 极速转存。"
-keywords: "音乐下载, 无损音乐, 歌曲大全, 车载音乐, 高音质音乐, 国语经典成名曲(100首)，转存即听, 资源下载"
-head:
-  - - meta
-    - name: keywords
-      content: "音乐下载, 无损音乐, 歌曲大全, 车载音乐, 高音质音乐, 国语经典成名曲(100首)，转存即听, 资源下载"
+title: "刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD"
+description: "点击免费下载 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD。本资源由小二郎资源分享站深度整理。"
+keywords: "音乐下载, 无损音乐, 歌曲大全, 车载音乐, 高音质音乐, 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD"
 ---
 
-# 国语经典成名曲(100首)，转存即听
+# 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品推荐" />
+<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源详情
-- **资源名称**: 国语经典成名曲(100首)，转存即听
-- **存储平台**: Quark
+- **资源名称**: 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD
+- **包含内容**: 1 个有效下载地址
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/21c3cc764f9b" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+
+## 📥 下载地址
+<ul class="download-list">
+<li><a href="https://pan.quark.cn/s/dd76e37fd8bc" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开Quark链接</a></li>
+</ul>
 
 ## ⚡ 极速转存建议
-1. 点击上方链接跳转至网盘页面。
-2. 建议**先转存到自己的网盘**，以防链接失效。
-3. 转存后使用客户端下载，速度更快且支持断点续传。
+建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
 
 ---
 ### 🛡️ 申明与反馈
