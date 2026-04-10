@@ -10,10 +10,13 @@ function getSidebarItems(dir: string) {
     .sort()
 
   return files.map(file => {
-    const name = path.basename(file, '.md')
+    const filePath = path.join(fullPath, file)
+    const content = fs.readFileSync(filePath, 'utf-8')
+    const match = content.match(/^#\s+(.+)$/m)
+    const name = match ? match[1].trim() : path.basename(file, '.md')
     return {
       text: name,
-      link: `/${dir}/${name}`
+      link: `/${dir}/${path.basename(file, '.md')}`
     }
   })
 }

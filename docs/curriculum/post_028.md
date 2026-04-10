@@ -1,0 +1,12 @@
+# StableDiffusion零基础入门课
+
+## 资源信息
+- **资源名称**: StableDiffusion零基础入门课
+- **网盘类型**: 夸克网盘
+- **下载链接**: [https://pan.quark.cn/s/ae7ba4bd1999](https://pan.quark.cn/s/ae7ba4bd1999)
+
+## 资源说明
+本资源来源于互联网，仅供学习参考。请在下载后24小时内删除。
+
+---
+💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com
