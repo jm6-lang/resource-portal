@@ -98,7 +98,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '[📢 关于我们](/about) | [⚖️ 免责声明](/disclaimer) | 如有侵权，请联系管理员核实删除。<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
+      message: '[关于我们](/about) | [隐私政策](/privacy) | [联系我们](/contact) | [版权声明](/disclaimer) | [友链申请](/links) | [广告合作](/ads)<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     lastUpdatedText: '最近更新于',
