@@ -165,7 +165,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '[⚖️ 免责声明](/disclaimer) | 如有侵权，请联系管理员核实删除。<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
+      message: '[📢 关于我们](/about) | [⚖️ 免责声明](/disclaimer) | 如有侵权，请联系管理员核实删除。<br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 644428571@qq.com'
     },
     docFooter: {
@@ -175,11 +175,6 @@ export default defineConfig({
     lastUpdatedText: '最近更新于',
     darkModeSwitchLabel: '深色模式切换',
     outlineTitle: '本页目录',
-    sidebarMenuLabel: '侧边栏',
-    returnToTopLabel: '返回顶部',
-  }
-})
-   outlineTitle: '本页目录',
     sidebarMenuLabel: '侧边栏',
     returnToTopLabel: '返回顶部',
   }
