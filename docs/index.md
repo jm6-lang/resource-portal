@@ -64,6 +64,25 @@ features:
   </div>
 </div>
 
+<div class="live-updates-container">
+  <span class="live-updates-label">实时动态</span>
+  <div class="vertical-marquee-wrapper">
+    <div class="vertical-marquee">
+      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_001">最新上传：🤖人工智能AIGC专题资源汇总</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_001">最新上传：🎬13万部短剧资源合集持续更新</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_001">最新上传：📚2000本精选电子书大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_001">最新上传：🛠️全能嗅觉浏览器高级版</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_001">最新上传：🎓职场102项核心技能提升课</a></div>
+      <!-- 循环显示 -->
+      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_001">最新上传：🤖人工智能AIGC专题资源汇总</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_001">最新上传：🎬13万部短剧资源合集持续更新</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_001">最新上传：📚2000本精选电子书大合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_001">最新上传：🛠️全能嗅觉浏览器高级版</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_001">最新上传：🎓职场102项核心技能提升课</a></div>
+    </div>
+  </div>
+</div>
+
 ::: tip 📢 重要通告
 本站已成功迁移至全新架构，加载速度提升 200%。如遇资源失效，请联系管理员及时反馈。
 :::
