@@ -38,6 +38,11 @@
 | 2025医学类视频课程合集 | [Quark/UC](https://drive.uc.cn/s/fec141e4b2394) |
 | 淘宝开店教程100节课 | [Quark/UC](https://drive.uc.cn/s/b0f8461696e74) |
 | 抖音引流课程：日引300粉实战操作方法 | [Quark/UC](https://drive.uc.cn/s/6e0472d6fb964) |
+| Solidworks新手练习教程 | [百度网盘](https://pan.baidu.com/s/1QPPwZ87Vd7XJcoAAtY32YA?pwd=n77n) |
+| 变频空调维修技术资料格力美的原理与图纸视频教程主板电路图 | [百度网盘](https://pan.baidu.com/s/13fn_zLJgSkcV6phBeZA9Dg?pwd=1234) |
+| 小家电维修从入门到精通 | [百度网盘](https://pan.baidu.com/s/1PfhiIBk1jfbSh2L6GUjAtw?pwd=1234) |
+| 爆款自媒体起号训练营--14天落地实操训练营 | [百度网盘](https://pan.baidu.com/s/1Q_6UUhM8qG8Iud7DYY9svQ?pwd=1234) |
+| 小红书店铺课程 | [百度网盘](https://pan.baidu.com/s/1qTRWL99KKV1OPYIELsdNWQ?pwd=1234) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

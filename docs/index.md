@@ -60,7 +60,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 440+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
+    🎉 小二郎资源站 2.0 正式上线！ | 🚀 新增 700+ AI 及电商资源合集 | 📅 每日持续更新中，欢迎收藏本站！ | 💡 建议使用夸克网盘进行极速转存...
   </div>
 </div>
 
@@ -68,17 +68,17 @@ features:
   <span class="live-updates-label">实时动态</span>
   <div class="vertical-marquee-wrapper">
     <div class="vertical-marquee">
-      <div class="update-item"><span class="time">1分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_053">最新上传：🎬精品美剧全集系列</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_033">最新上传：🎓黑帽SEO全套进阶课程</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/AIknowledge/post_037">最新上传：🤖AI生成古代英雄故事</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
       <!-- 循环显示 -->
-      <div class="update-item"><span class="time">1分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_053">最新上传：🎬精品美剧全集系列</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_033">最新上传：🎓黑帽SEO全套进阶课程</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/AIknowledge/post_037">最新上传：🤖AI生成古代英雄故事</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/movies/post_054">最新上传：🎬精品H国电影合集</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/book/post_014">最新上传：📚高分小说600本大合集</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓Html5+Css3由浅入深教程</a></div>
     </div>
   </div>
 </div>
@@ -108,7 +108,7 @@ features:
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">存储容量</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
-    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">5000+</div>
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">700+</div>
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">资源条目</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
@@ -134,3 +134,5 @@ features:
 ---
 
 💡 **温馨提示**: 为了您的数据安全，建议注册网盘账号后转存资源再进行查看，避免直接在线浏览。
+
+📧 **联系方式**: 644428571@qq.com

@@ -44,6 +44,11 @@
 | 软件工具29 | [迅雷网盘](https://pan.xunlei.com/s/VOYiL6cH2GCVrbv91FRy7uEZA1?pwd=whn8#) |
 | 软件工具30 | [迅雷网盘](https://pan.xunlei.com/s/VOYnT0SsriDNDGjCciy_H67PA1?pwd=9jbk#) |
 | 软件合集 | [Quark/UC](https://drive.uc.cn/s/759efdc1128a4) |
+| Bandicam录屏工具（免安装版） | [百度网盘](https://pan.baidu.com/s/1VB2-KaBDSXsZXPdb--VFDg?pwd=j5s1) |
+| IObitUninstallerPro软件卸载专用工具 | [百度网盘](https://pan.baidu.com/s/1V7dI47eG7t01oK_zua485w?pwd=8kwe) |
+| SkinFiner 人像精修磨皮软件 | [百度网盘](https://pan.baidu.com/s/1pzEBzPcBLURj-pa3o1RP5Q?pwd=qign) |
+| DxO.PureRAW增强清晰降噪软件 | [百度网盘](https://pan.baidu.com/s/1B9xnGx7ReRcc2IDlkH5asg?pwd=4j1s) |
+| DxO.PhotoLabRAW后期编辑软件 | [百度网盘](https://pan.baidu.com/s/1zXoAXevcY4xhqOY3oKWYkg?pwd=dyqi) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

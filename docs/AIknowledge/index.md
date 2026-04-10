@@ -26,6 +26,21 @@
 | AI换脸11 | [迅雷网盘](https://pan.xunlei.com/s/VOQBZwUyKUAl4DNNfMGcsABPA1?pwd=c2g4#) |
 | AI换脸12 | [迅雷网盘](https://pan.xunlei.com/s/VOQB_yHrz7MdEh5qGBzMq6KiA1?pwd=9fn3#) |
 | AI软件系统教程，大神带你感受AI的矢量魔法 | [Quark/UC](https://drive.uc.cn/s/1500f5a08f744) |
+| Ai老照片修复懒人包old_photo_restoration | [百度网盘](https://pan.baidu.com/s/1OKRcT07QHKdxeCMzlmxCng?pwd=y15h) |
+| AI智能去水印 FliFlik KleanOut for Photo | [百度网盘](https://pan.baidu.com/s/1K6rDuhewZwOMGKVFIQctBg?pwd=1c3d) |
+| 开源Ai批量抠图工具离线整合包rembg | [百度网盘](https://pan.baidu.com/s/1Kk3YqKHxfx5RVZ8eXUZDmw?pwd=yt5o) |
+| 小智AI详细教程WIFI版本 | [百度网盘](https://pan.baidu.com/s/1KWwllYZmMJaXsYFoSWKtpQ?pwd=qwjs) |
+| Topaz Video Enhance AI | [百度网盘](https://pan.baidu.com/s/1zJQT_pA1M_xmHsXF8hYENQ?pwd=wn6u) |
+| Luminar Neo AI人工智能修图 | [百度网盘](https://pan.baidu.com/s/1U7DiqY22VaqudcuhGT0EcQ?pwd=rbeh) |
+| Radiant.Photo AI智能完美照片修图插件 | [百度网盘](https://pan.baidu.com/s/1Ua8GEAzM6sH_Vg4ilv2l4g?pwd=dtvi) |
+| 视频号AI美女最新6.0玩法 | [百度网盘](https://pan.baidu.com/s/1BoalugDLmEa1EDhaqkvpZA?pwd=1234) |
+| DeepSeek实战手册（120集） | [百度网盘](https://pan.baidu.com/s/1uPlNW-PweWfOFplQCfzg1Q?pwd=1234) |
+| 通过DeepSeek变现方式，小红书教使用DeepSeek图文，导流私域一天变现1000+ | [百度网盘](https://pan.baidu.com/s/1mc_cPDVtnHeM5AqbCWfo4g?pwd=1234) |
+| DeepSeek玩转公众号流量主，日入四位数，每天几分钟，操作简单零门槛 | [百度网盘](https://pan.baidu.com/s/1b_wtxHwY6DgUfE3fSg70SA?pwd=1234) |
+| 用DeepSeek结合今日头条，轻松制作爆款文章，单日稳定1000+，只需简单复制粘贴即可 | [百度网盘](https://pan.baidu.com/s/1OyMTW2fOwzysbfQeZfOYHQ?pwd=1234) |
+| Ai扣子coze自动化工作流教程 | [百度网盘](https://pan.baidu.com/s/1K6auy23mhGe8Ab2J8St7ag?pwd=1234) |
+| Ai图文带货实操课，新手从0-1 实操课 | [百度网盘](https://pan.baidu.com/s/1vtmiXvBWCq9B37ckyZApUg?pwd=1234) |
+| AI生成古代英雄故事 | [网盘资源](https://pan.quark.cn/s/345b77c5eacd) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com
