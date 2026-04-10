@@ -19,7 +19,7 @@ function getSidebarItems(dir: string) {
 }
 
 export default defineConfig({
-  base: '/',
+  base: '/resource-portal/',
   title: "资源收集站",
   titleTemplate: ":title - 海量免费资源下载",
   lang: 'zh-CN',
