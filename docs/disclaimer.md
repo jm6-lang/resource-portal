@@ -21,5 +21,5 @@
 
 ## 6. 联系我们
 如果您有任何疑问或版权申诉，请通过以下方式联系：
-- **Email**: langjinming18@gmail.com
+- **Email**: 644428571@qq.com
 - **GitHub**: [jm6-lang/resource-portal](https://github.com/jm6-lang/resource-portal)
