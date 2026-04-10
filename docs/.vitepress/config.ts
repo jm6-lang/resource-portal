@@ -26,10 +26,19 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   description: "海量免费资源下载站，包含AI知识、书籍资料、跨境电商、自媒体、教育、健康、影视、工具等资源",
+  head: [
+    ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
+  ],
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '📂 资源', link: '/AIknowledge/' }
+      { text: '📂 资源', link: '/AIknowledge/' },
+      { text: '关于我们', link: '/about' },
+      { text: '免责声明', link: '/disclaimer' }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
     ],
     search: {
       provider: 'local'
@@ -122,8 +131,8 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '如有侵权，请联系删除。',
-      copyright: 'Copyright © 2026-present'
+      message: '友情链接: [M\'s Blog](https://869hr.uk/) | [免责声明](/disclaimer) | 如有侵权，请联系删除。<br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 访客数 <span id="busuanzi_value_site_uv"></span> 人次',
+      copyright: 'Copyright © 2026-present langjinming18@gmail.com'
     }
   }
 })
