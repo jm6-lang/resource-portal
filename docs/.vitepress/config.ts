@@ -131,8 +131,8 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '友情链接: [M\'s Blog](https://869hr.uk/) | [免责声明](/disclaimer) | 如有侵权，请联系删除。<br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 访客数 <span id="busuanzi_value_site_uv"></span> 人次',
-      copyright: 'Copyright © 2026-present langjinming18@gmail.com'
+      message: '[免责声明](/disclaimer) | 如有侵权，请联系删除。<br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 访客数 <span id="busuanzi_value_site_uv"></span> 人次',
+      copyright: 'Copyright © 2026-present 644428571@qq.com'
     }
   }
 })
