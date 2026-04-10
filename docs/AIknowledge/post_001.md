@@ -1,21 +1,21 @@
 ---
 title: "🤖人工智能AIGC专题资源汇总"
-description: "点击免费下载 🤖人工智能AIGC专题资源汇总。本资源由资源收集站整理，包含 Ai人工智能合集 相关精品内容，支持 夸克网盘 极速转存，每日更新。"
-keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 🤖人工智能AIGC专题资源汇总, 资源下载, 夸克网盘, 免费资源"
+description: "点击免费下载 🤖人工智能AIGC专题资源汇总。本资源由资源收集站整理，包含 Ai人工智能合集​ 相关内容，支持 夸克网盘 极速转存。"
+keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 🤖人工智能AIGC专题资源汇总, 资源下载, 夸克网盘"
 head:
   - - meta
     - name: keywords
-      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 🤖人工智能AIGC专题资源汇总, 资源下载, 夸克网盘, 免费资源"
+      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 🤖人工智能AIGC专题资源汇总, 资源下载, 夸克网盘"
 ---
 
 # 🤖人工智能AIGC专题资源汇总
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **🤖人工智能AIGC专题资源汇总** 的免费下载链接。该资源属于 **Ai人工智能合集** 分类，旨在为您提供优质的学习与娱乐素材。
+欢迎访问资源收集站！本页面提供 **🤖人工智能AIGC专题资源汇总** 的免费下载链接。该资源属于 **Ai人工智能合集​** 分类。
 
 ## 资源详情
 - **资源名称**: 🤖人工智能AIGC专题资源汇总
-- **资源类型**: Ai人工智能合集
+- **资源类型**: Ai人工智能合集​
 - **存储平台**: 夸克网盘
 - **下载链接**: <a href="https://pan.quark.cn/s/1091f03c9413" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/1091f03c9413</a>
 
