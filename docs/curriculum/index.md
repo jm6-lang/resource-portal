@@ -1,25 +1,28 @@
-# 个人技能类​ 资源合集
+# 学习课程 资源合集
 
 ## 📂 分类概览
 
 | 资源名称 | 网盘链接 |
 | :--- | :--- |
-| 各种酿酒教程合集～ | [夸克网盘](https://pan.quark.cn/s/73e248320385) |
-| 八十种各种快餐类美食做法技术大全 | [夸克网盘](https://pan.quark.cn/s/416411e8cb11) |
-| 笔记本电脑维修完全手册 | [夸克网盘](https://pan.quark.cn/s/0b28a167e109) |
-| 美食实体店配方（合集） | [夸克网盘](https://pan.quark.cn/s/5b7444819477) |
-| 99套小吃配方+创业落地指南 | [夸克网盘](https://pan.quark.cn/s/1866e2ec8103) |
-| 美食实体店配方专题，价值上万！ | [夸克网盘](https://pan.quark.cn/s/e8d828090e8f) |
-| 30多套小吃技术全套视频教程合集 | [夸克网盘](https://pan.quark.cn/s/2153af3ea584) |
-| 手办制作视频教程 | [夸克网盘](https://pan.quark.cn/s/f26e42bd23ca) |
-| 超详细生存指南 | [夸克网盘](https://pan.quark.cn/s/e82d53c5a7ef) |
-| 编绳手工坊：编绳基础结法 (犀文图书)【多格式】 | [夸克网盘](https://pan.quark.cn/s/aba89bae4edb) |
-| 零基础钩针教程-（视频+PDF教程） | [夸克网盘](https://pan.quark.cn/s/bfd2acf4b881) |
-| 麻将学技术训练与技巧（完结） | [夸克网盘](https://pan.quark.cn/s/de4f133a1549) |
-| 厨师长教你做菜系列合集【71GB】 | [夸克网盘](https://pan.quark.cn/s/8363225a0eed) |
-| （饭店常点的35套菜     详细视频教学） | [夸克网盘](https://pan.quark.cn/s/83a2aface3a4) |
-| 【摄影】超全付费课程合集（335GB）(1) | [夸克网盘](https://pan.quark.cn/s/d24f483a8390) |
-| 创业资料价值几万的小吃美食教程（522道美食） | [夸克网盘](https://pan.quark.cn/s/2cc0a730c8d4) |
+| 学习课程1 | [迅雷网盘](https://pan.xunlei.com/s/VOP43vvv1uIGNBJn5Z3gMqj6A1?pwd=xy8a#) |
+| 学习课程2 | [迅雷网盘](https://pan.xunlei.com/s/VOP447l0eHRZY2IUihc2awLMA1?pwd=nyzc#) |
+| 学习课程3 | [迅雷网盘](https://pan.xunlei.com/s/VOP44D4GPMbWlfaBLu59XMIiA1?pwd=iqzb#) |
+| 学习课程4 | [迅雷网盘](https://pan.xunlei.com/s/VOP44IiLmpMnVc4_lh11CRYXA1?pwd=auhi#) |
+| 学习课程5 | [迅雷网盘](https://pan.xunlei.com/s/VOP44N163WwJwAbr3_ZNTffFA1?pwd=bfc3#) |
+| 学习课程6 | [迅雷网盘](https://pan.xunlei.com/s/VOP44WO5PMbWlfaBLu59XUdpA1?pwd=r778#) |
+| 学习课程7 | [迅雷网盘](https://pan.xunlei.com/s/VOP44ehwNlevTgYvIlxY3P3pA1?pwd=xs52#) |
+| 学习课程8 | [迅雷网盘](https://pan.xunlei.com/s/VOQ6F5Yc2esiP0XWBKwJilRRA1?pwd=vqud#) |
+| 学习课程9 | [迅雷网盘](https://pan.xunlei.com/s/VOOeu6UWYpy8J5er-4UwSJDjA1) |
+| 学习课程10 | [迅雷网盘](https://pan.xunlei.com/s/VOOkA4PFdxoVSJw1VI9gXX--A1?pwd=ytaf#) |
+| 学习课程11 | [迅雷网盘](https://pan.xunlei.com/s/VOP4439m8veTkcQsuuxTDzHfA1?pwd=hw2g#) |
+| 学习课程12 | [迅雷网盘](https://pan.xunlei.com/s/VOP44rwnFXPj87MPK2PWwnuSA1?pwd=bgwe#) |
+| 学习课程13 | [迅雷网盘](https://pan.xunlei.com/s/VOWYC39PkmCwNNOZD-ixu68QA1?pwd=8nbv#) |
+| 学习课程14 | [迅雷网盘](https://pan.xunlei.com/s/VOWYEH0EkmCwNNOZD-ixvJFYA1?pwd=jjj2#) |
+| 学习课程15 | [迅雷网盘](https://pan.xunlei.com/s/VOWYHlx03_HvPduhhAQFlYaLA1?pwd=edax#) |
+| 学习课程16 | [迅雷网盘](https://pan.xunlei.com/s/VOWcbhIhc3ogRlnOhWz16z-lA1?pwd=3nbk#) |
+| 学习课程17 | [迅雷网盘](https://pan.xunlei.com/s/VOWrpwtWTK_RkTvQWYTGJ2pJA1?pwd=s8a8#) |
+| 学习课程18 | [迅雷网盘](https://pan.xunlei.com/s/VOWrq9oLeoQT89x8UX6ZS-cFA1?pwd=h48t#) |
+| 学习课程19 | [迅雷网盘](https://pan.xunlei.com/s/VOWrqDLfYa-Iuq5t6PKsOHgYA1?pwd=fi2t#) |
 
 ---
 💡 **温馨提示**: 如果链接失效，请联系管理员：644428571@qq.com

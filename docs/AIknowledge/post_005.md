@@ -1,23 +1,23 @@
 ---
-title: "AI课程合集+行业报告专区【134GB】"
-description: "点击免费下载 AI课程合集+行业报告专区【134GB】。本资源由资源收集站整理，包含 Ai人工智能合集​ 相关内容，支持 夸克网盘 极速转存。"
-keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, AI课程合集+行业报告专区【134GB】, 资源下载, 夸克网盘"
+title: "AI写作助手"
+description: "点击免费下载 AI写作助手。本资源由资源收集站整理，包含 Ai人工智能合集 相关内容，支持 迅雷网盘 极速转存。"
+keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, AI写作助手, 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, AI课程合集+行业报告专区【134GB】, 资源下载, 夸克网盘"
+      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, AI写作助手, 资源下载, 迅雷网盘"
 ---
 
-# AI课程合集+行业报告专区【134GB】
+# AI写作助手
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **AI课程合集+行业报告专区【134GB】** 的免费下载链接。该资源属于 **Ai人工智能合集​** 分类。
+欢迎访问资源收集站！本页面提供 **AI写作助手** 的免费下载链接。该资源属于 **Ai人工智能合集** 分类。
 
 ## 资源详情
-- **资源名称**: AI课程合集+行业报告专区【134GB】
-- **资源类型**: Ai人工智能合集​
-- **存储平台**: 夸克网盘
-- **下载链接**: <a href="https://pan.quark.cn/s/07684d08490f" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/07684d08490f</a>
+- **资源名称**: AI写作助手
+- **资源类型**: Ai人工智能合集
+- **存储平台**: 迅雷网盘
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOWmgpCqKF-zqmyiUwZGQtzeA1?pwd=jdp4#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOWmgpCqKF-zqmyiUwZGQtzeA1?pwd=jdp4#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。

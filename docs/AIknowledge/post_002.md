@@ -1,23 +1,23 @@
 ---
-title: "人人必修的AI启蒙课，启蒙课程，不含工具】"
-description: "点击免费下载 人人必修的AI启蒙课，启蒙课程，不含工具】。本资源由资源收集站整理，包含 Ai人工智能合集​ 相关内容，支持 夸克网盘 极速转存。"
-keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 人人必修的AI启蒙课，启蒙课程，不含工具】, 资源下载, 夸克网盘"
+title: "manus邀请码.."
+description: "点击免费下载 manus邀请码..。本资源由资源收集站整理，包含 Ai人工智能合集 相关内容，支持 迅雷网盘 极速转存。"
+keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, manus邀请码.., 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 人人必修的AI启蒙课，启蒙课程，不含工具】, 资源下载, 夸克网盘"
+      content: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, manus邀请码.., 资源下载, 迅雷网盘"
 ---
 
-# 人人必修的AI启蒙课，启蒙课程，不含工具】
+# manus邀请码..
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **人人必修的AI启蒙课，启蒙课程，不含工具】** 的免费下载链接。该资源属于 **Ai人工智能合集​** 分类。
+欢迎访问资源收集站！本页面提供 **manus邀请码..** 的免费下载链接。该资源属于 **Ai人工智能合集** 分类。
 
 ## 资源详情
-- **资源名称**: 人人必修的AI启蒙课，启蒙课程，不含工具】
-- **资源类型**: Ai人工智能合集​
-- **存储平台**: 夸克网盘
-- **下载链接**: <a href="https://pan.quark.cn/s/8ed9effac7cc" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/8ed9effac7cc</a>
+- **资源名称**: manus邀请码..
+- **资源类型**: Ai人工智能合集
+- **存储平台**: 迅雷网盘
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOOk9I6HqwD7OHSTuQaoRez2A1?pwd=jwv5#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOOk9I6HqwD7OHSTuQaoRez2A1?pwd=jwv5#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。

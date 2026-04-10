@@ -1,23 +1,23 @@
 ---
-title: "AI Chat"
-description: "点击免费下载 AI Chat。本资源由资源收集站整理，包含 破解软件工具类​ 相关内容，支持 夸克网盘 极速转存。"
-keywords: "工具, 软件, 插件, 绿色软件, 提效, AI Chat, 资源下载, 夸克网盘"
+title: "破解软件合集"
+description: "点击免费下载 破解软件合集。本资源由资源收集站整理，包含 破解软件工具类 相关内容，支持 迅雷网盘 极速转存。"
+keywords: "工具, 软件, 插件, 绿色软件, 提效, 破解软件合集, 资源下载, 迅雷网盘"
 head:
   - - meta
     - name: keywords
-      content: "工具, 软件, 插件, 绿色软件, 提效, AI Chat, 资源下载, 夸克网盘"
+      content: "工具, 软件, 插件, 绿色软件, 提效, 破解软件合集, 资源下载, 迅雷网盘"
 ---
 
-# AI Chat
+# 破解软件合集
 
 ## 资源简介
-欢迎访问资源收集站！本页面提供 **AI Chat** 的免费下载链接。该资源属于 **破解软件工具类​** 分类。
+欢迎访问资源收集站！本页面提供 **破解软件合集** 的免费下载链接。该资源属于 **破解软件工具类** 分类。
 
 ## 资源详情
-- **资源名称**: AI Chat
-- **资源类型**: 破解软件工具类​
-- **存储平台**: 夸克网盘
-- **下载链接**: <a href="https://pan.quark.cn/s/3ebb19f720cc" target="_blank" rel="noopener noreferrer">https://pan.quark.cn/s/3ebb19f720cc</a>
+- **资源名称**: 破解软件合集
+- **资源类型**: 破解软件工具类
+- **存储平台**: 迅雷网盘
+- **下载链接**: <a href="https://pan.xunlei.com/s/VOQ6INjfEA2Y8YjpMwYDCF93A1?pwd=2qmt#" target="_blank" rel="noopener noreferrer">https://pan.xunlei.com/s/VOQ6INjfEA2Y8YjpMwYDCF93A1?pwd=2qmt#</a>
 
 ## ⚡ 极速转存说明
 建议您先将资源**转存到自己的网盘**，然后通过网盘客户端进行极速下载或在线查看。
