@@ -12,7 +12,12 @@ keywords: "教育资源, 学习知识, 考试资料, 历史故事, 学科知识,
 - **资源名称**: 初中九科学霸笔记（无水印）
 - **所属分类**: 教育资源 / 学科知识
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.quark.cn/s/79183bb66cc5" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+- **链接**: <a href="https://pan.quark.cn/s/79183bb66cc5" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+
+---
+### 🛡️ 申明与反馈
+- **版权申明**: 本站所有资源均收集自互联网，版权归原作者所有。仅供个人学习研究，请于下载后24小时内删除。
+- **链接失效**: 如果您发现下载链接已失效，请联系管理员核实。
 
 ---
 💡 **更多资源**: 返回 [小二郎资源分享站](/) 
