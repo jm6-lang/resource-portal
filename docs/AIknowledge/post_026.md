@@ -1,18 +1,21 @@
 ---
-title: "Ai扣子coze自动化工作流教程"
-description: "点击免费下载 Ai扣子coze自动化工作流教程。小二郎资源分享站深度整理，分类：AI 知识 / 人工智能。"
-keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 提示词, 绘画, Ai扣子coze自动化工作流教程"
+title: "Ai图文带货实操课，新手从0-1 实操课"
+description: "点击免费下载 Ai图文带货实操课，新手从0-1 实操课。小二郎资源分享站深度整理，分类：AI 知识 / 人工智能。"
+keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 提示词, 绘画, Ai图文带货实操课，新手从0-1 实操课"
 ---
 
-# Ai扣子coze自动化工作流教程
+# Ai图文带货实操课，新手从0-1 实操课
 
 <Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: Ai扣子coze自动化工作流教程
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **Ai图文带货实操课，新手从0-1 实操课** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
+- **资源名称**: Ai图文带货实操课，新手从0-1 实操课
 - **所属分类**: AI 知识 / 人工智能
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.baidu.com/s/1K6auy23mhGe8Ab2J8St7ag?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.baidu.com/s/1vtmiXvBWCq9B37ckyZApUg?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
