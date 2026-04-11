@@ -76,13 +76,13 @@ features:
       <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
       <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
       <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器解锁版</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
       <!-- 循环显示 -->
       <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
       <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
       <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器解锁版</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
     </div>
   </div>
@@ -126,7 +126,7 @@ features:
 
 ### 🔍 热门分类搜索
 
-[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#破解软件`](/tools/) [`#考公资料`](/curriculum/) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
+[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#会员版软件`](/tools/) [`#考公资料`](/curriculum/) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
 
 ---
 
