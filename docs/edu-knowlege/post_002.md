@@ -8,11 +8,14 @@ keywords: "教育资源, 学习知识, 考试资料, 历史故事, 学科知识,
 
 <Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **2025年7节课搞定国考常识** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
 - **资源名称**: 2025年7节课搞定国考常识
 - **所属分类**: 教育资源 / 学科知识
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.quark.cn/s/d5ed5281d50c" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.quark.cn/s/d5ed5281d50c" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
