@@ -18,9 +18,9 @@ description: "专业清除电话号码骚扰、广告标记，恢复手机号信
 - **恢复信誉**: 消除因历史原因导致的误标记。
 
 ## 📥 获取方式
-> 💡 请点击下方链接获取详细的清除操作指南及自助工具。
+> 💡 请点击下方链接，直达专业标记查询与清除系统。
 
-<a href="#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+<a href="http://xbh5.open10086.com/?authorization=f91029a83a8758aa" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击立即清除标记</a>
 
 ---
 ### 🛡️ 申明
