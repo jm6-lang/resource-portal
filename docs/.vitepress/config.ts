@@ -47,7 +47,21 @@ export default defineConfig({
         document.head.appendChild(link);
       })();
     `],
-    ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
+    ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
+    // Safe run time script
+    ['script', {}, `
+      function show_runtime(){
+        window.setTimeout("show_runtime()",1000);
+        X=new Date("04/10/2026 00:00:00");
+        Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+        a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor(c);d=(c-C)*60;D=Math.floor(d);
+        var runTime = document.getElementById("run-time");
+        if(runTime) runTime.innerHTML=A+"天"+B+"小时"+C+"分"+D+"秒";
+      }
+      if (typeof window !== 'undefined') {
+        window.onload = show_runtime;
+      }
+    `]
   ],
 
   themeConfig: {
@@ -90,17 +104,17 @@ export default defineConfig({
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
           { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
           { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
-          { text: '📈 自媒体/电商', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
-          { text: '🎓 职场/技能课', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
+          { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
+          { text: '🎓 职场/技能课精品', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
           { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege/' }, ...getSidebarItems('edu-knowlege')] },
-          { text: '🛠️ 常用工具箱', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
+          { text: '🛠️ 常用工具/会员版', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
           { text: '💊 健康养生堂', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
           { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional/' }, ...getSidebarItems('chinese-traditional')] },
         ]
       }
     ],
     footer: {
-      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/disclaimer">免责声明</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>友情链接：<a href="https://skillxm.cn" target="_blank">skillxm.cn</a> | <a href="https://tool.skillxm.cn" target="_blank">tool.skillxm.cn</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
+      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/disclaimer">免责声明</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     lastUpdatedText: '最近更新于',
