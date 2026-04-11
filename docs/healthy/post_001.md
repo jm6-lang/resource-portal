@@ -12,7 +12,12 @@ keywords: "健康养生, 体育健身, 中医养生, 健身教程, 心理健康,
 - **资源名称**: 中医笔记
 - **所属分类**: 健康养生 / 体育健身
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.baidu.com/s/1fRk2ImfY3W-E7akzWkFYxQ?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击打开网盘链接</a>
+- **链接**: <a href="https://pan.baidu.com/s/1fRk2ImfY3W-E7akzWkFYxQ?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+
+---
+### 🛡️ 申明与反馈
+- **版权申明**: 本站所有资源均收集自互联网，版权归原作者所有。仅供个人学习研究，请于下载后24小时内删除。
+- **链接失效**: 如果您发现下载链接已失效，请联系管理员核实。
 
 ---
 💡 **更多资源**: 返回 [小二郎资源分享站](/) 
