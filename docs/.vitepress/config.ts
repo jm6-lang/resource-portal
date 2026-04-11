@@ -98,7 +98,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '<a href="/about">关于我们</a> | <a href="/privacy">隐私政策</a> | <a href="/contact">联系我们</a> | <a href="/disclaimer">版权声明</a> | <a href="/links">友情链接</a> | <a href="/ads">广告合作</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
+      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/disclaimer">版权声明</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     lastUpdatedText: '最近更新于',
