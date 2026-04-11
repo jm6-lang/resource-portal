@@ -113,7 +113,7 @@ features:
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">存储容量</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
-    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">500+</div>
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">600+</div>
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">资源条目</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
@@ -143,4 +143,4 @@ features:
 
 ### 🔗 友情链接
 
-`skillxm.cn` | `tool.skillxm.cn`
+[https://skillxm.cn](https://skillxm.cn) | [https://tool.skillxm.cn](https://tool.skillxm.cn)
