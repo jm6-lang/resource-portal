@@ -8,11 +8,14 @@ keywords: "精品书籍, 电子书下载, PDF书籍, 资料下载, 漫画小说,
 
 <Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **动情小说 GL合集590本** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
 - **资源名称**: 动情小说 GL合集590本
 - **所属分类**: 精品书籍 / 小说漫画
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://drive.uc.cn/s/86bed2af8adf4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://drive.uc.cn/s/86bed2af8adf4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
