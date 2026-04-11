@@ -33,26 +33,32 @@
   }
 }
 
-/* Mobile Search Fix */
+/* Mobile Search & Header Fix */
 @media (max-width: 768px) {
   .VPNavBarSearch .DocSearch-Button {
-    width: 40px !important;
-    height: 40px !important;
+    width: 36px !important;
+    height: 36px !important;
     padding: 0 !important;
-    margin: 0 8px !important;
+    margin: 0 4px !important;
     justify-content: center !important;
+    border: none !important;
+    background: transparent !important;
   }
   .VPNavBarSearch .DocSearch-Button-Placeholder {
     display: none !important;
+  }
+  .VPNavBarTitle .title {
+    font-size: 1rem !important; /* Smaller site name on mobile */
+    font-weight: 700 !important;
   }
 }
 
 /* Feature Card Enhancements */
 .VPFeature {
   background-color: var(--vp-c-bg-soft) !important;
-  border: 1px solid var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
   border-radius: 16px !important;
-  padding: 24px !important;
+  padding: 20px !important;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
@@ -62,44 +68,52 @@
   box-shadow: 0 12px 24px -10px rgba(99, 102, 241, 0.3) !important;
 }
 
-/* Footer Styling - CRITICAL FIX */
+/* Hero Section Enhancements */
+.VPHero {
+  padding: 40px 20px !important;
+}
+
+@media (min-width: 960px) {
+  .VPHero {
+    padding: 96px 32px 64px !important;
+  }
+}
+
+/* Footer Styling */
 .VPFooter {
   position: relative !important;
   z-index: 10 !important;
   border-top: 1px solid var(--vp-c-divider) !important;
-  padding: 40px 24px !important;
+  padding: 32px 20px !important;
   background-color: var(--vp-c-bg-soft) !important;
   text-align: center !important;
 }
 
 .VPFooter .message {
   font-weight: 600 !important;
-  line-height: 2 !important;
+  line-height: 1.8 !important;
+  font-size: 0.85rem !important;
   color: var(--vp-c-text-1) !important;
 }
 
 .VPFooter .message a {
   color: var(--vp-c-brand-1) !important;
   text-decoration: none !important;
-  margin: 0 4px !important;
+  margin: 0 2px !important;
   display: inline-block !important;
-  pointer-events: auto !important; /* Ensure clickable */
+  pointer-events: auto !important;
 }
 
-.VPFooter .message a:hover {
-  text-decoration: underline !important;
-}
-
-/* Latest Updates Box */
+/* Latest Updates Box (Horizontal) */
 .latest-updates-box {
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin: 1.5rem 0;
+  border-radius: 10px;
+  padding: 0 0.8rem;
+  margin: 1rem 0;
   overflow: hidden;
   position: relative;
-  height: 48px;
+  height: 40px;
   display: flex;
   align-items: center;
 }
@@ -107,11 +121,11 @@
 .latest-updates-label {
   background: var(--vp-c-brand-1);
   color: white;
-  padding: 2px 8px;
+  padding: 1px 6px;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 0.8rem;
   z-index: 5;
   white-space: nowrap;
 }
@@ -119,10 +133,10 @@
 .latest-updates-content {
   display: inline-block;
   white-space: nowrap;
-  animation: h-scroll 40s linear infinite;
+  animation: h-scroll 35s linear infinite;
   padding-left: 100%;
   color: var(--vp-c-text-1);
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 @keyframes h-scroll {
@@ -130,41 +144,42 @@
   100% { transform: translateX(-100%); }
 }
 
-/* Vertical Scrolling Live Updates Box - RE-FIXED */
+/* Vertical Scrolling Live Updates Box (Vertical) */
 .live-updates-container {
   background: var(--vp-c-bg-soft);
-  border: 2px solid var(--vp-c-brand-soft);
-  border-radius: 16px;
-  padding: 0 1.5rem;
-  margin: 1.2rem 0;
-  height: 72px; 
+  border: 1px solid var(--vp-c-brand-soft);
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  height: 52px; 
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 960px) {
   .live-updates-container {
-    height: 56px;
-    padding: 0 1rem;
-    border-radius: 12px;
+    height: 72px;
+    padding: 0 1.5rem;
+    border-radius: 16px;
+    border-width: 2px;
   }
 }
 
 .live-updates-label {
   color: var(--vp-c-brand-1);
   font-weight: 800;
-  font-size: 1.1rem;
-  margin-right: 16px;
+  font-size: 0.85rem;
+  margin-right: 10px;
   white-space: nowrap;
   z-index: 5;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 960px) {
   .live-updates-label {
-    font-size: 0.9rem;
-    margin-right: 10px;
+    font-size: 1.1rem;
+    margin-right: 16px;
   }
 }
 
@@ -183,19 +198,19 @@
 }
 
 .update-item {
-  height: 72px;
+  height: 52px;
   display: flex;
   align-items: center;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 960px) {
   .update-item {
-    height: 56px;
-    font-size: 0.95rem;
+    height: 72px;
+    font-size: 1.15rem;
   }
 }
 
@@ -209,11 +224,20 @@
 .update-item .time {
   background: var(--vp-c-brand-1);
   color: white;
-  font-size: 0.75rem;
-  padding: 2px 6px;
-  border-radius: 5px;
-  margin-right: 12px;
+  font-size: 0.6rem;
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-right: 8px;
   font-weight: bold;
+}
+
+@media (min-width: 960px) {
+  .update-item .time {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
 }
 
 @keyframes v-scroll {
@@ -223,4 +247,65 @@
 
 .vertical-marquee:hover, .latest-updates-content:hover {
   animation-play-state: paused;
+}
+
+/* --- Mobile Specific Table & UI Fixes --- */
+@media (max-width: 768px) {
+  /* Make tables scrollable instead of breaking layout */
+  .vp-doc table {
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Compact headings */
+  .vp-doc h1 { font-size: 1.6rem !important; }
+  .vp-doc h2 { font-size: 1.3rem !important; }
+  
+  /* Hero scaling */
+  .VPHero .name { font-size: 2.2rem !important; }
+  .VPHero .text { font-size: 1.4rem !important; }
+  
+  /* Sidebar menu item spacing */
+  .VPSidebarItem.level-0 {
+    padding-bottom: 8px !important;
+  }
+}
+
+/* Ensure social share stays readable if visible, or cleaner if hidden */
+.social-share {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .social-share {
+    margin-left: 0.2rem;
+    padding-left: 0.2rem;
+    border-left: none;
+  }
+  .share-label {
+    display: none !important;
+  }
+  .share-icons {
+    gap: 6px !important;
+  }
+  .share-item {
+    width: 26px !important;
+    height: 26px !important;
+  }
+  .share-item svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extremely small screens: hide some icons to save space */
+  .share-item.facebook, .share-item.twitter {
+    display: none !important;
+  }
 }
