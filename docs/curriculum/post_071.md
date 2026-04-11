@@ -1,18 +1,21 @@
 ---
-title: "摄影】超全付费课程合集（335GB）(1"
-description: "点击免费下载 摄影】超全付费课程合集（335GB）(1。小二郎资源分享站深度整理，分类：学习课程 / 职场技能。"
-keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 编程教程, 摄影】超全付费课程合集（335GB）(1"
+title: "手机维修课程"
+description: "点击免费下载 手机维修课程。小二郎资源分享站深度整理，分类：学习课程 / 职场技能。"
+keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 编程教程, 手机维修课程"
 ---
 
-# 摄影】超全付费课程合集（335GB）(1
+# 手机维修课程
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="Xunlei" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: 摄影】超全付费课程合集（335GB）(1
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **手机维修课程** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
+- **资源名称**: 手机维修课程
 - **所属分类**: 学习课程 / 职场技能
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.quark.cn/s/d24f483a8390" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.xunlei.com/s/VOOuLP7RcTHXBSgoQ8TUE9u5A1?pwd=y5ey#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
