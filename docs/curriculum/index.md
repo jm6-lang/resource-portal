@@ -1,8 +1,9 @@
 ---
-title: "学习课程 / 职场技能"
+title: "学习课程 / 职业成长 资源合集"
+description: "小二郎资源分享站：学习课程 / 职业成长 优质资源汇总列表。"
 ---
 
-# 学习课程 / 职场技能 资源合集
+# 学习课程 / 职业成长 资源合集
 
 | 资源名称 | 平台 | 详情 |
 | :--- | :--- | :--- |
@@ -75,40 +76,42 @@ title: "学习课程 / 职场技能"
 | 少儿编程scratch3.0全套课程214节 | Quark | [点击进入](/curriculum/post_067) |
 | 平面设计速成，从小白到大神（完结） | Quark/UC | [点击进入](/curriculum/post_068) |
 | 年赚百万的知识付费网站搭建 超详细教程 | Quark | [点击进入](/curriculum/post_069) |
-| 手机维修课程 | Xunlei | [点击进入](/curriculum/post_070) |
+| 心理控制术 | Quark | [点击进入](/curriculum/post_070) |
 | 手机维修课程 | Xunlei | [点击进入](/curriculum/post_071) |
-| 抖音】玩法教程最全攻略【21套课 | Quark | [点击进入](/curriculum/post_072) |
-| 抖音引流课程：日引300粉实战操作方法 | Quark/UC | [点击进入](/curriculum/post_073) |
-| 摄影】超全付费课程合集（335GB）(1 | Quark | [点击进入](/curriculum/post_074) |
-| 摄影剪辑教程大合集 | Quark | [点击进入](/curriculum/post_075) |
-| 新媒体流量变现运营课程 | Quark | [点击进入](/curriculum/post_076) |
-| 最新C#零基础入门全集 | Quark/UC | [点击进入](/curriculum/post_077) |
-| 最新版公考面试课程 | Quark | [点击进入](/curriculum/post_078) |
-| 正则表达式入门 | Quark/UC | [点击进入](/curriculum/post_079) |
-| 民谣吉他课程入门+进阶139集 | Quark | [点击进入](/curriculum/post_080) |
-| 汽车新能源汽车三电实战维修默认班级-106节 | Quark | [点击进入](/curriculum/post_081) |
-| 淘宝开店教程100节课 | Quark/UC | [点击进入](/curriculum/post_082) |
-| 爆款自媒体起号训练营--14天落地实操训练营 | 百度网盘 | [点击进入](/curriculum/post_083) |
-| 用搜索提升收入，掌握最热门的职场技能（完结） | Quark | [点击进入](/curriculum/post_084) |
-| 电商合成案例教程，大神带你掌握合成技法 | Quark/UC | [点击进入](/curriculum/post_085) |
-| 电商课程·拼多多运营必听10节课 | Quark | [点击进入](/curriculum/post_086) |
-| 知识星球 付费课程（精选130篇） | Quark | [点击进入](/curriculum/post_087) |
-| 约hui大作战S1+S2+S3+S4+赤黑新章前后 | Quark | [点击进入](/curriculum/post_088) |
-| 网创教程自动采集wordpress插件子比主题 | 夸克网盘 | [点击进入](/curriculum/post_089) |
-| 美食实体店配方专题，价值上万！ | Quark | [点击进入](/curriculum/post_090) |
-| 美食实体店配方（合集） | Quark | [点击进入](/curriculum/post_091) |
-| 职场102项技能课程合集 | Quark | [点击进入](/curriculum/post_092) |
-| 职场办公技能总教程 | Quark | [点击进入](/curriculum/post_093) |
-| 花束花艺教程 | Quark | [点击进入](/curriculum/post_094) |
-| 记忆大师之李威教程 打造最强记忆 | Quark/UC | [点击进入](/curriculum/post_095) |
-| 读书学习听的音乐合集 | Quark | [点击进入](/curriculum/post_096) |
-| 谷歌优化师部落·GoogleSEO零基础入门系列教程 | Quark | [点击进入](/curriculum/post_097) |
-| 超详细生存指南 | Quark | [点击进入](/curriculum/post_098) |
-| 跨境电商实操课程从零到精通，人人都适合的跨境电商课 小二郎资源库每日更新 | Quark | [点击进入](/curriculum/post_099) |
-| 阿里巴巴国际站课程，阿里巴巴国际站运营基础课程 | Quark | [点击进入](/curriculum/post_100) |
-| 零基础趣学Linux | Quark | [点击进入](/curriculum/post_101) |
-| 麻将学技术训练与技巧（完结） | Quark | [点击进入](/curriculum/post_102) |
-| 黑帽SEO全套课程 | Quark/UC | [点击进入](/curriculum/post_103) |
-| 龙舌兰放克iPad基础（人物插画课程） | Quark | [点击进入](/curriculum/post_104) |
-| （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_105) |
-| （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_106) |
+| 手机维修课程 | Xunlei | [点击进入](/curriculum/post_072) |
+| 抖音】玩法教程最全攻略【21套课 | Quark | [点击进入](/curriculum/post_073) |
+| 抖音引流课程：日引300粉实战操作方法 | Quark/UC | [点击进入](/curriculum/post_074) |
+| 摄影】超全付费课程合集（335GB）(1 | Quark | [点击进入](/curriculum/post_075) |
+| 摄影剪辑教程大合集 | Quark | [点击进入](/curriculum/post_076) |
+| 新媒体流量变现运营课程 | Quark | [点击进入](/curriculum/post_077) |
+| 最新C#零基础入门全集 | Quark/UC | [点击进入](/curriculum/post_078) |
+| 最新版公考面试课程 | Quark | [点击进入](/curriculum/post_079) |
+| 正则表达式入门 | Quark/UC | [点击进入](/curriculum/post_080) |
+| 民谣吉他课程入门+进阶139集 | Quark | [点击进入](/curriculum/post_081) |
+| 汽车新能源汽车三电实战维修默认班级-106节 | Quark | [点击进入](/curriculum/post_082) |
+| 淘宝开店教程100节课 | Quark/UC | [点击进入](/curriculum/post_083) |
+| 爆款自媒体起号训练营--14天落地实操训练营 | 百度网盘 | [点击进入](/curriculum/post_084) |
+| 用搜索提升收入，掌握最热门的职场技能（完结） | Quark | [点击进入](/curriculum/post_085) |
+| 电商合成案例教程，大神带你掌握合成技法 | Quark/UC | [点击进入](/curriculum/post_086) |
+| 电商课程·拼多多运营必听10节课 | Quark | [点击进入](/curriculum/post_087) |
+| 知识星球 付费课程（精选130篇） | Quark | [点击进入](/curriculum/post_088) |
+| 笔记本电脑维修完全手册 | Quark | [点击进入](/curriculum/post_089) |
+| 约hui大作战S1+S2+S3+S4+赤黑新章前后 | Quark | [点击进入](/curriculum/post_090) |
+| 网创教程自动采集wordpress插件子比主题 | 夸克网盘 | [点击进入](/curriculum/post_091) |
+| 美食实体店配方专题，价值上万！ | Quark | [点击进入](/curriculum/post_092) |
+| 美食实体店配方（合集） | Quark | [点击进入](/curriculum/post_093) |
+| 职场102项技能课程合集 | Quark | [点击进入](/curriculum/post_094) |
+| 职场办公技能总教程 | Quark | [点击进入](/curriculum/post_095) |
+| 花束花艺教程 | Quark | [点击进入](/curriculum/post_096) |
+| 记忆大师之李威教程 打造最强记忆 | Quark/UC | [点击进入](/curriculum/post_097) |
+| 读书学习听的音乐合集 | Quark | [点击进入](/curriculum/post_098) |
+| 谷歌优化师部落·GoogleSEO零基础入门系列教程 | Quark | [点击进入](/curriculum/post_099) |
+| 超详细生存指南 | Quark | [点击进入](/curriculum/post_100) |
+| 跨境电商实操课程从零到精通，人人都适合的跨境电商课 小二郎资源库每日更新 | Quark | [点击进入](/curriculum/post_101) |
+| 阿里巴巴国际站课程，阿里巴巴国际站运营基础课程 | Quark | [点击进入](/curriculum/post_102) |
+| 零基础趣学Linux | Quark | [点击进入](/curriculum/post_103) |
+| 麻将学技术训练与技巧（完结） | Quark | [点击进入](/curriculum/post_104) |
+| 黑帽SEO全套课程 | Quark/UC | [点击进入](/curriculum/post_105) |
+| 龙舌兰放克iPad基础（人物插画课程） | Quark | [点击进入](/curriculum/post_106) |
+| （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_107) |
+| （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_108) |
