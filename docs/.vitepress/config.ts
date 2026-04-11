@@ -68,9 +68,7 @@ export default defineConfig({
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
       },
-      { text: '💎 独家资源', link: '/exclusive/' },
-      { text: '📢 关于我们', link: '/about' },
-      { text: '⚖️ 免责声明', link: '/disclaimer' }
+      { text: '💎 独家资源', link: '/exclusive/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
