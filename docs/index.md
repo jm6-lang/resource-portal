@@ -126,7 +126,7 @@ features:
 
 ### 🔍 热门分类搜索
 
-`#AIGC` `#Stable Diffusion` `#电子书` `#亚马逊选品` `#短视频变现` `#中医养生` `#高清电影` `#提效工具` `#破解软件` `#考公资料` `#夸克网盘` `#阿里网盘`
+[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#破解软件`](/tools/) [`#考公资料`](/curriculum/) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
 
 ---
 
