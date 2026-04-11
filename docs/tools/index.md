@@ -1,8 +1,9 @@
 ---
-title: "软件工具 / 实用插件"
+title: "综合资源 / 其它 资源合集"
+description: "小二郎资源分享站：综合资源 / 其它 优质资源汇总列表。"
 ---
 
-# 软件工具 / 实用插件 资源合集
+# 综合资源 / 其它 资源合集
 
 | 资源名称 | 平台 | 详情 |
 | :--- | :--- | :--- |
@@ -22,23 +23,23 @@ title: "软件工具 / 实用插件"
 | IObitUninstallerPro软件卸载专用工具 | 百度网盘 | [点击进入](/tools/post_014) |
 | L 灵珑 第二季 | Quark | [点击进入](/tools/post_015) |
 | Listen1（全网音乐免费听）） | Quark | [点击进入](/tools/post_016) |
-| Optics 2022.5.2.20221129汉化版 | 百度网盘 | [点击进入](/tools/post_017) |
-| PPT简历模板免费下载 | 百度网盘 | [点击进入](/tools/post_018) |
-| PhotoDiva 5.0 Chs Portable | 百度网盘 | [点击进入](/tools/post_019) |
-| PhotoMaster 16.7中文完整版 | 百度网盘 | [点击进入](/tools/post_020) |
-| PhotoWorks照片大师20.0 | 百度网盘 | [点击进入](/tools/post_021) |
-| Set a light 3D STUDIO V2.5.6汉化版 | 百度网盘 | [点击进入](/tools/post_022) |
-| SkinFiner 人像精修磨皮软件 | 百度网盘 | [点击进入](/tools/post_023) |
-| Unknown Title | Quark | [点击进入](/tools/post_024) |
-| U盘车载专用音乐 3068 首 24G | Quark | [点击进入](/tools/post_025) |
-| Web前端全栈HTML5+大神之路 | Quark/UC | [点击进入](/tools/post_026) |
-| manus手机版（先保存再使用） | Xunlei | [点击进入](/tools/post_027) |
+| MBTI16型人格测试 | 夸克网盘 | [点击进入](/tools/post_017) |
+| Optics 2022.5.2.20221129汉化版 | 百度网盘 | [点击进入](/tools/post_018) |
+| PPT简历模板免费下载 | 百度网盘 | [点击进入](/tools/post_019) |
+| PhotoDiva 5.0 Chs Portable | 百度网盘 | [点击进入](/tools/post_020) |
+| PhotoMaster 16.7中文完整版 | 百度网盘 | [点击进入](/tools/post_021) |
+| PhotoWorks照片大师20.0 | 百度网盘 | [点击进入](/tools/post_022) |
+| Set a light 3D STUDIO V2.5.6汉化版 | 百度网盘 | [点击进入](/tools/post_023) |
+| SkinFiner 人像精修磨皮软件 | 百度网盘 | [点击进入](/tools/post_024) |
+| Unknown Title | Quark | [点击进入](/tools/post_025) |
+| U盘车载专用音乐 3068 首 24G | Quark | [点击进入](/tools/post_026) |
+| Web前端全栈HTML5+大神之路 | Quark/UC | [点击进入](/tools/post_027) |
 | 《108套别墅新农村自建房图纸》 | Quark | [点击进入](/tools/post_028) |
 | 〖李健11CD〗 | Quark | [点击进入](/tools/post_029) |
 | 三部限制级惊悚片，高血压远离 | Quark | [点击进入](/tools/post_030) |
 | 上班摸鱼_老板键（软件） | Quark | [点击进入](/tools/post_031) |
-| 中级社工教材（2025年） | Quark | [点击进入](/tools/post_032) |
-| 会员版软件合集 | Xunlei | [点击进入](/tools/post_033) |
+| 中医笔记 | 百度网盘 | [点击进入](/tools/post_032) |
+| 中级社工教材（2025年） | Quark | [点击进入](/tools/post_033) |
 | 低音炮车载360首 | Quark | [点击进入](/tools/post_034) |
 | 全新推出的免费音乐听歌软件-尼卡音乐🎵 | Quark | [点击进入](/tools/post_035) |
 | 全球记录片合集 | Quark | [点击进入](/tools/post_036) |
@@ -76,10 +77,10 @@ title: "软件工具 / 实用插件"
 | 炒股养家传记新版 | 百度网盘 | [点击进入](/tools/post_068) |
 | 爱死机 | Quark | [点击进入](/tools/post_069) |
 | 生财有术】上千条付费资源合集 | Quark | [点击进入](/tools/post_070) |
-| 画江湖之不良人 1-6季全集 | Quark | [点击进入](/tools/post_071) |
-| 百万富翁快车道 | 百度网盘 | [点击进入](/tools/post_072) |
-| 离婚合同离婚协议书模板 | Quark | [点击进入](/tools/post_073) |
-| 笔记本电脑维修完全手册 | Quark | [点击进入](/tools/post_074) |
+| 电工专家_5.9.0.会员版 | 夸克网盘 | [点击进入](/tools/post_071) |
+| 画江湖之不良人 1-6季全集 | Quark | [点击进入](/tools/post_072) |
+| 百万富翁快车道 | 百度网盘 | [点击进入](/tools/post_073) |
+| 离婚合同离婚协议书模板 | Quark | [点击进入](/tools/post_074) |
 | 精选千首音乐（中日韩英车载夜店都有） | Quark | [点击进入](/tools/post_075) |
 | 精选音乐Mp3合集 | Quark/UC | [点击进入](/tools/post_076) |
 | 经典香港乐坛70-80-90歌曲 | Quark | [点击进入](/tools/post_077) |
@@ -131,4 +132,4 @@ title: "软件工具 / 实用插件"
 | 音乐资源3 | 迅雷网盘 | [点击进入](/tools/post_123) |
 | 驾考题库大全会员版_ | Quark | [点击进入](/tools/post_124) |
 | 高品质车载DJ【音乐大碟 | Quark/UC | [点击进入](/tools/post_125) |
-| 🎁 软件工具 / 实用插件 - 精选资源合集 | 多平台 | [点击进入](/tools/collection) |
+| 🎁 综合资源 / 其它 - 精选合集 | 多平台 | [点击进入](/tools/collection) |
