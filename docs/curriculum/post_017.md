@@ -1,18 +1,21 @@
 ---
-title: "TikTok】玩法教程最全攻略【27套课"
-description: "点击免费下载 TikTok】玩法教程最全攻略【27套课。小二郎资源分享站深度整理，分类：学习课程 / 职场技能。"
-keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 编程教程, TikTok】玩法教程最全攻略【27套课"
+title: "Solidworks新手练习教程"
+description: "点击免费下载 Solidworks新手练习教程。小二郎资源分享站深度整理，分类：学习课程 / 职场技能。"
+keywords: "在线课程, 学习资料, 视频教程, 技能提升, 职场提升, 编程教程, Solidworks新手练习教程"
 ---
 
-# TikTok】玩法教程最全攻略【27套课
+# Solidworks新手练习教程
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: TikTok】玩法教程最全攻略【27套课
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **Solidworks新手练习教程** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
+- **资源名称**: Solidworks新手练习教程
 - **所属分类**: 学习课程 / 职场技能
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.quark.cn/s/44a65ca8c8cd" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.baidu.com/s/1QPPwZ87Vd7XJcoAAtY32YA?pwd=n77n" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
