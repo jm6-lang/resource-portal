@@ -1,18 +1,23 @@
 ---
-title: "中医笔记"
-description: "点击免费下载 中医笔记。小二郎资源分享站深度整理，分类：健康养生 / 体育健身。"
-keywords: "健康养生, 体育健身, 中医养生, 健身教程, 心理健康, 中医笔记"
+title: "MBTI16型人格测试"
+description: "点击免费下载 MBTI16型人格测试。小二郎资源分享站深度整理，分类：健康养生 / 体育健身。"
+keywords: "健康养生, 体育健身, 中医养生, 健身教程, 心理健康, MBTI16型人格测试"
 ---
 
-# 中医笔记
+# MBTI16型人格测试
 
-<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="夸克网盘" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: 中医笔记
+## 📋 资源介绍
+欢迎使用**MBTI16型人格测试**。此资源由小二郎资源分享站精心收集整理，旨在为广大用户提供优质的学习、工作或娱乐素材。
+
+**温馨提示**：资源文件较大，建议使用网盘客户端进行转存和下载，以获得最佳的传输速度。
+
+## 📥 资源详情
+- **资源名称**: MBTI16型人格测试
 - **所属分类**: 健康养生 / 体育健身
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.baidu.com/s/1fRk2ImfY3W-E7akzWkFYxQ?pwd=1234" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.quark.cn/s/1b09fd0ae25c" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
