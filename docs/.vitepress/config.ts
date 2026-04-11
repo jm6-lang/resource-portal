@@ -67,7 +67,10 @@ export default defineConfig({
           { text: '💊 健康养生', link: '/healthy/' },
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
-      }
+      },
+      { text: '💎 独家资源', link: '/exclusive/' },
+      { text: '📢 关于我们', link: '/about' },
+      { text: '⚖️ 免责声明', link: '/disclaimer' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
@@ -85,6 +88,7 @@ export default defineConfig({
       {
         text: '📖 资源导航',
         items: [
+          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean' }] },
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
           { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
           { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
@@ -98,7 +102,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/disclaimer">版权声明</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
+      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/disclaimer">版权声明</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>友情链接：<a href="https://skillxm.cn" target="_blank">skillxm.cn</a> | <a href="https://tool.skillxm.cn" target="_blank">tool.skillxm.cn</a><br>本站已安全运行 <span id="run-time"></span> | 总访问量 <span id="busuanzi_value_site_pv"></span> | 访客数 <span id="busuanzi_value_site_uv"></span>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     lastUpdatedText: '最近更新于',
