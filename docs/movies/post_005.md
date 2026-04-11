@@ -8,11 +8,14 @@ keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 
 
 <Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **2025医学类视频课程合集** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
 - **资源名称**: 2025医学类视频课程合集
 - **所属分类**: 影视娱乐 / 短剧
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://drive.uc.cn/s/fec141e4b2394" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://drive.uc.cn/s/fec141e4b2394" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
