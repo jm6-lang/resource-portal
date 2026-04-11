@@ -40,6 +40,7 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
     ['script', {}, `
       (function() {
         var link = document.createElement('link');
