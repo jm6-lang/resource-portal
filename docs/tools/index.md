@@ -15,110 +15,120 @@ title: "软件工具 / 实用插件"
 | Blender 3D建模 | 百度网盘 | [点击进入](/tools/post_007) |
 | C4D渲染器合集 | Quark/UC | [点击进入](/tools/post_008) |
 | Capture One 23 Pro | 百度网盘 | [点击进入](/tools/post_009) |
-| DxO.PhotoLabRAW后期编辑软件 | 百度网盘 | [点击进入](/tools/post_010) |
-| DxO.PureRAW增强清晰降噪软件 | 百度网盘 | [点击进入](/tools/post_011) |
-| IObitUninstallerPro软件卸载专用工具 | 百度网盘 | [点击进入](/tools/post_012) |
-| L 灵珑 第二季 | Quark | [点击进入](/tools/post_013) |
-| Listen1（全网音乐免费听）） | Quark | [点击进入](/tools/post_014) |
-| Optics 2022.5.2.20221129汉化版 | 百度网盘 | [点击进入](/tools/post_015) |
-| PPT简历模板免费下载 | 百度网盘 | [点击进入](/tools/post_016) |
-| PhotoDiva 5.0 Chs Portable | 百度网盘 | [点击进入](/tools/post_017) |
-| PhotoMaster 16.7中文完整版 | 百度网盘 | [点击进入](/tools/post_018) |
-| PhotoWorks照片大师20.0 | 百度网盘 | [点击进入](/tools/post_019) |
-| Set a light 3D STUDIO V2.5.6汉化版 | 百度网盘 | [点击进入](/tools/post_020) |
-| SkinFiner 人像精修磨皮软件 | 百度网盘 | [点击进入](/tools/post_021) |
-| Unknown Title | Quark | [点击进入](/tools/post_022) |
-| U盘车载专用音乐 3068 首 24G | Quark | [点击进入](/tools/post_023) |
-| Web前端全栈HTML5+大神之路 | Quark/UC | [点击进入](/tools/post_024) |
-| manus手机版（先保存再使用） | Xunlei | [点击进入](/tools/post_025) |
-| 《108套别墅新农村自建房图纸》 | Quark | [点击进入](/tools/post_026) |
-| 〖李健11CD〗 | Quark | [点击进入](/tools/post_027) |
-| 三部限制级惊悚片，高血压远离 | Quark | [点击进入](/tools/post_028) |
-| 上班摸鱼_老板键（软件） | Quark | [点击进入](/tools/post_029) |
-| 中级社工教材（2025年） | Quark | [点击进入](/tools/post_030) |
-| 会员版软件合集 | Xunlei | [点击进入](/tools/post_031) |
-| 低音炮车载360首 | Quark | [点击进入](/tools/post_032) |
-| 全新推出的免费音乐听歌软件-尼卡音乐🎵 | Quark | [点击进入](/tools/post_033) |
-| 全球记录片合集 | Quark | [点击进入](/tools/post_034) |
-| 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD | Quark | [点击进入](/tools/post_035) |
-| 初级社工教材（2025年） | Quark | [点击进入](/tools/post_036) |
-| 剪映国际版 | 百度网盘 | [点击进入](/tools/post_037) |
-| 去水印工具 | Quark | [点击进入](/tools/post_038) |
-| 发烧人声音乐歌曲(340首 | Quark | [点击进入](/tools/post_039) |
-| 呐噗助眠 | Quark | [点击进入](/tools/post_040) |
-| 嗅觉浏览器 | Quark | [点击进入](/tools/post_041) |
-| 国语经典成名曲(100首)，转存即听 | Quark | [点击进入](/tools/post_042) |
-| 大万万老师PS功能精通课 | Quark | [点击进入](/tools/post_043) |
-| 宅男深夜小确幸【特殊，你懂得！ | Quark/UC | [点击进入](/tools/post_044) |
-| 小白创业指南老板商业必修课 | Quark | [点击进入](/tools/post_045) |
-| 微信对话生成器 | Quark | [点击进入](/tools/post_046) |
-| 性感黑丝 | Quark | [点击进入](/tools/post_047) |
-| 手机照片恢复管家_7.5.0_VIP版_ | Quark | [点击进入](/tools/post_048) |
-| 扣子空间邀请码共享（转存后每天更新）.. | 迅雷网盘 | [点击进入](/tools/post_049) |
-| 扫描全能王 解锁付费版 | Quark | [点击进入](/tools/post_050) |
-| 新手入行互联网月入6000完全指南 | 百度网盘 | [点击进入](/tools/post_051) |
-| 普通人翻身逆袭指南50讲秘方建立认知和赚钱的完整体系资料 | Quark | [点击进入](/tools/post_052) |
-| 某公众号付费文《未来三十年，我们该如何积累自己的财富》 | Quark | [点击进入](/tools/post_053) |
-| 某宝买的PS资源 | Quark/UC | [点击进入](/tools/post_054) |
-| 欧美节奏控音乐(100首 | Quark | [点击进入](/tools/post_055) |
-| 民间故事合集素材 | Quark | [点击进入](/tools/post_056) |
-| 法考资料（2025年） | Quark | [点击进入](/tools/post_057) |
-| 洛雪音乐（附最新可用音源） | Quark | [点击进入](/tools/post_058) |
-| 炒股养家传记新版 | 百度网盘 | [点击进入](/tools/post_059) |
-| 爱死机 | Quark | [点击进入](/tools/post_060) |
-| 生财有术】上千条付费资源合集 | Quark | [点击进入](/tools/post_061) |
-| 画江湖之不良人 1-6季全集 | Quark | [点击进入](/tools/post_062) |
-| 百万富翁快车道 | 百度网盘 | [点击进入](/tools/post_063) |
-| 离婚合同离婚协议书模板 | Quark | [点击进入](/tools/post_064) |
-| 笔记本电脑维修完全手册 | Quark | [点击进入](/tools/post_065) |
-| 精选千首音乐（中日韩英车载夜店都有） | Quark | [点击进入](/tools/post_066) |
-| 精选音乐Mp3合集 | Quark/UC | [点击进入](/tools/post_067) |
-| 经典香港乐坛70-80-90歌曲 | Quark | [点击进入](/tools/post_068) |
-| 网易云评论超10万的歌曲 | Quark | [点击进入](/tools/post_069) |
-| 网易云评论超10万的歌曲 | Quark | [点击进入](/tools/post_070) |
-| 考神大牛（韩语）零基础0-TOPIK4全程班 | Quark | [点击进入](/tools/post_071) |
-| 英文流行歌曲(150首 | Quark | [点击进入](/tools/post_072) |
-| 草图大师三维建模 SketchUp | 百度网盘 | [点击进入](/tools/post_073) |
-| 评分最高的恐怖片 | Quark | [点击进入](/tools/post_074) |
-| 超级个体·普通人创造财富的无限游戏 | 百度网盘 | [点击进入](/tools/post_075) |
-| 车机 | Quark | [点击进入](/tools/post_076) |
-| 车载音乐U盘无损格式 | Quark | [点击进入](/tools/post_077) |
-| 软件合集 | Quark/UC | [点击进入](/tools/post_078) |
-| 软件合集1 | 迅雷网盘 | [点击进入](/tools/post_079) |
-| 软件合集10 | 迅雷网盘 | [点击进入](/tools/post_080) |
-| 软件合集2 | 迅雷网盘 | [点击进入](/tools/post_081) |
-| 软件合集3 | 迅雷网盘 | [点击进入](/tools/post_082) |
-| 软件合集4 | 迅雷网盘 | [点击进入](/tools/post_083) |
-| 软件合集5 | 迅雷网盘 | [点击进入](/tools/post_084) |
-| 软件合集6 | 迅雷网盘 | [点击进入](/tools/post_085) |
-| 软件合集7 | 迅雷网盘 | [点击进入](/tools/post_086) |
-| 软件合集8 | 迅雷网盘 | [点击进入](/tools/post_087) |
-| 软件合集9 | 迅雷网盘 | [点击进入](/tools/post_088) |
-| 软件插件汇总 | Quark | [点击进入](/tools/post_089) |
-| 达芬奇调色DaVinci_Resolve | 百度网盘 | [点击进入](/tools/post_090) |
-| 酒店防窥检测1.26 解锁会员版 | Quark | [点击进入](/tools/post_091) |
-| 降噪磨皮锐化人像修复FliFlik KlearMax for Photo | 百度网盘 | [点击进入](/tools/post_092) |
-| 雅思旗舰VIP直达7分班 | Quark | [点击进入](/tools/post_093) |
-| 韩国最出色的十一部R限制【39.7GB | Quark | [点击进入](/tools/post_094) |
-| 音乐合集1 | 网盘资源 | [点击进入](/tools/post_095) |
-| 音乐合集10 | 迅雷网盘 | [点击进入](/tools/post_096) |
-| 音乐合集11 | 迅雷网盘 | [点击进入](/tools/post_097) |
-| 音乐合集12 | 迅雷网盘 | [点击进入](/tools/post_098) |
-| 音乐合集13 | 迅雷网盘 | [点击进入](/tools/post_099) |
-| 音乐合集14 | 迅雷网盘 | [点击进入](/tools/post_100) |
-| 音乐合集15 | 迅雷网盘 | [点击进入](/tools/post_101) |
-| 音乐合集16 | 迅雷网盘 | [点击进入](/tools/post_102) |
-| 音乐合集17 | 迅雷网盘 | [点击进入](/tools/post_103) |
-| 音乐合集18 | 迅雷网盘 | [点击进入](/tools/post_104) |
-| 音乐合集19 | 迅雷网盘 | [点击进入](/tools/post_105) |
-| 音乐合集2 | 网盘资源 | [点击进入](/tools/post_106) |
-| 音乐合集4 | 迅雷网盘 | [点击进入](/tools/post_107) |
-| 音乐合集5 | 迅雷网盘 | [点击进入](/tools/post_108) |
-| 音乐合集6 | 迅雷网盘 | [点击进入](/tools/post_109) |
-| 音乐合集7 | 迅雷网盘 | [点击进入](/tools/post_110) |
-| 音乐合集8 | 迅雷网盘 | [点击进入](/tools/post_111) |
-| 音乐合集9 | 迅雷网盘 | [点击进入](/tools/post_112) |
-| 音乐资源3 | 迅雷网盘 | [点击进入](/tools/post_113) |
-| 驾考题库大全会员版_ | Quark | [点击进入](/tools/post_114) |
-| 高品质车载DJ【音乐大碟 | Quark/UC | [点击进入](/tools/post_115) |
+| Dr.Fone Pro 丰博士 数据恢复 v5.3.4.000 汉化版 | 夸克网盘 | [点击进入](/tools/post_010) |
+| Dr.Fone万兴数据恢复v5.1.12.693高级版 | 夸克网盘 | [点击进入](/tools/post_011) |
+| DxO.PhotoLabRAW后期编辑软件 | 百度网盘 | [点击进入](/tools/post_012) |
+| DxO.PureRAW增强清晰降噪软件 | 百度网盘 | [点击进入](/tools/post_013) |
+| IObitUninstallerPro软件卸载专用工具 | 百度网盘 | [点击进入](/tools/post_014) |
+| L 灵珑 第二季 | Quark | [点击进入](/tools/post_015) |
+| Listen1（全网音乐免费听）） | Quark | [点击进入](/tools/post_016) |
+| Optics 2022.5.2.20221129汉化版 | 百度网盘 | [点击进入](/tools/post_017) |
+| PPT简历模板免费下载 | 百度网盘 | [点击进入](/tools/post_018) |
+| PhotoDiva 5.0 Chs Portable | 百度网盘 | [点击进入](/tools/post_019) |
+| PhotoMaster 16.7中文完整版 | 百度网盘 | [点击进入](/tools/post_020) |
+| PhotoWorks照片大师20.0 | 百度网盘 | [点击进入](/tools/post_021) |
+| Set a light 3D STUDIO V2.5.6汉化版 | 百度网盘 | [点击进入](/tools/post_022) |
+| SkinFiner 人像精修磨皮软件 | 百度网盘 | [点击进入](/tools/post_023) |
+| Unknown Title | Quark | [点击进入](/tools/post_024) |
+| U盘车载专用音乐 3068 首 24G | Quark | [点击进入](/tools/post_025) |
+| Web前端全栈HTML5+大神之路 | Quark/UC | [点击进入](/tools/post_026) |
+| manus手机版（先保存再使用） | Xunlei | [点击进入](/tools/post_027) |
+| 《108套别墅新农村自建房图纸》 | Quark | [点击进入](/tools/post_028) |
+| 〖李健11CD〗 | Quark | [点击进入](/tools/post_029) |
+| 三部限制级惊悚片，高血压远离 | Quark | [点击进入](/tools/post_030) |
+| 上班摸鱼_老板键（软件） | Quark | [点击进入](/tools/post_031) |
+| 中级社工教材（2025年） | Quark | [点击进入](/tools/post_032) |
+| 会员版软件合集 | Xunlei | [点击进入](/tools/post_033) |
+| 低音炮车载360首 | Quark | [点击进入](/tools/post_034) |
+| 全新推出的免费音乐听歌软件-尼卡音乐🎵 | Quark | [点击进入](/tools/post_035) |
+| 全球记录片合集 | Quark | [点击进入](/tools/post_036) |
+| 全能配音王_9.9.9 | 夸克网盘 | [点击进入](/tools/post_037) |
+| 刀郎】新歌《罗刹海市》+《辉煌十年绝版珍藏》无损3CD | Quark | [点击进入](/tools/post_038) |
+| 初级社工教材（2025年） | Quark | [点击进入](/tools/post_039) |
+| 剪映国际版 | 百度网盘 | [点击进入](/tools/post_040) |
+| 去水印工具 | Quark | [点击进入](/tools/post_041) |
+| 去水印擦除大师—会员版 | 夸克网盘 | [点击进入](/tools/post_042) |
+| 发烧人声音乐歌曲(340首 | Quark | [点击进入](/tools/post_043) |
+| 呐噗助眠 | Quark | [点击进入](/tools/post_044) |
+| 嗅觉浏览器 | Quark | [点击进入](/tools/post_045) |
+| 国语经典成名曲(100首)，转存即听 | Quark | [点击进入](/tools/post_046) |
+| 大万万老师PS功能精通课 | Quark | [点击进入](/tools/post_047) |
+| 宅男深夜小确幸【特殊，你懂得！ | Quark/UC | [点击进入](/tools/post_048) |
+| 实时翻译软件 | 夸克网盘 | [点击进入](/tools/post_049) |
+| 小小游戏模拟器 | 夸克网盘 | [点击进入](/tools/post_050) |
+| 小白创业指南老板商业必修课 | Quark | [点击进入](/tools/post_051) |
+| 小红花音效助手 | 夸克网盘 | [点击进入](/tools/post_052) |
+| 开心手机数据恢复大师会员版 | 夸克网盘 | [点击进入](/tools/post_053) |
+| 微信对话生成器 | Quark | [点击进入](/tools/post_054) |
+| 性感黑丝 | Quark | [点击进入](/tools/post_055) |
+| 手机照片恢复管家_7.5.0_VIP版_ | Quark | [点击进入](/tools/post_056) |
+| 扣子空间邀请码共享（转存后每天更新）.. | 迅雷网盘 | [点击进入](/tools/post_057) |
+| 扫描全能王 解锁付费版 | Quark | [点击进入](/tools/post_058) |
+| 搞笑表情包制作工具 | 夸克网盘 | [点击进入](/tools/post_059) |
+| 数据恢复软件（永久授权） | 夸克网盘 | [点击进入](/tools/post_060) |
+| 新手入行互联网月入6000完全指南 | 百度网盘 | [点击进入](/tools/post_061) |
+| 普通人翻身逆袭指南50讲秘方建立认知和赚钱的完整体系资料 | Quark | [点击进入](/tools/post_062) |
+| 某公众号付费文《未来三十年，我们该如何积累自己的财富》 | Quark | [点击进入](/tools/post_063) |
+| 某宝买的PS资源 | Quark/UC | [点击进入](/tools/post_064) |
+| 欧美节奏控音乐(100首 | Quark | [点击进入](/tools/post_065) |
+| 法考资料（2025年） | Quark | [点击进入](/tools/post_066) |
+| 洛雪音乐（附最新可用音源） | Quark | [点击进入](/tools/post_067) |
+| 炒股养家传记新版 | 百度网盘 | [点击进入](/tools/post_068) |
+| 爱死机 | Quark | [点击进入](/tools/post_069) |
+| 生财有术】上千条付费资源合集 | Quark | [点击进入](/tools/post_070) |
+| 画江湖之不良人 1-6季全集 | Quark | [点击进入](/tools/post_071) |
+| 百万富翁快车道 | 百度网盘 | [点击进入](/tools/post_072) |
+| 离婚合同离婚协议书模板 | Quark | [点击进入](/tools/post_073) |
+| 笔记本电脑维修完全手册 | Quark | [点击进入](/tools/post_074) |
+| 精选千首音乐（中日韩英车载夜店都有） | Quark | [点击进入](/tools/post_075) |
+| 精选音乐Mp3合集 | Quark/UC | [点击进入](/tools/post_076) |
+| 经典香港乐坛70-80-90歌曲 | Quark | [点击进入](/tools/post_077) |
+| 网易云评论超10万的歌曲 | Quark | [点击进入](/tools/post_078) |
+| 网易云评论超10万的歌曲 | Quark | [点击进入](/tools/post_079) |
+| 网页一键转应用_1.9APP | 夸克网盘 | [点击进入](/tools/post_080) |
+| 考神大牛（韩语）零基础0-TOPIK4全程班 | Quark | [点击进入](/tools/post_081) |
+| 英文流行歌曲(150首 | Quark | [点击进入](/tools/post_082) |
+| 草图大师三维建模 SketchUp | 百度网盘 | [点击进入](/tools/post_083) |
+| 评分最高的恐怖片 | Quark | [点击进入](/tools/post_084) |
+| 超级个体·普通人创造财富的无限游戏 | 百度网盘 | [点击进入](/tools/post_085) |
+| 车机 | Quark | [点击进入](/tools/post_086) |
+| 车载音乐U盘无损格式 | Quark | [点击进入](/tools/post_087) |
+| 软件合集 | Quark/UC | [点击进入](/tools/post_088) |
+| 软件合集1 | 迅雷网盘 | [点击进入](/tools/post_089) |
+| 软件合集10 | 迅雷网盘 | [点击进入](/tools/post_090) |
+| 软件合集2 | 迅雷网盘 | [点击进入](/tools/post_091) |
+| 软件合集3 | 迅雷网盘 | [点击进入](/tools/post_092) |
+| 软件合集4 | 迅雷网盘 | [点击进入](/tools/post_093) |
+| 软件合集5 | 迅雷网盘 | [点击进入](/tools/post_094) |
+| 软件合集6 | 迅雷网盘 | [点击进入](/tools/post_095) |
+| 软件合集7 | 迅雷网盘 | [点击进入](/tools/post_096) |
+| 软件合集8 | 迅雷网盘 | [点击进入](/tools/post_097) |
+| 软件合集9 | 迅雷网盘 | [点击进入](/tools/post_098) |
+| 软件插件汇总 | Quark | [点击进入](/tools/post_099) |
+| 达芬奇调色DaVinci_Resolve | 百度网盘 | [点击进入](/tools/post_100) |
+| 酒店防窥检测1.26 解锁会员版 | Quark | [点击进入](/tools/post_101) |
+| 降噪磨皮锐化人像修复FliFlik KlearMax for Photo | 百度网盘 | [点击进入](/tools/post_102) |
+| 雅思旗舰VIP直达7分班 | Quark | [点击进入](/tools/post_103) |
+| 韩国最出色的十一部R限制【39.7GB | Quark | [点击进入](/tools/post_104) |
+| 音乐合集1 | 网盘资源 | [点击进入](/tools/post_105) |
+| 音乐合集10 | 迅雷网盘 | [点击进入](/tools/post_106) |
+| 音乐合集11 | 迅雷网盘 | [点击进入](/tools/post_107) |
+| 音乐合集12 | 迅雷网盘 | [点击进入](/tools/post_108) |
+| 音乐合集13 | 迅雷网盘 | [点击进入](/tools/post_109) |
+| 音乐合集14 | 迅雷网盘 | [点击进入](/tools/post_110) |
+| 音乐合集15 | 迅雷网盘 | [点击进入](/tools/post_111) |
+| 音乐合集16 | 迅雷网盘 | [点击进入](/tools/post_112) |
+| 音乐合集17 | 迅雷网盘 | [点击进入](/tools/post_113) |
+| 音乐合集18 | 迅雷网盘 | [点击进入](/tools/post_114) |
+| 音乐合集19 | 迅雷网盘 | [点击进入](/tools/post_115) |
+| 音乐合集2 | 网盘资源 | [点击进入](/tools/post_116) |
+| 音乐合集4 | 迅雷网盘 | [点击进入](/tools/post_117) |
+| 音乐合集5 | 迅雷网盘 | [点击进入](/tools/post_118) |
+| 音乐合集6 | 迅雷网盘 | [点击进入](/tools/post_119) |
+| 音乐合集7 | 迅雷网盘 | [点击进入](/tools/post_120) |
+| 音乐合集8 | 迅雷网盘 | [点击进入](/tools/post_121) |
+| 音乐合集9 | 迅雷网盘 | [点击进入](/tools/post_122) |
+| 音乐资源3 | 迅雷网盘 | [点击进入](/tools/post_123) |
+| 驾考题库大全会员版_ | Quark | [点击进入](/tools/post_124) |
+| 高品质车载DJ【音乐大碟 | Quark/UC | [点击进入](/tools/post_125) |
 | 🎁 软件工具 / 实用插件 - 精选资源合集 | 多平台 | [点击进入](/tools/collection) |
