@@ -1,18 +1,21 @@
 ---
-title: "动漫小说合集1"
-description: "点击免费下载 动漫小说合集1。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
-keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 动漫小说合集1"
+title: "动漫小说9"
+description: "点击免费下载 动漫小说9。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
+keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 动漫小说9"
 ---
 
-# 动漫小说合集1
+# 动漫小说9
 
-<Badge type="tip" text="网盘资源" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="迅雷网盘" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: 动漫小说合集1
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **动漫小说9** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
+- **资源名称**: 动漫小说9
 - **所属分类**: 影视娱乐 / 短剧
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.xunlei.com/s/VOOk8r3ZNr60xSX58xAkQdCpA1?pwd=8v23#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.xunlei.com/s/VOYJVgSoUAhvX4E4C5QPoo0wA1?pwd=7khq#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
