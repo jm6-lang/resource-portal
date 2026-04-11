@@ -18,9 +18,12 @@ description: "小二郎独家注册卡采购渠道，提供稳定、正规的行
 - **售后保障**: 完善的售后机制，解决您的后顾之忧。
 
 ## 📥 获取方式
-> 💡 请点击下方链接获取最新的采购价目表及联系方式。
+> 💡 请扫描下方二维码，联系客服获取最新的采购价目表及渠道信息。
 
-<a href="#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+<div style="text-align: center; margin-top: 1.5rem;">
+  <img src="/reg-card-qr.png" alt="注册卡采购二维码" style="width: 200px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: inline-block;">
+  <p style="margin-top: 0.5rem; color: var(--vp-c-text-2); font-size: 0.9rem;">扫码获取最新渠道价目表</p>
+</div>
 
 ---
 ### 🛡️ 申明
