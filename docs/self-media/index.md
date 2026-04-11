@@ -13,6 +13,8 @@ title: "自媒体 / 电商运营"
 | 抖音快手热歌榜750首 | Quark | [点击进入](/self-media/post_005) |
 | 抖音电商（抖音小红书电商最新玩法！）（完结） | Quark/UC | [点击进入](/self-media/post_006) |
 | 旅行小红书起号运营，深入浅出为大家讲解旅行在小红书如何起号、涨粉、引流、变现 | Quark | [点击进入](/self-media/post_007) |
-| 起号：给自媒体人的60条实操干货 | Quark | [点击进入](/self-media/post_008) |
-| 闲鱼冷门跑步项目，keep代跑，有人日入5张 | 百度网盘 | [点击进入](/self-media/post_009) |
-| 餐饮人轻松同城引流必学课 | Quark | [点击进入](/self-media/post_010) |
+| 群发宝—会员版 | 夸克网盘 | [点击进入](/self-media/post_008) |
+| 自媒体群发矩阵平台电脑端 | 夸克网盘 | [点击进入](/self-media/post_009) |
+| 起号：给自媒体人的60条实操干货 | Quark | [点击进入](/self-media/post_010) |
+| 闲鱼冷门跑步项目，keep代跑，有人日入5张 | 百度网盘 | [点击进入](/self-media/post_011) |
+| 餐饮人轻松同城引流必学课 | Quark | [点击进入](/self-media/post_012) |
