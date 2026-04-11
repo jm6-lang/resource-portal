@@ -1,18 +1,21 @@
 ---
-title: "人人必修的AI启蒙课，启蒙课程，不含工具"
-description: "点击免费下载 人人必修的AI启蒙课，启蒙课程，不含工具。小二郎资源分享站深度整理，分类：AI 知识 / 人工智能。"
-keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 提示词, 绘画, 人人必修的AI启蒙课，启蒙课程，不含工具"
+title: "manus邀请码.."
+description: "点击免费下载 manus邀请码..。小二郎资源分享站深度整理，分类：AI 知识 / 人工智能。"
+keywords: "AI, 人工智能, AIGC, DeepSeek, ChatGPT, 提示词, 绘画, manus邀请码.."
 ---
 
-# 人人必修的AI启蒙课，启蒙课程，不含工具
+# manus邀请码..
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="Xunlei" /> <Badge type="warning" text="精品资源" />
 
-## 📋 资源详情
-- **资源名称**: 人人必修的AI启蒙课，启蒙课程，不含工具
+## 📋 资源介绍
+欢迎访问小二郎资源分享站！本页面提供 **manus邀请码..** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+
+## 📥 资源详情
+- **资源名称**: manus邀请码..
 - **所属分类**: AI 知识 / 人工智能
 - **更新日期**: 2026-04-10
-- **链接**: <a href="https://pan.quark.cn/s/8ed9effac7cc" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.xunlei.com/s/VOOk9I6HqwD7OHSTuQaoRez2A1?pwd=jwv5#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
