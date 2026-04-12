@@ -1,21 +1,21 @@
 ---
-title: "大万万老师PS功能精通课"
-description: "点击免费下载 大万万老师PS功能精通课。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
-keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 大万万老师PS功能精通课"
+title: "宅男深夜小确幸【特殊，你懂得！"
+description: "点击免费下载 宅男深夜小确幸【特殊，你懂得！。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
+keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 宅男深夜小确幸【特殊，你懂得！"
 ---
 
-# 大万万老师PS功能精通课
+# 宅男深夜小确幸【特殊，你懂得！
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **大万万老师PS功能精通课** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **宅男深夜小确幸【特殊，你懂得！** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 大万万老师PS功能精通课
+- **资源名称**: 宅男深夜小确幸【特殊，你懂得！
 - **所属分类**: 软件工具 / 实用插件
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/df4f8acc5070" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://drive.uc.cn/s/23b8b1f486fd4" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
