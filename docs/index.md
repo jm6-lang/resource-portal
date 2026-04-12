@@ -73,15 +73,15 @@ features:
   <span class="live-updates-label">实时动态</span>
   <div class="vertical-marquee-wrapper">
     <div class="vertical-marquee">
-      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118">最新上传：🎬精品纪录片资源库合集</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
       <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
       <!-- 循环显示 -->
-      <div class="update-item"><span class="time">1分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_037">最新上传：🎬精品影视合集资源</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/book/post_014">最新上传：📚高分精品小说大合集</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118">最新上传：🎬精品纪录片资源库合集</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
       <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
       <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
     </div>
