@@ -1,21 +1,21 @@
 ---
-title: "初级社工教材（2025年）"
-description: "点击免费下载 初级社工教材（2025年）。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
-keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 初级社工教材（2025年）"
+title: "剪映国际版"
+description: "点击免费下载 剪映国际版。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
+keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 剪映国际版"
 ---
 
-# 初级社工教材（2025年）
+# 剪映国际版
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **初级社工教材（2025年）** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **剪映国际版** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 初级社工教材（2025年）
+- **资源名称**: 剪映国际版
 - **所属分类**: 软件工具 / 实用插件
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/9de8457192dc" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.baidu.com/s/1rQjrRDPipkIGmRp9Ns0mPw?pwd=s64m" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
