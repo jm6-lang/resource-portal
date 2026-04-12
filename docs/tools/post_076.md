@@ -1,21 +1,21 @@
 ---
-title: "精选音乐Mp3合集"
-description: "点击免费下载 精选音乐Mp3合集。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
-keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 精选音乐Mp3合集"
+title: "经典香港乐坛70-80-90歌曲"
+description: "点击免费下载 经典香港乐坛70-80-90歌曲。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
+keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 经典香港乐坛70-80-90歌曲"
 ---
 
-# 精选音乐Mp3合集
+# 经典香港乐坛70-80-90歌曲
 
-<Badge type="tip" text="Quark/UC" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **精选音乐Mp3合集** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **经典香港乐坛70-80-90歌曲** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 精选音乐Mp3合集
+- **资源名称**: 经典香港乐坛70-80-90歌曲
 - **所属分类**: 软件工具 / 实用插件
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://drive.uc.cn/s/15e7b0d47d884" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.quark.cn/s/a7049a5ccf84" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
