@@ -1,21 +1,21 @@
 ---
-title: "动漫小说合集3"
-description: "点击免费下载 动漫小说合集3。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
-keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 动漫小说合集3"
+title: "动漫小说合集2"
+description: "点击免费下载 动漫小说合集2。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
+keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 动漫小说合集2"
 ---
 
-# 动漫小说合集3
+# 动漫小说合集2
 
 <Badge type="tip" text="网盘资源" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **动漫小说合集3** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **动漫小说合集2** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 动漫小说合集3
+- **资源名称**: 动漫小说合集2
 - **所属分类**: 影视娱乐 / 短剧
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.xunlei.com/s/VOOk9YF7jzyusr1gOGWKw_3fA1?pwd=yes6#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.xunlei.com/s/VOOk9969bGwx5MQQ0QJfb-CpA1?pwd=8zzp#" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
