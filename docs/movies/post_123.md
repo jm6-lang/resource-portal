@@ -1,21 +1,21 @@
 ---
-title: "高分R剧合集"
-description: "点击免费下载 高分R剧合集。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
-keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 高分R剧合集"
+title: "韩剧合集"
+description: "点击免费下载 韩剧合集。小二郎资源分享站深度整理，分类：影视娱乐 / 短剧。"
+keywords: "影视资源, 电影下载, 电视剧全集, 短剧合集, 4K电影, 动漫, 韩剧合集"
 ---
 
-# 高分R剧合集
+# 韩剧合集
 
 <Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **高分R剧合集** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **韩剧合集** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 高分R剧合集
+- **资源名称**: 韩剧合集
 - **所属分类**: 影视娱乐 / 短剧
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/50d8a466cff8" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.quark.cn/s/96401fd08a3d" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
