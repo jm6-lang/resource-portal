@@ -1,21 +1,21 @@
 ---
-title: "英文流行歌曲(150首"
-description: "点击免费下载 英文流行歌曲(150首。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
-keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 英文流行歌曲(150首"
+title: "草图大师三维建模 SketchUp"
+description: "点击免费下载 草图大师三维建模 SketchUp。小二郎资源分享站深度整理，分类：软件工具 / 实用插件。"
+keywords: "工具软件, 会员版软件, 插件下载, 绿色软件, 提效工具, 安卓应用, 草图大师三维建模 SketchUp"
 ---
 
-# 英文流行歌曲(150首
+# 草图大师三维建模 SketchUp
 
-<Badge type="tip" text="Quark" /> <Badge type="warning" text="精品资源" />
+<Badge type="tip" text="百度网盘" /> <Badge type="warning" text="精品资源" />
 
 ## 📋 资源介绍
-欢迎访问小二郎资源分享站！本页面提供 **英文流行歌曲(150首** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
+欢迎访问小二郎资源分享站！本页面提供 **草图大师三维建模 SketchUp** 的免费下载链接。该资源经过深度整理，旨在为您提供优质的学习与研究素材。
 
 ## 📥 资源详情
-- **资源名称**: 英文流行歌曲(150首
+- **资源名称**: 草图大师三维建模 SketchUp
 - **所属分类**: 软件工具 / 实用插件
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/85a951dc657b" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.baidu.com/s/1JogLViWC4XQX8X27pcur7Q?pwd=k7ev" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
