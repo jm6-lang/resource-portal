@@ -235,8 +235,14 @@ const calculate = async () => {
     // Load iztro from local CDN bundle (bypasses Vite SSR bundling issues)
     const astro = await loadIztro()
     console.log('[ZiWeiCalculator] astro loaded:', !!astro)
+    console.log('[ZiWeiCalculator] byLunar:', typeof astro?.byLunar)
     console.log('[ZiWeiCalculator] lunar input:', lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value)
 
+    if (!astro || !astro.byLunar) {
+      throw new Error('iztro库加载失败，请检查网络连接或刷新页面重试')
+    }
+
+    // 调用农历排盘 API
     const board = astro.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
     console.log('[ZiWeiCalculator] board result:', board)
 
