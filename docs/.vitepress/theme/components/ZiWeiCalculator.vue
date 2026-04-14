@@ -151,7 +151,6 @@ import { ref } from 'vue'
 
 const birthDate = ref('1990-01-01')
 const birthTime = ref(0)
-const gender = ref('male')
 const lunarYear = ref(1990)
 const lunarMonth = ref(1)
 const lunarDay = ref(1)
@@ -163,7 +162,6 @@ const lunarDays = (() => {
   for (let i = 1; i <= 30; i++) d.push(i + '日')
   return d
 })()
-const gender = ref('male')
 const result = ref<any>(null)
 const loading = ref(false)
 const errorMsg = ref('')
@@ -254,8 +252,7 @@ const calculate = async () => {
 
     // Build all decades list from all palaces (each palace has one decadal info)
     const currentYear = new Date().getFullYear()
-    const birthYear = parseInt(birthDate.value.substring(0, 4), 10)
-    const age = currentYear - birthYear + 1 // 虚岁
+    const age = currentYear - lunarYear.value + 1 // 虚岁
 
     const allDecades = []
     const currentDecadePalaceIdx = -1
