@@ -194,16 +194,20 @@ let _iztroLoaded: any = null
 async function loadIztro() {
   if (_iztroLoaded) return _iztroLoaded
   return new Promise((resolve, reject) => {
-    if ((window as any).iztro) {
-      // UMD module exports a function, call it to get the module object
-      _iztroLoaded = (window as any).iztro()
+    const iztroGlobal = (window as any).iztro
+    if (iztroGlobal) {
+      // Handle both: iztro is a function (UMD) or already an object
+      _iztroLoaded = typeof iztroGlobal === 'function' ? iztroGlobal() : iztroGlobal
       resolve(_iztroLoaded)
       return
     }
     const script = document.createElement('script')
     script.src = 'https://unpkg.com/iztro@2.5.8/dist/iztro.min.js'
     script.onload = () => {
-      _iztroLoaded = (window as any).iztro()
+      const iztroFn = (window as any).iztro
+      console.log('[ZiWeiCalculator] iztro loaded, type:', typeof iztroFn)
+      _iztroLoaded = typeof iztroFn === 'function' ? iztroFn() : iztroFn
+      console.log('[ZiWeiCalculator] iztro module:', !!_iztroLoaded, Object.keys(_iztroLoaded || {}))
       resolve(_iztroLoaded)
     }
     script.onerror = () => reject(new Error('iztro 库加载失败，请检查网络连接'))
