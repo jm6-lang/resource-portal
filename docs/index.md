@@ -126,7 +126,7 @@ features:
 
 ### 🔍 热门分类搜索
 
-[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#会员版软件`](/tools/) [`#考公资料`](/curriculum/) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
+[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#会员版软件`](/tools/) [`#考公资料`](/curriculum/) [`#紫微斗数`](/chinese-traditional/ziwei) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
 
 ---
 
