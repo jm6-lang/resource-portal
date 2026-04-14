@@ -247,10 +247,25 @@ const calculate = async () => {
       throw new Error('iztro库加载失败，请刷新页面重试')
     }
 
-    // 调用农历排盘 API (byLunar需要参数: 年, 月, 日, 闰月?, 时辰, 性别, 是否逆行?)
-    // 参数顺序需要确认，不同版本iztro可能不同
-    const board = astroModule.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
-    console.log('[ZiWeiCalculator] board result:', board)
+    // 尝试使用 bySolar (农历日期需转换为阳历)
+    // 如果失败则尝试 byLunar
+    let board = null
+    try {
+      // bySolar: (dateString, timeIndex, gender, isReverse?)
+      // dateString 格式: "YYYY-MM-DD"
+      const dateStr = `${lunarYear.value}-${String(lunarMonth.value).padStart(2, '0')}-${String(lunarDay.value).padStart(2, '0')}`
+      console.log('[ZiWeiCalculator] trying bySolar:', dateStr, birthTime.value, gender.value)
+      board = astroModule.bySolar(dateStr, birthTime.value, gender.value, true)
+      console.log('[ZiWeiCalculator] bySolar result:', board)
+    } catch (e) {
+      console.log('[ZiWeiCalculator] bySolar failed:', e.message)
+      console.log('[ZiWeiCalculator] trying byLunar instead...')
+      // byLunar: (year, month, day, leapMonth?, timeIndex, gender, isReverse?)
+      board = astroModule.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
+      console.log('[ZiWeiCalculator] byLunar result:', board)
+    }
+
+    console.log('[ZiWeiCalculator] final board:', board)
 
     if (!board || !board.palaces || board.palaces.length === 0) {
       throw new Error('排盘数据异常，请检查日期格式是否正确')
