@@ -141,13 +141,13 @@ import { ref } from 'vue'
 const birthDate = ref('1990-01-01')
 const birthTime = ref(0)
 const gender = ref('male')
-const result = ref(null)
+const result = ref<any>(null)
 const loading = ref(false)
 const errorMsg = ref('')
 
-const pastDecade = ref(null)
-const currentDecade = ref(null)
-const futureDecade = ref(null)
+const pastDecade = ref<any>(null)
+const currentDecade = ref<any>(null)
+const futureDecade = ref<any>(null)
 
 const timeNames = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥']
 
@@ -190,6 +190,7 @@ async function loadIztro() {
 }
 
 
+const getInterpretation = (stars: any) => {
   if (!stars || stars.length === 0) return '此阶段运势相对平稳，适合潜心学习或沉淀积累。'
   const matched = stars.find(s => starInterpretations[s])
   return matched
