@@ -168,7 +168,28 @@ const starInterpretations = {
   '破军': '转折与革新期，主动寻求变化，容易打破旧有僵局。',
 }
 
-const getInterpretation = (stars) => {
+// Load iztro from unpkg CDN — bypasses Vite SSR bundling issue
+let _iztroLoaded: any = null
+async function loadIztro() {
+  if (_iztroLoaded) return _iztroLoaded
+  return new Promise((resolve, reject) => {
+    if ((window as any).iztro) {
+      _iztroLoaded = (window as any).iztro
+      resolve(_iztroLoaded)
+      return
+    }
+    const script = document.createElement('script')
+    script.src = 'https://unpkg.com/iztro@2.5.8/dist/iztro.min.js'
+    script.onload = () => {
+      _iztroLoaded = (window as any).iztro
+      resolve(_iztroLoaded)
+    }
+    script.onerror = () => reject(new Error('iztro 库加载失败，请检查网络连接'))
+    document.head.appendChild(script)
+  })
+}
+
+
   if (!stars || stars.length === 0) return '此阶段运势相对平稳，适合潜心学习或沉淀积累。'
   const matched = stars.find(s => starInterpretations[s])
   return matched
@@ -188,8 +209,8 @@ const calculate = async () => {
   await new Promise(r => setTimeout(r, 300))
 
   try {
-    // Dynamic import to avoid SSR issues
-    const [{ astro }] = await Promise.all([import('iztro')])
+    // Load iztro from local CDN bundle (bypasses Vite SSR bundling issues)
+    const astro = await loadIztro()
 
     const board = astro.bySolar(birthDate.value, birthTime.value, gender.value, true)
 
