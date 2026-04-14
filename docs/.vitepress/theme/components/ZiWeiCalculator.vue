@@ -203,7 +203,7 @@ async function loadIztro() {
       return
     }
     const script = document.createElement('script')
-    script.src = 'https://cdn.jsdelivr.net/npm/iztro@2.3.2/dist/iztro.min.js'
+    script.src = 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js'
     script.onload = () => {
       const iztroFn = (window as any).iztro
       console.log('[ZiWeiCalculator] iztro loaded, type:', typeof iztroFn)
