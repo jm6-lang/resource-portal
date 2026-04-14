@@ -33,7 +33,7 @@
       <div class="board-header card">
         <div class="user-info">
           <span class="badge">{{ gender === 'male' ? '乾造' : '坤造' }}</span>
-          <span class="info-text">{{ birthDate }} {{ timeNames[birthTime] }}时生</span>
+          <span class="info-text">{{ result.solarDate.year }}年{{ result.solarDate.month }}月{{ result.solarDate.day }}日 {{ timeNames[birthTime] }}时生</span>
         </div>
         <div class="summary-grid">
           <div class="summary-item">
@@ -46,7 +46,7 @@
           </div>
           <div class="summary-item">
             <div class="label">命宫主星</div>
-            <div class="value primary-stars">{{ getMainStars(result.palaces[result.meIndex]) }}</div>
+            <div class="value primary-stars">{{ getMainStars(result.soulPalace) }}</div>
           </div>
         </div>
       </div>
@@ -54,26 +54,26 @@
       <!-- 十年运势 -->
       <div class="fortune-section">
         <div class="fortune-card past card">
-          <div class="card-tag">前十年运势 (上个大限)</div>
+          <div class="card-tag">前一个大限 (回顾过去)</div>
           <div v-if="pastDecade" class="fortune-content">
             <div class="decade-info">
               <span class="age-range">{{ pastDecade.range[0] }} - {{ pastDecade.range[1] }} 岁</span>
-              <span class="palace-name">{{ pastDecade.palace.name }}</span>
+              <span class="palace-name">{{ pastDecade.palaceName }}</span>
             </div>
             <div class="stars-row">
               <span v-for="star in pastDecade.stars" :key="star" class="star-badge">{{ star }}</span>
             </div>
             <p class="interpretation">{{ pastDecade.desc }}</p>
           </div>
-          <div v-else class="empty-state">尚无记录</div>
+          <div v-else class="empty-state">尚在幼年或起始运势</div>
         </div>
 
         <div class="fortune-card current card highlight">
-          <div class="card-tag">当前十年运势 (本大限)</div>
+          <div class="card-tag">当前大限 (正在经历)</div>
           <div v-if="currentDecade" class="fortune-content">
             <div class="decade-info">
               <span class="age-range">{{ currentDecade.range[0] }} - {{ currentDecade.range[1] }} 岁</span>
-              <span class="palace-name">{{ currentDecade.palace.name }}</span>
+              <span class="palace-name">{{ currentDecade.palaceName }}</span>
             </div>
             <div class="stars-row">
               <span v-for="star in currentDecade.stars" :key="star" class="star-badge highlight">{{ star }}</span>
@@ -83,11 +83,11 @@
         </div>
 
         <div class="fortune-card future card">
-          <div class="card-tag">未来十年运势 (下个大限)</div>
+          <div class="card-tag">下一个大限 (展望未来)</div>
           <div v-if="futureDecade" class="fortune-content">
             <div class="decade-info">
               <span class="age-range">{{ futureDecade.range[0] }} - {{ futureDecade.range[1] }} 岁</span>
-              <span class="palace-name">{{ futureDecade.palace.name }}</span>
+              <span class="palace-name">{{ futureDecade.palaceName }}</span>
             </div>
             <div class="stars-row">
               <span v-for="star in futureDecade.stars" :key="star" class="star-badge">{{ star }}</span>
@@ -120,20 +120,20 @@ const futureDecade = ref(null);
 const timeNames = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
 
 const starInterpretations = {
-  '紫微': '此阶段利于事业攀升，易得长辈或贵人相助，名声渐起。',
-  '天府': '财运稳健，理财投资易有收获，生活安逸，适合积累。',
-  '武曲': '求财动力强，凡事亲力亲为，虽辛苦但收获颇丰。',
-  '天相': '人际关系和谐，适合辅助性质的工作，平稳中求发展。',
-  '太阳': '充满朝气，利于向外拓展名气，男性贵人助力大。',
-  '太阴': '情感细腻，财源来自于稳定工作，注意女性亲属关系。',
-  '贪狼': '机会较多，社交活动频繁，适合创意与交际类事务。',
-  '巨门': '利于口才、技术或学术研究，需注意言语纠纷。',
-  '廉贞': '野心勃勃，竞争心强，事业易有大的突破和变动。',
-  '天同': '福气较好，心态平和，适合守成或团队协作。',
-  '天梁': '遇难呈祥，易得长辈关照，适合处理法律或传统事务。',
-  '天机': '头脑灵活，计划多变，适合脑力劳动和新领域探索。',
-  '七杀': '敢打敢拼，事业面临大的开创机会，波动中前行。',
-  '破军': '破旧立新，人生面临重大转型，需谨慎应对变局。'
+  '紫微': '名望与事业的巅峰期，易得贵人提拔，地位显著提升。',
+  '天府': '物质财富稳健积累期，利于理财与房产，生活富足。',
+  '武曲': '实干求财阶段，行动力极强，虽劳心劳力但回报丰厚。',
+  '天相': '和谐平衡期，适合从事协调、咨询工作，人缘极佳。',
+  '太阳': '事业名声大振，活力四射，适合向外拓展和公众事务。',
+  '太阴': '情感与财运并进，心思细腻，生活品位提升，利于女性。',
+  '贪狼': '充满变数与机遇，社交活动增多，适合创意与破局。',
+  '巨门': '沟通交流为主，利于技术研发或学术，谨防口舌之争。',
+  '廉贞': '竞争与突破并存，野心与创造力迸发，事業易有大跨越。',
+  '天同': '安逸享乐期，心态平和，利于團隊協作及情感修復。',
+  '天梁': '福德庇佑阶段，遇难呈祥，适合處理傳統事務或公益。',
+  '天机': '智慧與計劃齊飛，思路敏捷，適合跨界嘗試及策劃工作。',
+  '七杀': '開拓進取期，生活節奏加快，雖有波動但極具開創性。',
+  '破军': '轉折與革新期，主動尋求變化，容易打破舊有僵局。'
 };
 
 const getMainStars = (palace) => {
@@ -142,33 +142,37 @@ const getMainStars = (palace) => {
 };
 
 const getInterpretation = (stars) => {
-  if (stars.length === 0) return '此阶段运势平稳，适合潜心学习。';
+  if (stars.length === 0) return '此阶段运势相对平稳，适合潜心学习或沉淀积累。';
   const matched = stars.find(s => starInterpretations[s]);
-  return matched ? starInterpretations[matched] : '星象汇聚，运势多变，宜稳中求进。';
+  return matched ? starInterpretations[matched] : '星象汇聚，运势充满变数，宜稳扎稳打，寻找新的突破点。';
 };
 
 const calculate = () => {
   loading.value = true;
   result.value = null;
   
+  // Quick simulation delay for UX
   setTimeout(() => {
     try {
+      // Input date format: YYYY-MM-DD
       const board = astro.bySolar(birthDate.value, birthTime.value, gender.value, true);
       const nowYear = new Date().getFullYear();
-      
-      // Find current decade
-      const decadePalace = board.palaces.find(p => p.decades[0] <= (nowYear - board.birthYear) && p.decades[1] >= (nowYear - board.birthYear));
-      const decadeIdx = board.palaces.indexOf(decadePalace);
-      
-      // Iztro's decades mapping is complex, let's simplify for the "past/future" request
-      // We'll iterate all palaces and find the sequence of decades
+      const currentAge = nowYear - board.solarDate.year + 1; // 虚岁 or consistent age check
+
+      // Map all palaces to their decade info
       const allDecades = board.palaces.map(p => ({
-        range: p.decades,
-        palace: p,
+        range: p.decadal.range,
+        palaceName: p.name,
         stars: p.majorStars.map(s => s.name)
       })).sort((a, b) => a.range[0] - b.range[0]);
 
-      const currentIdx = allDecades.findIndex(d => d.range[0] <= (nowYear - board.birthYear) && d.range[1] >= (nowYear - board.birthYear));
+      // Find current decade index
+      const currentIdx = allDecades.findIndex(d => currentAge >= d.range[0] && currentAge <= d.range[1]);
+
+      if (currentIdx === -1) {
+        // Fallback for edge cases (e.g. very young or very old)
+        throw new Error('Age out of decade ranges');
+      }
 
       pastDecade.value = currentIdx > 0 ? {
         ...allDecades[currentIdx - 1],
@@ -186,19 +190,18 @@ const calculate = () => {
       } : null;
 
       result.value = {
+        solarDate: board.solarDate,
         zodiac: board.zodiac,
         sign: board.sign,
-        palaces: board.palaces,
-        meIndex: board.meIndex,
-        birthYear: board.birthYear
+        soulPalace: board.palaces.find(p => p.name === '命宫') || board.palaces[0]
       };
     } catch (e) {
-      console.error(e);
+      console.error('[ZiWei] Calculation failed:', e);
       alert('排盘失败，请检查日期输入是否正确。');
     } finally {
       loading.value = false;
     }
-  }, 600);
+  }, 500);
 };
 </script>
 
@@ -215,7 +218,6 @@ const calculate = () => {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease;
 }
 
 .section-title {
@@ -223,6 +225,7 @@ const calculate = () => {
   margin-bottom: 1.5rem;
   color: var(--vp-c-brand-1);
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .form-grid {
@@ -286,18 +289,19 @@ const calculate = () => {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .badge {
   background: var(--vp-c-brand-1);
   color: white;
-  padding: 2px 8px;
+  padding: 2px 10px;
   border-radius: 4px;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.info-text { font-weight: bold; }
+.info-text { font-weight: 600; font-size: 1.05rem; }
 
 .summary-grid {
   display: grid;
@@ -306,14 +310,14 @@ const calculate = () => {
   text-align: center;
 }
 
-.label { font-size: 0.75rem; color: var(--vp-c-text-2); margin-bottom: 4px; }
-.value { font-weight: bold; font-size: 1.1rem; }
+.label { font-size: 0.75rem; color: var(--vp-c-text-2); margin-bottom: 6px; }
+.value { font-weight: bold; font-size: 1.15rem; }
 .primary-stars { color: var(--vp-c-brand-1); }
 
 .fortune-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.2rem;
 }
 
 .fortune-card {
@@ -323,15 +327,16 @@ const calculate = () => {
 
 .highlight {
   border: 2px solid var(--vp-c-brand-1) !important;
-  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15) !important;
 }
 
 .card-tag {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 800;
   color: var(--vp-c-brand-1);
   margin-bottom: 1rem;
+  letter-spacing: 0.05em;
 }
 
 .decade-info {
@@ -341,22 +346,23 @@ const calculate = () => {
   margin-bottom: 0.8rem;
 }
 
-.age-range { font-weight: bold; font-size: 1.2rem; }
-.palace-name { color: var(--vp-c-text-2); }
+.age-range { font-weight: 700; font-size: 1.25rem; }
+.palace-name { color: var(--vp-c-text-2); font-weight: 500; }
 
 .stars-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
   margin-bottom: 1rem;
 }
 
 .star-badge {
   background: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-divider);
-  padding: 2px 8px;
-  border-radius: 6px;
+  padding: 3px 10px;
+  border-radius: 8px;
   font-size: 0.85rem;
+  font-weight: 500;
 }
 
 .star-badge.highlight {
@@ -367,7 +373,7 @@ const calculate = () => {
 
 .interpretation {
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--vp-c-text-2);
 }
 
@@ -376,16 +382,18 @@ const calculate = () => {
   color: var(--vp-c-text-3);
   text-align: center;
   margin-top: 2rem;
+  font-style: italic;
 }
 
 .empty-state {
   text-align: center;
   color: var(--vp-c-text-3);
-  padding: 1rem;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 640px) {
   .summary-grid { grid-template-columns: 1fr; }
-  .highlight { transform: none; }
+  .fortune-section { grid-template-columns: 1fr; }
 }
 </style>
