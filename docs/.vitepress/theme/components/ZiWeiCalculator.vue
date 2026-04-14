@@ -4,8 +4,19 @@
       <h3 class="section-title">🔮 紫微斗数排盘及十年运势分析</h3>
       <div class="form-grid">
         <div class="form-item">
-          <label>阳历生日</label>
-          <input type="date" v-model="birthDate" />
+          <label>农历生日</label>
+          <div class="lunar-inputs">
+            <select v-model="lunarYear">
+              <option v-for="y in years" :key="y" :value="y">{{ y }}年</option>
+            </select>
+            <select v-model="lunarMonth">
+              <option v-for="(m, i) in lunarMonths" :key="i" :value="i+1">{{ m }}</option>
+            </select>
+            <select v-model="lunarDay">
+              <option v-for="(d, i) in lunarDays" :key="i" :value="i+1">{{ d }}</option>
+            </select>
+            <label class="leap-checkbox"><input type="checkbox" v-model="isLeapMonth" /> 闰月</label>
+          </div>
         </div>
         <div class="form-item">
           <label>出生时辰</label>
@@ -141,6 +152,18 @@ import { ref } from 'vue'
 const birthDate = ref('1990-01-01')
 const birthTime = ref(0)
 const gender = ref('male')
+const lunarYear = ref(1990)
+const lunarMonth = ref(1)
+const lunarDay = ref(1)
+const isLeapMonth = ref(false)
+const years = Array.from({length: 100}, (_, i) => 1950 + i)
+const lunarMonths = ['正月','二月','三月','四月','五月','六月','七月','八月','九月','十月','冬月','腊月']
+const lunarDays = (() => {
+  const d = []
+  for (let i = 1; i <= 30; i++) d.push(i + '日')
+  return d
+})()
+const gender = ref('male')
 const result = ref<any>(null)
 const loading = ref(false)
 const errorMsg = ref('')
@@ -213,8 +236,11 @@ const calculate = async () => {
   try {
     // Load iztro from local CDN bundle (bypasses Vite SSR bundling issues)
     const astro = await loadIztro()
+    console.log('[ZiWeiCalculator] astro loaded:', !!astro)
+    console.log('[ZiWeiCalculator] lunar input:', lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value)
 
-    const board = astro.bySolar(birthDate.value, birthTime.value, gender.value, true)
+    const board = astro.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
+    console.log('[ZiWeiCalculator] board result:', board)
 
     if (!board || !board.palaces || board.palaces.length === 0) {
       throw new Error('排盘数据异常，请检查日期格式是否正确')
@@ -359,7 +385,23 @@ const calculate = async () => {
   font-size: 0.9rem;
 }
 
-.form-item input,
+.lunar-inputs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.lunar-inputs select {
+  width: auto;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+.leap-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
 .form-item select {
   width: 100%;
   padding: 0.8rem;
