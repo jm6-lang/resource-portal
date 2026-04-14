@@ -128,6 +128,13 @@ def reorganize():
         cat_info = CATEGORIES.get(cat_id, {"name": "其它资源", "seo_keywords": "资源下载"})
         
         index_entries = []
+        
+        # Add special tools/features
+        FEATURED_TOOLS = {
+            "chinese-traditional": ["| 🔮 紫微斗数排盘 | 在线算命 | [点击进入](/chinese-traditional/ziwei) |"]
+        }
+        if cat_id in FEATURED_TOOLS:
+            index_entries.extend(FEATURED_TOOLS[cat_id])
 
         for i, res in enumerate(resources):
             post_id = f"post_{i+1:03d}"
