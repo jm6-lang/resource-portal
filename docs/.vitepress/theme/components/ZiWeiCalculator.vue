@@ -155,6 +155,7 @@ const lunarYear = ref(1990)
 const lunarMonth = ref(1)
 const lunarDay = ref(1)
 const isLeapMonth = ref(false)
+const gender = ref('male')
 const years = Array.from({length: 100}, (_, i) => 1950 + i)
 const lunarMonths = ['正月','二月','三月','四月','五月','六月','七月','八月','九月','十月','冬月','腊月']
 const lunarDays = (() => {
@@ -236,18 +237,19 @@ const calculate = async () => {
   await new Promise(r => setTimeout(r, 300))
 
   try {
-    // Load iztro from local CDN bundle (bypasses Vite SSR bundling issues)
-    const astro = await loadIztro()
-    console.log('[ZiWeiCalculator] astro loaded:', !!astro)
-    console.log('[ZiWeiCalculator] byLunar:', typeof astro?.byLunar)
-    console.log('[ZiWeiCalculator] lunar input:', lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value)
+    // Load iztro from unpkg CDN (bypasses Vite SSR bundling)
+    const iztro = await loadIztro()
+    console.log('[ZiWeiCalculator] iztro module keys:', Object.keys(iztro))
+    const astroModule = iztro?.astro
+    console.log('[ZiWeiCalculator] astro module:', !!astroModule, typeof astroModule?.byLunar)
 
-    if (!astro || !astro.byLunar) {
-      throw new Error('iztro库加载失败，请检查网络连接或刷新页面重试')
+    if (!astroModule || !astroModule.byLunar) {
+      throw new Error('iztro库加载失败，请刷新页面重试')
     }
 
-    // 调用农历排盘 API
-    const board = astro.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
+    // 调用农历排盘 API (byLunar需要参数: 年, 月, 日, 闰月?, 时辰, 性别, 是否逆行?)
+    // 参数顺序需要确认，不同版本iztro可能不同
+    const board = astroModule.byLunar(lunarYear.value, lunarMonth.value, lunarDay.value, isLeapMonth.value, birthTime.value, gender.value, true)
     console.log('[ZiWeiCalculator] board result:', board)
 
     if (!board || !board.palaces || board.palaces.length === 0) {
