@@ -23,8 +23,8 @@
           </div>
         </div>
       </div>
-      <button @click="calculate" class="calc-btn" :disabled="loading">
-        {{ loading ? '计算中...' : '立即排盘' }}
+      <button @click="calculate" class="calc-btn" :disabled="loading || !isReady">
+        {{ loading ? '计算中...' : (!isReady ? '加载中...' : '立即排盘') }}
       </button>
     </div>
 
@@ -33,7 +33,6 @@
     </div>
 
     <div v-if="result" class="result-section">
-      <!-- 核心看板 -->
       <div class="board-header card">
         <div class="user-info">
           <span class="badge">{{ gender === 'male' ? '乾造' : '坤造' }}</span>
@@ -55,7 +54,6 @@
         </div>
       </div>
 
-      <!-- 十年运势 -->
       <div class="fortune-section">
         <div class="fortune-card past card">
           <div class="card-tag">上个大限 (回顾过去)</div>
@@ -116,23 +114,23 @@ const gender = ref('male');
 const result = ref(null);
 const loading = ref(false);
 const errorMsg = ref(null);
+const isReady = ref(false);
 
 const pastDecade = ref(null);
 const currentDecade = ref(null);
 const futureDecade = ref(null);
 
-// Store astro object
-let astroModule = null;
-
-onMounted(async () => {
-  // Dynamic import to ensure it's loaded in browser context
-  try {
-    const iztro = await import('iztro');
-    astroModule = iztro.astro;
-  } catch (e) {
-    console.error('Failed to load iztro:', e);
-    errorMsg.value = '系统组件加载失败，请刷新页面重试。';
-  }
+onMounted(() => {
+  // Wait for global iztro to be ready
+  const checkIztro = setInterval(() => {
+    if (typeof window.iztro !== 'undefined' && window.iztro.astro) {
+      isReady.value = true;
+      clearInterval(checkIztro);
+    }
+  }, 200);
+  
+  // Timeout after 5 seconds
+  setTimeout(() => clearInterval(checkIztro), 5000);
 });
 
 const timeNames = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
@@ -167,7 +165,7 @@ const calculate = () => {
   currentDecade.value = null;
   futureDecade.value = null;
   
-  if (!astroModule) {
+  if (!isReady.value) {
     errorMsg.value = '系统加载中，请稍等片刻再试。';
     return;
   }
@@ -175,6 +173,8 @@ const calculate = () => {
   loading.value = true;
 
   try {
+    // Use global iztro from CDN
+    const astroModule = window.iztro.astro;
     const solarDateStr = birthDate.value;
     const timeIndex = parseInt(birthTime.value, 10);
     const genderStr = gender.value;
@@ -183,7 +183,7 @@ const calculate = () => {
     
     const board = astroModule.bySolar(solarDateStr, timeIndex, genderStr, true);
     
-    console.log('[ZiWei] Board loaded:', board ? 'OK' : 'NULL');
+    console.log('[ZiWei] Board:', board);
 
     if (!board || !board.palaces) {
       throw new Error('排盘数据生成失败');
@@ -193,16 +193,12 @@ const calculate = () => {
     const birthYear = parseInt(solarDateStr.split('-')[0], 10);
     const currentAge = nowYear - birthYear + 1;
 
-    console.log('[ZiWei] Age:', currentAge);
-
     // Get all decade ranges
     const allDecades = board.palaces.map(p => ({
       range: p.decadal ? p.decadal.range : [0, 0],
       palaceName: p.name || '未知',
       stars: p.majorStars ? p.majorStars.map(s => s.name) : []
     })).sort((a, b) => a.range[0] - b.range[0]);
-
-    console.log('[ZiWei] Decades:', allDecades.map(d => d.range));
 
     // Find current decade
     let currentIdx = -1;
@@ -213,10 +209,7 @@ const calculate = () => {
       }
     }
 
-    console.log('[ZiWei] Current Index:', currentIdx);
-
     if (currentIdx === -1) {
-      // Default to first decade if not found
       currentIdx = 0;
     }
 
@@ -262,199 +255,37 @@ const calculate = () => {
 </script>
 
 <style scoped>
-.ziwei-calculator {
-  margin: 2rem 0;
-  color: var(--vp-c-text-1);
-}
-
-.card {
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 16px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.error-box {
-  background: #fef2f2;
-  border-color: #fecaca;
-  color: #dc2626;
-}
-
-.section-title {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  color: var(--vp-c-brand-1);
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-.form-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.form-item label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.form-item input, .form-item select {
-  width: 100%;
-  padding: 0.8rem;
-  border-radius: 8px;
-  border: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-1);
-}
-
-.radio-group {
-  display: flex;
-  gap: 1.5rem;
-  padding: 0.5rem 0;
-}
-
-.calc-btn {
-  width: 100%;
-  padding: 1rem;
-  background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, #a855f7 100%);
-  color: white;
-  border: none;
-  border-radius: 12px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.calc-btn:hover:not(:disabled) {
-  opacity: 0.9;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(99, 102, 241, 0.4);
-}
-
-.calc-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.board-header {
-  border-left: 5px solid var(--vp-c-brand-1);
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 1.2rem;
-}
-
-.badge {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 2px 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
+.ziwei-calculator { margin: 2rem 0; color: var(--vp-c-text-1); }
+.card { background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.error-box { background: #fef2f2; border-color: #fecaca; color: #dc2626; }
+.section-title { margin-top: 0; margin-bottom: 1.5rem; color: var(--vp-c-brand-1); font-size: 1.4rem; text-align: center; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem; }
+.form-item label { display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 0.9rem; }
+.form-item input, .form-item select { width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg); color: var(--vp-c-text-1); }
+.radio-group { display: flex; gap: 1.5rem; padding: 0.5rem 0; }
+.calc-btn { width: 100%; padding: 1rem; background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, #a855f7 100%); color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer; transition: all 0.3s ease; }
+.calc-btn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-2px); box-shadow: 0 6px 15px rgba(99, 102, 241, 0.4); }
+.calc-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.board-header { border-left: 5px solid var(--vp-c-brand-1); }
+.user-info { display: flex; align-items: center; gap: 10px; margin-bottom: 1.2rem; }
+.badge { background: var(--vp-c-brand-1); color: white; padding: 2px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; }
 .info-text { font-weight: 600; font-size: 1.05rem; }
-
-.summary-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  text-align: center;
-}
-
+.summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; text-align: center; }
 .label { font-size: 0.75rem; color: var(--vp-c-text-2); margin-bottom: 6px; }
 .value { font-weight: bold; font-size: 1.15rem; }
 .primary-stars { color: var(--vp-c-brand-1); }
-
-.fortune-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.2rem;
-}
-
-.fortune-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.highlight {
-  border: 2px solid var(--vp-c-brand-1) !important;
-  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15) !important;
-}
-
-.card-tag {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  font-weight: 800;
-  color: var(--vp-c-brand-1);
-  margin-bottom: 1rem;
-  letter-spacing: 0.05em;
-}
-
-.decade-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.8rem;
-}
-
+.fortune-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+.fortune-card { position: relative; overflow: hidden; }
+.highlight { border: 2px solid var(--vp-c-brand-1) !important; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15) !important; }
+.card-tag { font-size: 0.75rem; text-transform: uppercase; font-weight: 800; color: var(--vp-c-brand-1); margin-bottom: 1rem; letter-spacing: 0.05em; }
+.decade-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; }
 .age-range { font-weight: 700; font-size: 1.25rem; }
 .palace-name { color: var(--vp-c-text-2); font-weight: 500; }
-
-.stars-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 1rem;
-}
-
-.star-badge {
-  background: var(--vp-c-bg-alt);
-  border: 1px solid var(--vp-c-divider);
-  padding: 3px 10px;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.star-badge.highlight {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
-}
-
-.interpretation {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: var(--vp-c-text-2);
-}
-
-.disclaimer {
-  font-size: 0.75rem;
-  color: var(--vp-c-text-3);
-  text-align: center;
-  margin-top: 2rem;
-  font-style: italic;
-}
-
-.empty-state {
-  text-align: center;
-  color: var(--vp-c-text-3);
-  padding: 2rem 1rem;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 640px) {
-  .summary-grid { grid-template-columns: 1fr; }
-  .fortune-section { grid-template-columns: 1fr; }
-}
+.stars-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
+.star-badge { background: var(--vp-c-bg-alt); border: 1px solid var(--vp-c-divider); padding: 3px 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 500; }
+.star-badge.highlight { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); border-color: var(--vp-c-brand-1); }
+.interpretation { font-size: 0.95rem; line-height: 1.7; color: var(--vp-c-text-2); }
+.disclaimer { font-size: 0.75rem; color: var(--vp-c-text-3); text-align: center; margin-top: 2rem; font-style: italic; }
+.empty-state { text-align: center; color: var(--vp-c-text-3); padding: 2rem 1rem; font-size: 0.9rem; }
+@media (max-width: 640px) { .summary-grid { grid-template-columns: 1fr; } .fortune-section { grid-template-columns: 1fr; } }
 </style>
