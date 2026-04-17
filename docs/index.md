@@ -31,11 +31,11 @@ features:
     link: "/AIknowledge/"
     linkText: "进入专区 →"
 
-  - icon: "📚"
-    title: "精品书籍"
-    details: "涵盖技术、人文、心理、理财等精选电子书，打造指尖图书馆。"
-    link: "/book/"
-    linkText: "开启阅读 →"
+  - icon: "💎"
+    title: "独家资源"
+    details: "注册卡采购、电话号码标记清除等站长独家渠道资源，限时开放。"
+    link: "/exclusive/"
+    linkText: "点击进入 →"
 
   - icon: "📈"
     title: "跨境电商"
