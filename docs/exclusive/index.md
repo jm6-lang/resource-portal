@@ -19,6 +19,12 @@ description: "小二郎资源分享站独家资源专区，提供注册卡采购
   </div>
   
   <div style="flex: 1; min-width: 280px; background: var(--vp-c-bg-soft); padding: 2rem; border-radius: 16px; border: 1px solid var(--vp-c-brand-soft); transition: transform 0.3s ease;">
+    <h3 style="margin-top: 0;">📱 四大运营商大流量卡</h3>
+    <p style="color: var(--vp-c-text-2); font-size: 0.95rem;">低月租（19-59元）、高流量（100-250G），适合重度上网用户，正规运营商授权。</p>
+    <a href="/exclusive/data-card" style="display: inline-block; margin-top: 1rem; color: var(--vp-c-brand-1); font-weight: bold;">查看详情 →</a>
+  </div>
+  
+  <div style="flex: 1; min-width: 280px; background: var(--vp-c-bg-soft); padding: 2rem; border-radius: 16px; border: 1px solid var(--vp-c-brand-soft); transition: transform 0.3s ease;">
     <h3 style="margin-top: 0;">🛠️ 电话号码标记清除</h3>
     <p style="color: var(--vp-c-text-2); font-size: 0.95rem;">专业解决手机号被标记为广告、骚扰、营销等问题，快速恢复号码信誉。</p>
     <a href="/exclusive/phone-label-clean" style="display: inline-block; margin-top: 1rem; color: var(--vp-c-brand-1); font-weight: bold;">查看详情 →</a>
