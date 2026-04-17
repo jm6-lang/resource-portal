@@ -79,6 +79,8 @@ export default defineConfig({
           { text: '📚 精品书籍', link: '/book/',
             items: [
               { text: '📚 全部内容', link: '/book/' },
+              { text: '📖 古籍文献', link: '/book/book/' },
+              { text: '🎭 传统文化', link: '/book/culture/' },
               { text: '🩺 中医合集', link: '/book/tcm/' }
             ]
           },
@@ -114,6 +116,8 @@ export default defineConfig({
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
           { text: '📚 书籍文献库', collapsed: true, items: [
             { text: '✨ 全部内容', link: '/book/' },
+            { text: '📖 古籍文献', collapsed: false, items: [{ text: '📖 古籍文献首页', link: '/book/book/' }, ...getSidebarItemsWithDir('book', 'book')] },
+            { text: '🎭 传统文化', collapsed: false, items: [{ text: '🎭 传统文化首页', link: '/book/culture/' }, ...getSidebarItemsWithDir('book', 'culture')] },
             { text: '🩺 中医合集', collapsed: false, items: [{ text: '🩺 中医合集首页', link: '/book/tcm/' }, ...getSidebarItemsWithDir('book', 'tcm')] },
             ...getSidebarItems('book')
           ] },
