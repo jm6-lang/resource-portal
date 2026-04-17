@@ -15,7 +15,7 @@ keywords: "传统文化, 国学精粹, 周易易经, 风水命理, 文化传承,
 - **资源名称**: 风水玄学合集】【易和谐，速存
 - **所属分类**: 传统文化 / 国学精粹
 - **更新日期**: 2026-04-10
-- **直达链接**: <a href="https://pan.quark.cn/s/a0662457b41e" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
+- **直达链接**: <a href="https://pan.quark.cn/s/0c74d5077d75" target="_blank" rel="noopener noreferrer" class="download-link">🔗 点击获取网盘资源</a>
 
 ---
 ### 🛡️ 申明与反馈
