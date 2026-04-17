@@ -1,13 +1,18 @@
 ---
-title: "澶稿厠缃戠洏"
+title: "Quark142"
+description: "Quark netdisk resource"
 ---
 
-# 澶稿厠缃戠洏
+# Quark142
 
-| 平台 | 链接 |
+<Badge type="tip" text="Quark" />
+
+## Resource Link
+
+| Platform | Link |
 | :--- | :--- |
-| 夸克网盘 | [点击跳转](https://pan.quark.cn/s/dd76e37fd8bc) |
+| Quark | [Click to Download](https://pan.quark.cn/s/dd76e37fd8bc) |
 
 ::: tip
-如链接失效，请联系管理员更新
+If the link expires, please contact admin to update
 :::
