@@ -193,12 +193,9 @@ const timeNames = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申'
 
 onMounted(() => {
   const checkIztro = setInterval(() => {
-    if (typeof window.iztro !== 'undefined') {
-      const mod = window.iztro();  // 调用函数获取模块对象
-      if (mod && mod.astro) {
-        isReady.value = true;
-        clearInterval(checkIztro);
-      }
+    if (typeof window.iztro !== 'undefined' && window.iztro.astro) {
+      isReady.value = true;
+      clearInterval(checkIztro);
     }
   }, 200);
   setTimeout(() => clearInterval(checkIztro), 5000);
@@ -309,7 +306,7 @@ const calculate = () => {
   loading.value = true;
 
   try {
-    const astroModule = window.iztro().astro;
+    const astroModule = window.iztro.astro;
     const year = parseInt(lunarYear.value);
     const month = parseInt(lunarMonth.value);
     const day = parseInt(lunarDay.value);
