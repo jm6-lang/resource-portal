@@ -19,7 +19,7 @@ hero:
   actions:
     - theme: brand
       text: "🚀 开启资源探索"
-      link: "/AIknowledge.html"
+      link: "/AIknowledge/"
     - theme: alt
       text: "📢 关于平台"
       link: "/about.html"
@@ -28,13 +28,13 @@ features:
   - icon: "📦"
     title: "免费资源库"
     details: "全站 12 大分类资源索引，一站索引导航，快速找到你想要的任何资源。"
-    link: "/nav.html"
+    link: "/nav/"
     linkText: "进入导航 →"
 
   - icon: "💎"
     title: "独家资源"
     details: "注册卡采购、电话号码标记清除等站长独家渠道资源，限时开放。"
-    link: "/exclusive.html"
+    link: "/exclusive/"
     linkText: "点击进入 →"
 
   - icon: "🔮"
@@ -46,19 +46,19 @@ features:
   - icon: "🎬"
     title: "影视媒体"
     details: "精选高清电影、纪录片及短剧资源，享受极致视听盛宴。"
-    link: "/movies.html"
+    link: "/movies/"
     linkText: "立即观看 →"
 
   - icon: "🛠️"
     title: "工具合集"
     details: "黑科技软件、提效插件、开发素材，一站式解决工具需求。"
-    link: "/tools.html"
+    link: "/tools/"
     linkText: "查找工具 →"
 
   - icon: "💡"
     title: "自媒体运营"
     details: "流量增长、内容变现、短视频分发，掌握全网运营底层逻辑。"
-    link: "/self-media.html"
+    link: "/self-media/"
     linkText: "运营干货 →"
 ---
 
@@ -125,7 +125,7 @@ features:
 
 ### 🔍 热门分类搜索
 
-[`#AIGC`](/AIknowledge.html) [`#Stable Diffusion`](/AIknowledge.html) [`#电子书`](/book.html) [`#亚马逊选品`](/cross-border.html) [`#短视频变现`](/self-media.html) [`#中医养生`](/healthy.html) [`#高清电影`](/movies.html) [`#提效工具`](/tools.html) [`#会员版软件`](/tools.html) [`#考公资料`](/curriculum.html) [`#紫微斗数`](/chinese-traditional/ziwei.html) [`#夸克网盘`](/tools.html) [`#阿里网盘`](/tools.html)
+[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#会员版软件`](/tools/) [`#考公资料`](/curriculum/) [`#紫微斗数`](/chinese-traditional/ziwei.html) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
 
 ---
 
