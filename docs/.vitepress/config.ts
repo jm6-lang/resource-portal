@@ -73,26 +73,6 @@ export default defineConfig({
     logo: { src: '/logo.png', alt: '小二郎资源分享站 Logo' },
     nav: [
       { text: '🏠 首页', link: '/' },
-      {
-        text: '📂 资源中心',
-        items: [
-          { text: '🤖 AI 知识', link: '/AIknowledge/' },
-          { text: '📚 精品书籍', link: '/book/',
-            items: [
-              { text: '📚 全部内容', link: '/book/' },
-              { text: '📖 古籍文献', link: '/book/book/' },
-              { text: '🎭 传统文化', link: '/book/culture/' },
-              { text: '🩺 中医合集', link: '/book/tcm/' }
-            ]
-          },
-          { text: '🎬 影视娱乐', link: '/movies/' },
-          { text: '📉 跨境电商', link: '/self-media/' },
-          { text: '🎓 学习课程', link: '/curriculum/' },
-          { text: '🍎 教育资源', link: '/edu-knowlege/' },
-          { text: '🛠️ 软件工具', link: '/tools/' },
-          { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
-        ]
-      },
       { text: '🗺️ 资源导航', link: '/nav/' },
       { text: '💎 独家资源', link: '/exclusive/' }
     ],
