@@ -25,11 +25,11 @@ hero:
       link: "/about"
 
 features:
-  - icon: "🤖"
-    title: "AI 知识库"
-    details: "深度学习、提示词工程、AIGC 工具全集，紧跟 AI 时代步伐。"
-    link: "/AIknowledge/"
-    linkText: "进入专区 →"
+  - icon: "📦"
+    title: "免费资源库"
+    details: "全站 12 大分类资源索引，一站索引导航，快速找到你想要的任何资源。"
+    link: "/nav/"
+    linkText: "进入导航 →"
 
   - icon: "💎"
     title: "独家资源"
