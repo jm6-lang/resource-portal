@@ -37,11 +37,11 @@ features:
     link: "/exclusive/"
     linkText: "点击进入 →"
 
-  - icon: "📈"
-    title: "跨境电商"
-    details: "亚马逊、TikTok、选品运营全攻略，助力品牌出海致胜。"
-    link: "/cross-border/"
-    linkText: "学习出海 →"
+  - icon: "🔮"
+    title: "紫微斗数测命"
+    details: "输入生日时辰，自动排盘生成命盘，深度解读前十年走势，预测未来十年运势走向。"
+    link: "/chinese-traditional/ziwei/"
+    linkText: "立即测命 →"
 
   - icon: "🎬"
     title: "影视媒体"
