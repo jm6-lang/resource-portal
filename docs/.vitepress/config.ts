@@ -2,9 +2,6 @@ import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
 
-/**
- * Automatically read Markdown titles and generate sidebar items.
- */
 function getSidebarItems(dir: string) {
   const fullPath = path.join(process.cwd(), 'docs', dir)
   if (!fs.existsSync(fullPath)) return []
@@ -24,6 +21,25 @@ function getSidebarItems(dir: string) {
   })
 }
 
+function getSidebarItemsWithDir(dir: string, subDir: string) {
+  const fullPath = path.join(process.cwd(), 'docs', dir, subDir)
+  if (!fs.existsSync(fullPath)) return []
+  const files = fs.readdirSync(fullPath)
+    .filter(file => file.endsWith('.md') && file !== 'index.md')
+    .sort()
+
+  return files.map(file => {
+    const filePath = path.join(fullPath, file)
+    const content = fs.readFileSync(filePath, 'utf-8')
+    const match = content.match(/^#\s+(.+)$/m)
+    const name = match ? match[1].trim() : path.basename(file, '.md')
+    return {
+      text: name,
+      link: `/${dir}/${subDir}/${path.basename(file, '.md')}.html`
+    }
+  })
+}
+
 export default defineConfig({
   base: process.env.BASE || '/',
   title: "小二郎资源分享站",
@@ -31,9 +47,9 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  ignoreDeadLinks: true, // IMPORTANT: Prevent build failure on dead links
+  ignoreDeadLinks: true,
   description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
-  
+
   sitemap: {
     hostname: 'https://docs.skillxm.cn'
   },
@@ -55,22 +71,25 @@ export default defineConfig({
   themeConfig: {
     logo: { src: '/logo.png', alt: '小二郎资源分享站 Logo' },
     nav: [
-      { text: '🏠 首页', link: '.html' },
-      { 
-        text: '📂 资源中心', 
+      { text: '🏠 首页', link: '/' },
+      {
+        text: '📂 资源中心',
         items: [
           { text: '🤖 AI 知识', link: '/AIknowledge/' },
-          { text: '📚 精品书籍', link: '/book/' },
+          { text: '📚 精品书籍', link: '/book/',
+            items: [
+              { text: '📚 全部内容', link: '/book/' },
+              { text: '🩺 中医合集', link: '/book/tcm/' }
+            ]
+          },
           { text: '🎬 影视娱乐', link: '/movies/' },
           { text: '📉 跨境电商', link: '/self-media/' },
           { text: '🎓 学习课程', link: '/curriculum/' },
           { text: '🍎 教育资源', link: '/edu-knowlege/' },
           { text: '🛠️ 软件工具', link: '/tools/' },
-          { text: '🩺 中医合集', link: '/healthy/' },
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
       },
-      { text: '🗺️ 资源导航', link: '/nav/' },
       { text: '🗺️ 资源导航', link: '/nav/' },
       { text: '💎 独家资源', link: '/exclusive/' }
     ],
@@ -93,13 +112,16 @@ export default defineConfig({
           { text: '🗺️ 导航首页', collapsed: false, items: [{ text: '🗺️ 全部资源索引', link: '/nav/' }] },
           { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
-          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
+          { text: '📚 书籍文献库', collapsed: true, items: [
+            { text: '✨ 全部内容', link: '/book/' },
+            { text: '🩺 中医合集', collapsed: false, items: [{ text: '🩺 中医合集首页', link: '/book/tcm/' }, ...getSidebarItemsWithDir('book', 'tcm')] },
+            ...getSidebarItems('book')
+          ] },
           { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
           { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
           { text: '🎓 职场/技能课精品', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
           { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege/' }, ...getSidebarItems('edu-knowlege')] },
           { text: '🛠️ 常用工具/会员版', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
-          { text: '🩺 中医合集', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
           { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional/' }, ...getSidebarItems('chinese-traditional')] },
         ]
       }
