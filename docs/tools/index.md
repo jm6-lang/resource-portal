@@ -131,3 +131,34 @@ title: "软件工具 / 实用插件"
 | 驾考题库大全会员版_ | Quark | [点击进入](/tools/post_123) |
 | 高品质车载DJ【音乐大碟 | Quark/UC | [点击进入](/tools/post_124) |
 | 🎁 软件工具 / 实用插件 - 精选资源合集 | 多平台 | [点击进入](/tools/collection) |
+| Reface一键换脸 v4.5.0 AI换脸工具 | Quark | [点击进入](/tools/post_194) |
+| 酒店防窥检测1.26 会员版 | Quark | [点击进入](/tools/post_195) |
+| AI Chat | Quark | [点击进入](/tools/post_196) |
+| 扫描全能王 会员版 | Quark | [点击进入](/tools/post_197) |
+| 漫漫漫画 v5.2.43：为广大漫画爱好者打造的追漫神器，去广告版 | Quark | [点击进入](/tools/post_198) |
+| 福昕高级PDF编辑器 | Quark | [点击进入](/tools/post_199) |
+| 傻瓜英语VIP会员版 | Quark | [点击进入](/tools/post_200) |
+| 酷我音乐_会员版 兼容所有机型！带SVIP！支持鸿蒙！ | Quark | [点击进入](/tools/post_201) |
+| Windows系统永久激活最新密钥 | Quark | [点击进入](/tools/post_202) |
+| 畅听FM_2.3.2 可收听全国电台，免费无广告 | Quark | [点击进入](/tools/post_203) |
+| Android 健身教练 v1.1.5 免费无广告 | Quark | [点击进入](/tools/post_204) |
+| 开发全能工具箱He3 | Quark | [点击进入](/tools/post_205) |
+| 情侣飞行棋（先保存，防和谐） | Quark | [点击进入](/tools/post_206) |
+| 万能格式转换 | Quark | [点击进入](/tools/post_207) |
+| 解析机器人_会员版 | Quark | [点击进入](/tools/post_208) |
+| GET漫画v2.1.1绿化版 | Quark | [点击进入](/tools/post_209) |
+| 任小聊天话术APP | Quark | [点击进入](/tools/post_210) |
+| 视频音频批量格式转换器 v2.0 | Quark | [点击进入](/tools/post_211) |
+| 微信聊天恢复_4.6.0 | Quark | [点击进入](/tools/post_212) |
+| 万象聚搜 v1.5 - 增 小说 漫画 -视频去水印等功能 | Quark | [点击进入](/tools/post_213) |
+| 风云录屏大师-VIP版（无水印无广告高清录屏工具） | Quark | [点击进入](/tools/post_214) |
+| 视频去重 | Quark | [点击进入](/tools/post_215) |
+| 黑神话悟空 | Quark | [点击进入](/tools/post_216) |
+| AutoGLM | Quark | [点击进入](/tools/post_217) |
+| 博看书苑安卓（附36个授权码） | Quark | [点击进入](/tools/post_218) |
+| 夸父工具箱 | Quark | [点击进入](/tools/post_219) |
+| 工具魔盒_2.4.2 | Quark | [点击进入](/tools/post_220) |
+| 安卓解析机器人高级版 | Quark | [点击进入](/tools/post_221) |
+| 太极工具箱 | Quark | [点击进入](/tools/post_222) |
+| 快影剪辑_纯净版 | Quark | [点击进入](/tools/post_223) |
+| Xmind思维导图模板331个 | Quark | [点击进入](/tools/post_224) |
