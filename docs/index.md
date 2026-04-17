@@ -129,6 +129,24 @@ features:
 
 ---
 
+### 💖 如果对您有帮助，欢迎打赏
+
+您的支持是我们持续更新的最大动力 💪
+
+<div class="donate-section">
+  <div class="donate-card">
+    <img src="/donate-wechat.png" alt="微信收款码" loading="lazy" />
+    <div class="donate-label">💚 微信支付</div>
+  </div>
+  <div class="donate-card">
+    <img src="/donate-alipay.jpg" alt="支付宝收款码" loading="lazy" />
+    <div class="donate-label">🔵 支付宝</div>
+  </div>
+</div>
+<p class="donate-tip">💡 随意金额，心意就好。您的每一份支持都会用于维持服务器运转与资源维护。</p>
+
+---
+
 ### 🛡️ 法律及反馈
 
 - **关于侵权**：本站尊重版权，如有内容侵权，请联系管理员核实删除。
@@ -143,3 +161,57 @@ features:
 ### 🔗 友情链接
 
 [https://skillxm.cn](https://skillxm.cn) | [https://tool.skillxm.cn](https://tool.skillxm.cn)
+
+<style scoped>
+
+.donate-section {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.donate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.donate-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid var(--vp-c-divider);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.donate-card img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
+}
+
+.donate-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.donate-tip {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 0.85rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .donate-section {
+    gap: 1.5rem;
+  }
+  .donate-card img {
+    width: 140px;
+  }
+}
+</style>
