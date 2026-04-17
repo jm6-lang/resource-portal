@@ -19,46 +19,46 @@ hero:
   actions:
     - theme: brand
       text: "🚀 开启资源探索"
-      link: "/AIknowledge/"
+      link: "/AIknowledge.html"
     - theme: alt
       text: "📢 关于平台"
-      link: "/about"
+      link: "/about.html"
 
 features:
   - icon: "📦"
     title: "免费资源库"
     details: "全站 12 大分类资源索引，一站索引导航，快速找到你想要的任何资源。"
-    link: "/nav/"
+    link: "/nav.html"
     linkText: "进入导航 →"
 
   - icon: "💎"
     title: "独家资源"
     details: "注册卡采购、电话号码标记清除等站长独家渠道资源，限时开放。"
-    link: "/exclusive/"
+    link: "/exclusive.html"
     linkText: "点击进入 →"
 
   - icon: "🔮"
     title: "紫微斗数测命"
     details: "输入生日时辰，自动排盘生成命盘，深度解读前十年走势，预测未来十年运势走向。"
-    link: "/chinese-traditional/ziwei/"
+    link: "/chinese-traditional/ziwei.html"
     linkText: "立即测命 →"
 
   - icon: "🎬"
     title: "影视媒体"
     details: "精选高清电影、纪录片及短剧资源，享受极致视听盛宴。"
-    link: "/movies/"
+    link: "/movies.html"
     linkText: "立即观看 →"
 
   - icon: "🛠️"
     title: "工具合集"
     details: "黑科技软件、提效插件、开发素材，一站式解决工具需求。"
-    link: "/tools/"
+    link: "/tools.html"
     linkText: "查找工具 →"
 
   - icon: "💡"
     title: "自媒体运营"
     details: "流量增长、内容变现、短视频分发，掌握全网运营底层逻辑。"
-    link: "/self-media/"
+    link: "/self-media.html"
     linkText: "运营干货 →"
 ---
 
@@ -73,23 +73,22 @@ features:
   <span class="live-updates-label">实时动态</span>
   <div class="vertical-marquee-wrapper">
     <div class="vertical-marquee">
-      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118">最新上传：🎬精品纪录片资源库合集</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
-      <!-- 循环显示 -->
-      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
-      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118">最新上传：🎬精品纪录片资源库合集</a></div>
-      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013">最新上传：🤖DeepSeek实战手册（120集）</a></div>
-      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
-      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034">最新上传：🎓全套职场技能提升课</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001.html">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118.html">最新上传：🎬精品纪录片资源库合集</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013.html">最新上传：🤖DeepSeek实战手册（120集）</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045.html">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034.html">最新上传：🎓全套职场技能提升课</a></div>
+      <div class="update-item"><span class="time">1分钟前</span><a href="/chinese-traditional/post_001.html">最新上传：🔮风水玄学精品合集（易和谐速存）</a></div>
+      <div class="update-item"><span class="time">3分钟前</span><a href="/movies/post_118.html">最新上传：🎬精品纪录片资源库合集</a></div>
+      <div class="update-item"><span class="time">5分钟前</span><a href="/AIknowledge/post_013.html">最新上传：🤖DeepSeek实战手册（120集）</a></div>
+      <div class="update-item"><span class="time">8分钟前</span><a href="/tools/post_045.html">最新上传：🛠️全能嗅觉浏览器会员版</a></div>
+      <div class="update-item"><span class="time">10分钟前</span><a href="/curriculum/post_034.html">最新上传：🎓全套职场技能提升课</a></div>
     </div>
   </div>
 </div>
 
 ::: tip 📢 重要通告
-本站已成功迁移至全新架构，加载速度提升 200%。如遇资源失效，请及时通过 [关于我们](/about) 页面反馈。
+本站已成功迁移至全新架构，加载速度提升 200%。如遇资源失效，请及时通过 [关于我们](/about.html) 页面反馈。
 :::
 
 ## 💎 为什么选择小二郎资源分享站？
@@ -126,7 +125,7 @@ features:
 
 ### 🔍 热门分类搜索
 
-[`#AIGC`](/AIknowledge/) [`#Stable Diffusion`](/AIknowledge/) [`#电子书`](/book/) [`#亚马逊选品`](/cross-border/) [`#短视频变现`](/self-media/) [`#中医养生`](/healthy/) [`#高清电影`](/movies/) [`#提效工具`](/tools/) [`#会员版软件`](/tools/) [`#考公资料`](/curriculum/) [`#紫微斗数`](/chinese-traditional/ziwei) [`#夸克网盘`](/tools/) [`#阿里网盘`](/tools/)
+[`#AIGC`](/AIknowledge.html) [`#Stable Diffusion`](/AIknowledge.html) [`#电子书`](/book.html) [`#亚马逊选品`](/cross-border.html) [`#短视频变现`](/self-media.html) [`#中医养生`](/healthy.html) [`#高清电影`](/movies.html) [`#提效工具`](/tools.html) [`#会员版软件`](/tools.html) [`#考公资料`](/curriculum.html) [`#紫微斗数`](/chinese-traditional/ziwei.html) [`#夸克网盘`](/tools.html) [`#阿里网盘`](/tools.html)
 
 ---
 
