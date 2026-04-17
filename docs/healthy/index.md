@@ -9,26 +9,26 @@ title: "健康养生 / 中医合集"
 
 | 资源名称 | 大小 | 详情 |
 | :--- | :--- | :--- |
-| 重磅资源！绝版中医课程资料大全【收藏版1.18TB】 | 1.18TB | [点击进入](/healthy/post_006.html) |
-| 上千本医学类书籍大合集【48GB】 | 48GB | [点击进入](/healthy/post_007.html) |
-| 中医古籍珍稀抄本精选 | 约数GB | [点击进入](/healthy/post_008.html) |
-| 100套中医课程教程（582G） | 582GB | [点击进入](/healthy/post_009.html) |
-| 中医穴位一病一讲：人体250个穴位（232集全） | 约数十GB | [点击进入](/healthy/post_010.html) |
-| 四库全书子部（医家类·489本） | 约数十GB | [点击进入](/healthy/post_011.html) |
-| 台湾图书馆特藏中医古籍288本 | 约数十GB | [点击进入](/healthy/post_012.html) |
-| 中医类抄本（100本） | 约数GB | [点击进入](/healthy/post_013.html) |
-| 古籍医书 | 约数GB | [点击进入](/healthy/post_014.html) |
-| 医书类 | 约数GB | [点击进入](/healthy/post_015.html) |
-| 赤脚医生手册二十二本 | 约数百MB | [点击进入](/healthy/post_016.html) |
-| 古籍医书汇总 | 约数GB | [点击进入](/healthy/post_017.html) |
+| 重磅资源！绝版中医课程资料大全【收藏版1.18TB】 | 1.18TB | [点击进入](/book/tcm/tcm_006.html) |
+| 上千本医学类书籍大合集【48GB】 | 48GB | [点击进入](/book/tcm/tcm_007.html) |
+| 中医古籍珍稀抄本精选 | 约数GB | [点击进入](/book/tcm/tcm_008.html) |
+| 100套中医课程教程（582G） | 582GB | [点击进入](/book/tcm/tcm_009.html) |
+| 中医穴位一病一讲：人体250个穴位（232集全） | 约数十GB | [点击进入](/book/tcm/tcm_010.html) |
+| 四库全书子部（医家类·489本） | 约数十GB | [点击进入](/book/tcm/tcm_011.html) |
+| 台湾图书馆特藏中医古籍288本 | 约数十GB | [点击进入](/book/tcm/tcm_012.html) |
+| 中医类抄本（100本） | 约数GB | [点击进入](/book/tcm/tcm_013.html) |
+| 古籍医书 | 约数GB | [点击进入](/book/tcm/tcm_014.html) |
+| 医书类 | 约数GB | [点击进入](/book/tcm/tcm_015.html) |
+| 赤脚医生手册二十二本 | 约数百MB | [点击进入](/book/tcm/tcm_016.html) |
+| 古籍医书汇总 | 约数GB | [点击进入](/book/tcm/tcm_017.html) |
 
 ---
 
 ::: info 旧版资源
 以下为本站早期收录的健康养生类资源，内容仅供参考：
-- [MBTI16型人格测试](/healthy/post_001.html)
-- [中医笔记](/healthy/post_002.html)
-- [心理控制术](/healthy/post_003.html)
-- [我不是教你玩阴的：鬼谷子的心理学诡计](/healthy/post_004.html)
-- [电工专家 5.9.0 会员版](/healthy/post_005.html)
+- [MBTI16型人格测试](/book/tcm/tcm_001.html)
+- [中医笔记](/book/tcm/tcm_002.html)
+- [心理控制术](/book/tcm/tcm_003.html)
+- [我不是教你玩阴的：鬼谷子的心理学诡计](/book/tcm/tcm_004.html)
+- [电工专家 5.9.0 会员版](/book/tcm/tcm_005.html)
 :::
