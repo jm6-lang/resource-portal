@@ -19,7 +19,7 @@ function getSidebarItems(dir: string) {
     const name = match ? match[1].trim() : path.basename(file, '.md')
     return {
       text: name,
-      link: `/${dir}/${path.basename(file, '.md')}`
+      link: `/${dir}/${path.basename(file, '.md')}.html`
     }
   })
 }
@@ -59,15 +59,15 @@ export default defineConfig({
       { 
         text: '📂 资源中心', 
         items: [
-          { text: '🤖 AI 知识', link: '/AIknowledge/' },
-          { text: '📚 精品书籍', link: '/book/' },
-          { text: '🎬 影视娱乐', link: '/movies/' },
-          { text: '📉 跨境电商', link: '/self-media/' },
-          { text: '🎓 学习课程', link: '/curriculum/' },
-          { text: '🍎 教育资源', link: '/edu-knowlege/' },
-          { text: '🛠️ 软件工具', link: '/tools/' },
-          { text: '🩺 中医合集', link: '/healthy/' },
-          { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
+          { text: '🤖 AI 知识', link: '/AIknowledge.html' },
+          { text: '📚 精品书籍', link: '/book.html' },
+          { text: '🎬 影视娱乐', link: '/movies.html' },
+          { text: '📉 跨境电商', link: '/self-media.html' },
+          { text: '🎓 学习课程', link: '/curriculum.html' },
+          { text: '🍎 教育资源', link: '/edu-knowlege.html' },
+          { text: '🛠️ 软件工具', link: '/tools.html' },
+          { text: '🩺 中医合集', link: '/healthy.html' },
+          { text: '🏛️ 传统文化', link: '/chinese-traditional.html' },
         ]
       },
       { text: '💎 独家资源', link: '/exclusive/' }
@@ -88,7 +88,7 @@ export default defineConfig({
       {
         text: '📖 资源导航',
         items: [
-          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean' }] },
+          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive.html' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
           { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
           { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
