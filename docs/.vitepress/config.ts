@@ -41,7 +41,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
-    ['script', { async: '', src: 'https://unpkg.com/iztro@2.5.8/dist/iztro.min.js' }],
     ['script', {}, `
       (function() {
         var link = document.createElement('link');
@@ -67,7 +66,7 @@ export default defineConfig({
           { text: '🎓 学习课程', link: '/curriculum/' },
           { text: '🍎 教育资源', link: '/edu-knowlege/' },
           { text: '🛠️ 软件工具', link: '/tools/' },
-          { text: '💊 健康养生', link: '/healthy/' },
+          { text: '🩺 中医合集', link: '/healthy/' },
           { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
       },
@@ -97,7 +96,7 @@ export default defineConfig({
           { text: '🎓 职场/技能课精品', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
           { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege/' }, ...getSidebarItems('edu-knowlege')] },
           { text: '🛠️ 常用工具/会员版', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
-          { text: '💊 健康养生堂', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
+          { text: '🩺 中医合集', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
           { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional/' }, ...getSidebarItems('chinese-traditional')] },
         ]
       }
