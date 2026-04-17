@@ -65,7 +65,7 @@ features:
 <div class="latest-updates-box">
   <span class="latest-updates-label">最新动态</span>
   <div class="latest-updates-content">
-    🎉 小二郎资源分享站 2.0 正式上线！ | 🚀 已收录 600+ 精选资源并完成精准分类 | 📅 每日持续更新中...
+    🎉 小二郎资源分享站 2.0 正式上线！ | 🚀 已收录 2000+ 精选资源并完成精准分类 | 📅 每日持续更新中...
   </div>
 </div>
 
@@ -112,7 +112,7 @@ features:
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">存储容量</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
-    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">600+</div>
+    <div style="font-size: 1.5rem; font-weight: bold; color: var(--vp-c-brand-1);">2000+</div>
     <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">资源条目</div>
   </div>
   <div style="flex: 1; min-width: 150px; background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--vp-c-divider);">
