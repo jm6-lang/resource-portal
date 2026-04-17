@@ -59,20 +59,20 @@ export default defineConfig({
       { 
         text: '📂 资源中心', 
         items: [
-          { text: '🤖 AI 知识', link: '/AIknowledge.html' },
-          { text: '📚 精品书籍', link: '/book.html' },
-          { text: '🎬 影视娱乐', link: '/movies.html' },
-          { text: '📉 跨境电商', link: '/self-media.html' },
-          { text: '🎓 学习课程', link: '/curriculum.html' },
-          { text: '🍎 教育资源', link: '/edu-knowlege.html' },
-          { text: '🛠️ 软件工具', link: '/tools.html' },
-          { text: '🩺 中医合集', link: '/healthy.html' },
-          { text: '🏛️ 传统文化', link: '/chinese-traditional.html' },
+          { text: '🤖 AI 知识', link: '/AIknowledge/' },
+          { text: '📚 精品书籍', link: '/book/' },
+          { text: '🎬 影视娱乐', link: '/movies/' },
+          { text: '📉 跨境电商', link: '/self-media/' },
+          { text: '🎓 学习课程', link: '/curriculum/' },
+          { text: '🍎 教育资源', link: '/edu-knowlege/' },
+          { text: '🛠️ 软件工具', link: '/tools/' },
+          { text: '🩺 中医合集', link: '/healthy/' },
+          { text: '🏛️ 传统文化', link: '/chinese-traditional/' },
         ]
       },
-      { text: '🗺️ 资源导航', link: '/nav.html' },
-      { text: '🗺️ 资源导航', link: '/nav.html' },
-      { text: '💎 独家资源', link: '/exclusive.html' }
+      { text: '🗺️ 资源导航', link: '/nav/' },
+      { text: '🗺️ 资源导航', link: '/nav/' },
+      { text: '💎 独家资源', link: '/exclusive/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
@@ -90,17 +90,17 @@ export default defineConfig({
       {
         text: '📖 资源导航',
         items: [
-          { text: '🗺️ 导航首页', collapsed: false, items: [{ text: '🗺️ 全部资源索引', link: '/nav.html' }] },
-          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive.html' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
-          { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge.html' }, ...getSidebarItems('AIknowledge')] },
-          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book.html' }, ...getSidebarItems('book')] },
-          { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies.html' }, ...getSidebarItems('movies')] },
-          { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media.html' }, ...getSidebarItems('self-media')] },
-          { text: '🎓 职场/技能课精品', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum.html' }, ...getSidebarItems('curriculum')] },
-          { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege.html' }, ...getSidebarItems('edu-knowlege')] },
-          { text: '🛠️ 常用工具/会员版', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools.html' }, ...getSidebarItems('tools')] },
-          { text: '🩺 中医合集', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy.html' }, ...getSidebarItems('healthy')] },
-          { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional.html' }, ...getSidebarItems('chinese-traditional')] },
+          { text: '🗺️ 导航首页', collapsed: false, items: [{ text: '🗺️ 全部资源索引', link: '/nav/' }] },
+          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
+          { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
+          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
+          { text: '🎬 影视剧集区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
+          { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
+          { text: '🎓 职场/技能课精品', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
+          { text: '🍎 教育资料馆', collapsed: true, items: [{ text: '✨ 全部内容', link: '/edu-knowlege/' }, ...getSidebarItems('edu-knowlege')] },
+          { text: '🛠️ 常用工具/会员版', collapsed: true, items: [{ text: '✨ 全部内容', link: '/tools/' }, ...getSidebarItems('tools')] },
+          { text: '🩺 中医合集', collapsed: true, items: [{ text: '✨ 全部内容', link: '/healthy/' }, ...getSidebarItems('healthy')] },
+          { text: '🏛️ 传统文化阁', collapsed: true, items: [{ text: '✨ 全部内容', link: '/chinese-traditional/' }, ...getSidebarItems('chinese-traditional')] },
         ]
       }
     ],
