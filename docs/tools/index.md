@@ -113,7 +113,20 @@ title: "tools"
 | 太极工具箱 |  | [点击进入](/tools/post_222) |
 | 快影剪辑_纯净版 |  | [点击进入](/tools/post_223) |
 | Xmind思维导图模板331个 |  | [点击进入](/tools/post_224) |
-| Ai去字幕会员版（不要升级，升级会失效） | 夸克网盘 | [点击进入](/tools/post_225) |
-| 酷我音乐_会员版 兼容所有机型！带SVIP！支持鸿蒙！ |  | [点击进入](/tools/post_226) |
-| 傻瓜英语VIP解锁版 | Quark | [点击进入](/tools/post_227) |
-| 群发宝—会员版 | 夸克网盘 | [点击进入](/tools/post_228) |
+| UC网盘批量转存工具 | Xunlei | [点击进入](/tools/post_225) |
+| 夸克网盘批量转存分享工具 | Xunlei | [点击进入](/tools/post_226) |
+| 金铲铲单机版（超详细的最强教程，9999+金币） | Xunlei | [点击进入](/tools/post_227) |
+| 图片批量处理 | Xunlei | [点击进入](/tools/post_228) |
+| 文件批量重命名 | Xunlei | [点击进入](/tools/post_229) |
+| 手机刷机工具箱 | Xunlei | [点击进入](/tools/post_230) |
+| CDR2023中文会员版CorelDRAW | Xunlei | [点击进入](/tools/post_231) |
+| 打卡软件神器 | Xunlei | [点击进入](/tools/post_232) |
+| 查企业查信息（限制注册即送5年SVIP） | Xunlei | [点击进入](/tools/post_233) |
+| 笔趣阁完美修改去广告高级版 | Xunlei | [点击进入](/tools/post_234) |
+| 公众号爆文机器人 | Xunlei | [点击进入](/tools/post_235) |
+| 七星虚拟机 | Xunlei | [点击进入](/tools/post_236) |
+| 电商图片采集工具 | Xunlei | [点击进入](/tools/post_237) |
+| 场控助手 | Xunlei | [点击进入](/tools/post_238) |
+| TVBOX+最新接口 | Xunlei | [点击进入](/tools/post_239) |
+| 【AI唱歌软件】AI翻唱 | Xunlei | [点击进入](/tools/post_240) |
+| SolidWorks2025 最新完整版 | Xunlei | [点击进入](/tools/post_241) |
