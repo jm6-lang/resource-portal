@@ -18,7 +18,6 @@ title: "movies"
 | Pr速成3小时学会视频剪辑 | Quark | [点击进入](/movies/post_013) |
 | R-日剧合集 | Quark | [点击进入](/movies/post_014) |
 | T-泰剧合集 | Quark | [点击进入](/movies/post_015) |
-| TikTok海外影视课程全套 | Quark | [点击进入](/movies/post_016) |
 | 《小白一学就会的短视频剪辑课》 | Quark | [点击进入](/movies/post_017) |
 | 七部经典大尺度影视剧合集 超清 | Quark | [点击进入](/movies/post_019) |
 | 世界十大超高分丧尸电影 | Quark | [点击进入](/movies/post_020) |
@@ -43,7 +42,6 @@ title: "movies"
 | 启蒙英语动画 | Quark | [点击进入](/movies/post_043) |
 | 女神们的电影合集 | Quark | [点击进入](/movies/post_044) |
 | 宫崎骏电影系列合集 | Quark | [点击进入](/movies/post_045) |
-| 带货短视频文案脚本公式进阶班 | Quark | [点击进入](/movies/post_047) |
 | 影视合集更新5月 | Quark | [点击进入](/movies/post_048) |
 | 影视合集更新6月 | Quark | [点击进入](/movies/post_049) |
 | 影视资源1 | 网盘资源 | [点击进入](/movies/post_051) |
@@ -106,8 +104,6 @@ title: "movies"
 | 网红事件盘点 | Xunlei | [点击进入](/movies/post_113) |
 | 网红事件盘点（2024） | Xunlei | [点击进入](/movies/post_114) |
 | 美女集中营3（羞涩短剧电影） | Quark | [点击进入](/movies/post_115) |
-| 视频号运营实战课程 | Quark | [点击进入](/movies/post_116) |
-| 视频号风口21天从0到1视频课程 | Quark | [点击进入](/movies/post_117) |
 | 记录片资源库 | Quark | [点击进入](/movies/post_118) |
 | 豆瓣电影Top250【723GB | Quark | [点击进入](/movies/post_119) |
 | 这辈子必看的灾难电影大片 | Quark | [点击进入](/movies/post_120) |

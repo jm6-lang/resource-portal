@@ -53,3 +53,7 @@ title: "self-media"
 | 任小聊天话术APP |  | [点击进入](/self-media/post_048) |
 | 视频去重 |  | [点击进入](/self-media/post_049) |
 | 小白创业指南老板商业必修课 | Quark | [点击进入](/self-media/post_050) |
+| TikTok海外影视课程全套 | Quark | [点击进入](/self-media/post_051) |
+| 带货短视频文案脚本公式进阶班 | Quark | [点击进入](/self-media/post_052) |
+| 视频号运营实战课程 | Quark | [点击进入](/self-media/post_053) |
+| 视频号风口21天从0到1视频课程 | Quark | [点击进入](/self-media/post_054) |
