@@ -22,7 +22,6 @@ title: "curriculum"
 | TikTok】玩法教程最全攻略【27套课 | Quark | [点击进入](/curriculum/post_019) |
 | office教程和office模板（合集 | Quark | [点击进入](/curriculum/post_020) |
 | 一人公司：失业潮中的高新技术工作者（万相） | Quark | [点击进入](/curriculum/post_021) |
-| 上班族必备的瑜伽减肥训练营【完结 | Quark | [点击进入](/curriculum/post_022) |
 | 从 0 开发一款 iOS App | Quark | [点击进入](/curriculum/post_024) |
 | 付费群流出写作教程【16合集 | Quark | [点击进入](/curriculum/post_025) |
 | 全国旅游攻略 国内穷游自驾游旅行地图电子版美食指南 | Quark | [点击进入](/curriculum/post_026) |
@@ -82,7 +81,7 @@ title: "curriculum"
 | 花束花艺教程 | Quark | [点击进入](/curriculum/post_094) |
 | 谷歌优化师部落·GoogleSEO零基础入门系列教程 | Quark | [点击进入](/curriculum/post_097) |
 | 超详细生存指南 | Quark | [点击进入](/curriculum/post_098) |
-| 跨境电商实操课程从零到精通，人人都适合的跨境电商课 小二郎资源库每日更新 | Quark | [点击进入](/curriculum/post_099) |
+| 学习课程 / 职场技能实操课程从零到精通，人人都适合的学习课程 / 职场技能课 小二郎资源库每日更新 | Quark | [点击进入](/curriculum/post_099) |
 | 阿里巴巴国际站课程，阿里巴巴国际站运营基础课程 | Quark | [点击进入](/curriculum/post_100) |
 | 零基础趣学Linux | Quark | [点击进入](/curriculum/post_101) |
 | 麻将学技术训练与技巧（完结） | Quark | [点击进入](/curriculum/post_102) |
@@ -90,7 +89,7 @@ title: "curriculum"
 | （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_105) |
 | （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_106) |
 | （全球外语）最新精整26门小语种零基础全套学习资料 | Quark | [点击进入](/curriculum/post_107) |
-| 金钱自由第一课："钱包"管理 | Quark | [点击进入](/curriculum/post_108) |
+| 心理控制术 |  | [点击进入](/curriculum/post_108) |
 | 2026年最新450个搞钱玩法合集 | Quark | [点击进入](/curriculum/post_109) |
 | 香帅中国财富报告（2024-2025） | Quark | [点击进入](/curriculum/post_111) |
 | 用搜索提升收入，掌握最热门的职场技能（完结） | Quark | [点击进入](/curriculum/post_113) |
@@ -113,3 +112,4 @@ title: "curriculum"
 | 国外游戏全自动搬砖，单号日入150可多开 | Quark | [点击进入](/curriculum/post_147) |
 | 200套专业财务表格 | Quark | [点击进入](/curriculum/post_149) |
 | 做LOL陪玩月入3w+边玩游戏边收钱 | Quark | [点击进入](/curriculum/post_154) |
+| 高情商沟通技巧视频课程 | Quark | [点击进入](/curriculum/post_155) |

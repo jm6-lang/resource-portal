@@ -52,3 +52,4 @@ title: "self-media"
 | 影视解说训练营，从新手进阶到成熟自媒体达人 | Quark | [点击进入](/self-media/post_047) |
 | 任小聊天话术APP |  | [点击进入](/self-media/post_048) |
 | 视频去重 |  | [点击进入](/self-media/post_049) |
+| 小白创业指南老板商业必修课 | Quark | [点击进入](/self-media/post_050) |
