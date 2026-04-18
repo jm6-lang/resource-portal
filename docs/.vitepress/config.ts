@@ -101,6 +101,7 @@ export default defineConfig({
           { text: '🎓 最新互联网项目教程', link: '/curriculum/' },
           { text: '🍎 教育资料馆', link: '/edu-knowlege/' },
           { text: '🛠️ 常用工具/会员版', link: '/tools/' },
+          { text: '🔮 紫微斗数排盘', link: '/chinese-traditional/ziwei.html' },
           { text: '🏛️ 传统文化阁', link: '/chinese-traditional/' },
         ]
       }
