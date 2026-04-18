@@ -21,25 +21,6 @@ function getSidebarItems(dir: string) {
   })
 }
 
-function getSidebarItemsWithDir(dir: string, subDir: string) {
-  const fullPath = path.join(process.cwd(), 'docs', dir, subDir)
-  if (!fs.existsSync(fullPath)) return []
-  const files = fs.readdirSync(fullPath)
-    .filter(file => file.endsWith('.md') && file !== 'index.md')
-    .sort()
-
-  return files.map(file => {
-    const filePath = path.join(fullPath, file)
-    const content = fs.readFileSync(filePath, 'utf-8')
-    const match = content.match(/^#\s+(.+)$/m)
-    const name = match ? match[1].trim() : path.basename(file, '.md')
-    return {
-      text: name,
-      link: `/${dir}/${subDir}/${path.basename(file, '.md')}.html`
-    }
-  })
-}
-
 export default defineConfig({
   base: process.env.BASE || '/',
   title: "小二郎资源分享站",
@@ -92,16 +73,10 @@ export default defineConfig({
       {
         text: '📖 资源导航',
         items: [
-          { text: '🗺️ 导航首页', collapsed: false, items: [{ text: '🗺️ 全部资源索引', link: '/nav/' }] },
+          { text: '🗺️ 全部资源索引', link: '/nav/' },
           { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
-          { text: '📚 书籍文献库', collapsed: true, items: [
-            { text: '✨ 全部内容', link: '/book/' },
-            { text: '📖 古籍文献', collapsed: false, items: [{ text: '📖 古籍文献首页', link: '/book/book/' }, ...getSidebarItemsWithDir('book', 'book')] },
-            { text: '🎭 传统文化', collapsed: false, items: [{ text: '🎭 传统文化首页', link: '/book/culture/' }, ...getSidebarItemsWithDir('book', 'culture')] },
-            { text: '🩺 中医合集', collapsed: false, items: [{ text: '🩺 中医合集首页', link: '/book/tcm/' }, ...getSidebarItemsWithDir('book', 'tcm')] },
-            ...getSidebarItems('book')
-          ] },
+          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
           { text: '🎬 在线影视/音乐', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
           { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
           { text: '🎓 最新互联网项目教程', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
