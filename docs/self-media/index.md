@@ -61,3 +61,5 @@ title: "self-media"
 | 抖音引流课程：日引300粉实战操作方法 | UC | [点击进入](/self-media/post_056) |
 | 哔哩实操运营从0到20万粉【已完结】 | UC | [点击进入](/self-media/post_057) |
 | 抖音电商（抖音小红书电商最新玩法！）（完结） | UC | [点击进入](/self-media/post_058) |
+| 知乎小说项目详细教程 | Baidu | [点击进入](/self-media/post_059) |
+| 小红书电商项目教程，0-1入门全盘玩法解析 | Baidu | [点击进入](/self-media/post_060) |

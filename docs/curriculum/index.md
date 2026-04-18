@@ -125,3 +125,4 @@ title: "curriculum"
 | python全套教程 | UC | [点击进入](/curriculum/post_165) |
 | Dreamweaver CC网页设计从入门到精通 | UC | [点击进入](/curriculum/post_166) |
 | 小程序开发教程大合集从零基础到精通视频课程 | UC | [点击进入](/curriculum/post_167) |
+| 变频空调维修技术资料格力美的原理与图纸视频教程 | Baidu | [点击进入](/curriculum/post_168) |

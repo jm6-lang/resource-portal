@@ -50,3 +50,4 @@ title: "book"
 | 富爸爸点石成金等套装共五册 | Xunlei | [点击进入](/book/post_046) |
 | MBA课程 | Xunlei | [点击进入](/book/post_047) |
 | 黑客技术学习书籍大合集 | Quark | [点击进入](/book/post_048) |
+| 12个月从0赚到100万美金 | Baidu | [点击进入](/book/post_049) |
