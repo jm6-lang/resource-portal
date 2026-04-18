@@ -12,3 +12,4 @@ title: "healthy"
 | 上班族必备的瑜伽减肥训练营【完结 | Quark | [点击进入](/healthy/post_004) |
 | 八段锦详细视频课程 | Quark | [点击进入](/healthy/post_005) |
 | 国宴大师教做菜（120道菜合集） | Quark | [点击进入](/healthy/post_006) |
+| 推拿手法技能（中医护理） | Xunlei | [点击进入](/healthy/post_007) |
