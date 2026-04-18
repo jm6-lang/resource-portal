@@ -24,3 +24,6 @@ title: "edu-knowlege"
 | 雅思旗舰VIP直达7分班 | Quark | [点击进入](/edu-knowlege/post_019) |
 | 我不是教你玩阴的：鬼谷子的心理学诡计 | Quark | [点击进入](/edu-knowlege/post_020) |
 | 2025一建二建全科各机构最新网课 | Quark | [点击进入](/edu-knowlege/post_021) |
+| 英语四六级保命班 | UC | [点击进入](/edu-knowlege/post_022) |
+| 下半年瑞思拜四六级讲义（针对12月考试） | UC | [点击进入](/edu-knowlege/post_023) |
+| 2025医学类视频课程合集 | UC | [点击进入](/edu-knowlege/post_024) |

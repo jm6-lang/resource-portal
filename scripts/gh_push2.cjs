@@ -1,11 +1,12 @@
 const { execSync } = require('child_process');
 const https = require('https');
+const fs = require('fs');
 
 const REPO = 'jm6-lang/resource-portal';
 const BRANCH = 'main';
 
-// Get last remote commit
-const lastRemote = execSync(`gh api repos/${REPO}/commits/${BRANCH} -q '.sha'`).toString().trim();
+// Get last remote commit using jq
+const lastRemote = execSync(`gh api repos/${REPO}/commits/${BRANCH} --jq .sha`).toString().trim();
 console.log('Remote HEAD:', lastRemote.slice(0,7));
 
 // Get local HEAD
@@ -22,15 +23,31 @@ const commits = execSync(`git log ${lastRemote}..HEAD --oneline`).toString().tri
 console.log('Commits to push:', commits.length);
 commits.forEach(c => console.log(' ', c));
 
-// Get tree of local HEAD
-const treeSha = execSync('git rev-parse HEAD^{tree}').toString().trim();
-console.log('Tree:', treeSha.slice(0,7));
+// Get files changed
+const diffFiles = execSync(`git diff --name-status ${lastRemote}..HEAD`).toString().trim().split('\n').filter(Boolean);
+console.log('\nFiles changed:', diffFiles.length);
 
-// Get parent (last remote)
-const parents = [lastRemote];
+const additions = [];
+const deletions = [];
 
-// Create commit via API
-const commitMsg = execSync('git log -1 --format=%B').toString().trim();
+for (const line of diffFiles) {
+  const [status, ...parts] = line.split('\t');
+  const filePath = parts[parts.length - 1];
+  
+  if (status === 'D') {
+    deletions.push({ path: filePath });
+    console.log('  D', filePath);
+  } else if (status === 'A' || status === 'M') {
+    const content = fs.readFileSync(filePath, 'base64');
+    additions.push({
+      path: filePath,
+      contents: content
+    });
+    console.log(' ', status, filePath);
+  }
+}
+
+console.log('\nCreating commit via GitHub GraphQL API...');
 
 const query = `
 mutation($input: CreateCommitOnBranchInput!) {
@@ -44,31 +61,8 @@ const input = {
   branch: { repositoryNameWithOwner: REPO, branchName: BRANCH },
   message: { headline: commits[0].split(' ').slice(1).join(' ') },
   expectedHeadOid: lastRemote,
-  fileChanges: { additions: [], deletions: [] },
+  fileChanges: { additions, deletions }
 };
-
-// Get files changed in all commits
-const diffFiles = execSync(`git diff --name-status ${lastRemote}..HEAD`).toString().trim().split('\n');
-console.log('\nFiles changed:', diffFiles.length);
-
-for (const line of diffFiles) {
-  const [status, ...parts] = line.split('\t');
-  const filePath = parts[parts.length - 1];
-  
-  if (status === 'D') {
-    input.fileChanges.deletions.push({ path: filePath });
-    console.log('  D', filePath);
-  } else if (status === 'A' || status === 'M') {
-    const content = require('fs').readFileSync(filePath, 'base64');
-    input.fileChanges.additions.push({
-      path: filePath,
-      contents: content
-    });
-    console.log(' ', status, filePath);
-  }
-}
-
-console.log('\nCreating commit via GitHub API...');
 
 const body = JSON.stringify({ query, variables: { input } });
 const token = execSync('gh auth token').toString().trim();
@@ -91,7 +85,7 @@ const req = https.request({
       console.error('GraphQL errors:', JSON.stringify(result.errors, null, 2));
       process.exit(1);
     }
-    console.log('\nSuccess!');
+    console.log('\n✅ Success!');
     console.log('Commit:', result.data.createCommitOnBranch.commit.oid.slice(0,7));
     console.log('URL:', result.data.createCommitOnBranch.commit.url);
   });

@@ -130,3 +130,16 @@ title: "tools"
 | TVBOX+最新接口 | Xunlei | [点击进入](/tools/post_239) |
 | 【AI唱歌软件】AI翻唱 | Xunlei | [点击进入](/tools/post_240) |
 | SolidWorks2025 最新完整版 | Xunlei | [点击进入](/tools/post_241) |
+| FCPX全套资源 | UC | [点击进入](/tools/post_242) |
+| PS 100款简易字体特效制作教程+源文件+字体 | UC | [点击进入](/tools/post_243) |
+| C4D渲染器合集 | UC | [点击进入](/tools/post_244) |
+| 平面设计速成，从小白到大神（完结） | UC | [点击进入](/tools/post_245) |
+| PS抠图0基础从入门到精通教学 秒变大神 | UC | [点击进入](/tools/post_246) |
+| 全套高清photoshop网上收费教程 | UC | [点击进入](/tools/post_247) |
+| AI软件系统教程，大神带你感受AI的矢量魔法 | UC | [点击进入](/tools/post_248) |
+| 电商合成案例教程，大神带你掌握合成技法 | UC | [点击进入](/tools/post_249) |
+| 某宝买的PS资源 | UC | [点击进入](/tools/post_250) |
+| 电脑工具合集 | UC | [点击进入](/tools/post_251) |
+| 游戏内购合集资源 | UC | [点击进入](/tools/post_252) |
+| 软件合集 | UC | [点击进入](/tools/post_253) |
+| 16节实用性爆棚的PS教学-走进PhotoshopCC | UC | [点击进入](/tools/post_254) |

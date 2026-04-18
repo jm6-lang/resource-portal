@@ -113,3 +113,15 @@ title: "curriculum"
 | 200套专业财务表格 | Quark | [点击进入](/curriculum/post_149) |
 | 做LOL陪玩月入3w+边玩游戏边收钱 | Quark | [点击进入](/curriculum/post_154) |
 | 高情商沟通技巧视频课程 | Quark | [点击进入](/curriculum/post_155) |
+| Html5+Css3由浅入深教程 | UC | [点击进入](/curriculum/post_156) |
+| 黑帽SEO全套课程 | UC | [点击进入](/curriculum/post_157) |
+| 6天掌握mysql基础视频教程 | UC | [点击进入](/curriculum/post_158) |
+| 最新C#零基础入门全集 | UC | [点击进入](/curriculum/post_159) |
+| JavaWeb新版1 | UC | [点击进入](/curriculum/post_160) |
+| Web前端全栈HTML5+大神之路 | UC | [点击进入](/curriculum/post_161) |
+| 正则表达式入门 | UC | [点击进入](/curriculum/post_162) |
+| 记忆大师之李威教程 打造最强记忆 | UC | [点击进入](/curriculum/post_163) |
+| JAVA基础到高级全套教程 | UC | [点击进入](/curriculum/post_164) |
+| python全套教程 | UC | [点击进入](/curriculum/post_165) |
+| Dreamweaver CC网页设计从入门到精通 | UC | [点击进入](/curriculum/post_166) |
+| 小程序开发教程大合集从零基础到精通视频课程 | UC | [点击进入](/curriculum/post_167) |
