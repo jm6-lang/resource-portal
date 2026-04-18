@@ -2,23 +2,42 @@ import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
 
-function getSidebarItems(dir: string) {
+function getSidebarItems(dir: string, recursive = false) {
   const fullPath = path.join(process.cwd(), 'docs', dir)
   if (!fs.existsSync(fullPath)) return []
+
+  const items: any[] = []
+
+  // Current directory files
   const files = fs.readdirSync(fullPath)
     .filter(file => file.endsWith('.md') && file !== 'index.md')
     .sort()
 
-  return files.map(file => {
+  for (const file of files) {
     const filePath = path.join(fullPath, file)
     const content = fs.readFileSync(filePath, 'utf-8')
     const match = content.match(/^#\s+(.+)$/m)
     const name = match ? match[1].trim() : path.basename(file, '.md')
-    return {
+    items.push({
       text: name,
       link: `/${dir}/${path.basename(file, '.md')}.html`
+    })
+  }
+
+  // Subdirectory files (recursive)
+  if (recursive) {
+    const subDirs = fs.readdirSync(fullPath, { withFileTypes: true })
+      .filter(d => d.isDirectory())
+      .map(d => d.name)
+      .sort()
+
+    for (const subDir of subDirs) {
+      const subItems = getSidebarItems(`${dir}/${subDir}`, false)
+      items.push(...subItems)
     }
-  })
+  }
+
+  return items
 }
 
 export default defineConfig({
@@ -76,7 +95,7 @@ export default defineConfig({
           { text: '🗺️ 全部资源索引', link: '/nav/' },
           { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
           { text: '🤖 AI 知识专区', collapsed: true, items: [{ text: '✨ 全部内容', link: '/AIknowledge/' }, ...getSidebarItems('AIknowledge')] },
-          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book')] },
+          { text: '📚 书籍文献库', collapsed: true, items: [{ text: '✨ 全部内容', link: '/book/' }, ...getSidebarItems('book', true)] },
           { text: '🎬 在线影视/音乐', collapsed: true, items: [{ text: '✨ 全部内容', link: '/movies/' }, ...getSidebarItems('movies')] },
           { text: '📈 自媒体/电商专栏', collapsed: true, items: [{ text: '✨ 全部内容', link: '/self-media/' }, ...getSidebarItems('self-media')] },
           { text: '🎓 最新互联网项目教程', collapsed: true, items: [{ text: '✨ 全部内容', link: '/curriculum/' }, ...getSidebarItems('curriculum')] },
