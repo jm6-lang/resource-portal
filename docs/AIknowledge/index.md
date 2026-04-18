@@ -1,5 +1,5 @@
 ---
-title: "AI 知识 / 人工智能"
+title: "AIknowledge"
 ---
 
 # AI 知识 / 人工智能 资源合集
@@ -7,7 +7,6 @@ title: "AI 知识 / 人工智能"
 | 资源名称 | 平台 | 详情 |
 | :--- | :--- | :--- |
 | AI Chat | Quark | [点击进入](/AIknowledge/post_001) |
-| AI+自媒体+RPA自动化变现训练营：写作、SEO、全平台运营一站式实战课 | Quark | [点击进入](/AIknowledge/post_002) |
 | AI写作助手 | 迅雷网盘 | [点击进入](/AIknowledge/post_003) |
 | AI变现课程 | 迅雷网盘 | [点击进入](/AIknowledge/post_004) |
 | AI换脸1 | 迅雷网盘 | [点击进入](/AIknowledge/post_005) |
@@ -29,8 +28,6 @@ title: "AI 知识 / 人工智能"
 | AI绘画软件】NovelAI最终版 webui版 无需额外下载安装！（汉化+可更新+已训练） | Quark | [点击进入](/AIknowledge/post_021) |
 | AI课程合集+行业报告专区【134GB | Quark | [点击进入](/AIknowledge/post_022) |
 | AI资源2 | 迅雷网盘 | [点击进入](/AIknowledge/post_023) |
-| AI软件系统教程，大神带你感受AI的矢量魔法 | Quark/UC | [点击进入](/AIknowledge/post_024) |
-| Ai去字幕会员版（不要升级，升级会失效） | 夸克网盘 | [点击进入](/AIknowledge/post_025) |
 | Ai图文带货实操课，新手从0-1 实操课 | 百度网盘 | [点击进入](/AIknowledge/post_026) |
 | Ai扣子coze自动化工作流教程 | 百度网盘 | [点击进入](/AIknowledge/post_027) |
 | Ai老照片修复懒人包old_photo_restoration | 百度网盘 | [点击进入](/AIknowledge/post_028) |
@@ -61,5 +58,5 @@ title: "AI 知识 / 人工智能"
 | 百度·文心一言AI·运营变现 | Quark | [点击进入](/AIknowledge/post_053) |
 | 老照片转视频实战营，一线玩家教你 AI 老照片转视频 | Quark | [点击进入](/AIknowledge/post_054) |
 | 视频号AI美女最新6.0玩法 | 百度网盘 | [点击进入](/AIknowledge/post_055) |
-| 通过DeepSeek变现方式，小红书教使用DeepSeek图文，导流私域一天变现1000+ | 百度网盘 | [点击进入](/AIknowledge/post_056) |
 | 野菩萨AI绘画资深课，全新课程，全新视野，知识重构，引领未来 | Quark | [点击进入](/AIknowledge/post_057) |
+| 野菩萨AI绘画资深课，全新课程，全新视野，知识重构，引领未来 | Quark | [点击进入](/AIknowledge/post_058) |

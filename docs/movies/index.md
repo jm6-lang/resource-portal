@@ -50,7 +50,6 @@ title: "movies"
 | 带货短视频文案脚本公式进阶班 | Quark | [点击进入](/movies/post_047) |
 | 影视合集更新5月 | Quark | [点击进入](/movies/post_048) |
 | 影视合集更新6月 | Quark | [点击进入](/movies/post_049) |
-| 影视解说训练营，从新手进阶到成熟自媒体达人 | Quark | [点击进入](/movies/post_050) |
 | 影视资源1 | 网盘资源 | [点击进入](/movies/post_051) |
 | 影视资源12 | 迅雷网盘 | [点击进入](/movies/post_052) |
 | 影视资源13 | 迅雷网盘 | [点击进入](/movies/post_053) |
@@ -170,4 +169,4 @@ title: "movies"
 | 音乐合集8 | 迅雷网盘 | [点击进入](/movies/post_173) |
 | 音乐合集9 | 迅雷网盘 | [点击进入](/movies/post_174) |
 | 音乐资源3 | 迅雷网盘 | [点击进入](/movies/post_175) |
-| 酷我音乐_会员版 兼容所有机型！带SVIP！支持鸿蒙！ |  | [点击进入](/movies/post_176) |
+| 读书学习听的音乐合集 | Quark | [点击进入](/movies/post_177) |

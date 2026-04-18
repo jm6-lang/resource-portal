@@ -86,7 +86,6 @@ title: "tools"
 | 达芬奇调色DaVinci_Resolve | 百度网盘 | [点击进入](/tools/post_099) |
 | 酒店防窥检测1.26 解锁会员版 | Quark | [点击进入](/tools/post_100) |
 | 降噪磨皮锐化人像修复FliFlik KlearMax for Photo | 百度网盘 | [点击进入](/tools/post_101) |
-| 雅思旗舰VIP直达7分班 | Quark | [点击进入](/tools/post_102) |
 | 韩国最出色的十一部R限制【39.7GB | Quark | [点击进入](/tools/post_103) |
 | 驾考题库大全会员版_ | Quark | [点击进入](/tools/post_123) |
 | 破解软件2 | 网盘资源 | [点击进入](/tools/post_158) |
@@ -102,12 +101,10 @@ title: "tools"
 | 万能格式转换 |  | [点击进入](/tools/post_207) |
 | 解析机器人_会员版 |  | [点击进入](/tools/post_208) |
 | GET漫画v2.1.1绿化版 |  | [点击进入](/tools/post_209) |
-| 任小聊天话术APP |  | [点击进入](/tools/post_210) |
 | 视频音频批量格式转换器 v2.0 |  | [点击进入](/tools/post_211) |
 | 微信聊天恢复_4.6.0 |  | [点击进入](/tools/post_212) |
 | 万象聚搜 v1.5 - 增 小说 漫画 -视频去水印等功能 |  | [点击进入](/tools/post_213) |
 | 风云录屏大师-VIP版（无水印无广告高清录屏工具） |  | [点击进入](/tools/post_214) |
-| 视频去重 |  | [点击进入](/tools/post_215) |
 | 黑神话悟空 |  | [点击进入](/tools/post_216) |
 | AutoGLM |  | [点击进入](/tools/post_217) |
 | 博看书苑安卓（附36个授权码） |  | [点击进入](/tools/post_218) |
@@ -117,3 +114,7 @@ title: "tools"
 | 太极工具箱 |  | [点击进入](/tools/post_222) |
 | 快影剪辑_纯净版 |  | [点击进入](/tools/post_223) |
 | Xmind思维导图模板331个 |  | [点击进入](/tools/post_224) |
+| Ai去字幕会员版（不要升级，升级会失效） | 夸克网盘 | [点击进入](/tools/post_225) |
+| 酷我音乐_会员版 兼容所有机型！带SVIP！支持鸿蒙！ |  | [点击进入](/tools/post_226) |
+| 傻瓜英语VIP解锁版 | Quark | [点击进入](/tools/post_227) |
+| 群发宝—会员版 | 夸克网盘 | [点击进入](/tools/post_228) |
