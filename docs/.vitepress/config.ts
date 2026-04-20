@@ -122,7 +122,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/disclaimer">免责声明</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>友情链接：<a href="https://skillxm.cn" target="_blank">skillxm.cn</a> | <a href="https://tool.skillxm.cn" target="_blank">tool.skillxm.cn</a>',
+      message: '<a href="https://docs.skillxm.cn/about">关于我们</a> | <a href="https://docs.skillxm.cn/disclaimer">免责声明</a> | <a href="https://docs.skillxm.cn/privacy">隐私政策</a> | <a href="https://docs.skillxm.cn/contact">联系我们</a> | <a href="https://docs.skillxm.cn/links">友情链接</a> | <a href="https://docs.skillxm.cn/ads">广告合作</a><br>友情链接：<a href="https://skillxm.cn" target="_blank">skillxm.cn</a> | <a href="https://tool.skillxm.cn" target="_blank">tool.skillxm.cn</a> | <a href="https://ziwei.skillxm.cn" target="_blank">ziwei.skillxm.cn</a>',
       copyright: 'Copyright © 2026-present 小二郎资源分享站'
     },
     lastUpdatedText: '最近更新于',
