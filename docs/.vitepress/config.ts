@@ -51,7 +51,8 @@ export default defineConfig({
   description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
 
   sitemap: {
-    hostname: 'https://docs.skillxm.cn'
+    hostname: 'https://www.skillxm.cn',
+    lastmodDateOnly: false
   },
 
   head: [
@@ -66,7 +67,21 @@ export default defineConfig({
       })();
     `],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js' }],
+    // 百度自动推送 - 每次页面访问自动提交URL给百度
+    ['script', {}, `
+      (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    `]
   ],
 
   themeConfig: {

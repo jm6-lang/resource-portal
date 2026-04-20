@@ -1,6 +1,39 @@
+# 通用爬虫
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
 
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Google 爬虫
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 360 爬虫
+User-agent: 360Spider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 神马爬虫（移动端）
+User-agent: YisouSpider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.skillxm.cn/sitemap.xml
 Sitemap: https://docs.skillxm.cn/sitemap.xml
