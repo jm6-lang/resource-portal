@@ -66,6 +66,82 @@ export default defineConfig({
     ['meta', { property: 'og:image:height', content: '200' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: 'https://docs.skillxm.cn/logo.png' }],
+    // JSON-LD 结构化数据 - 网站级（Organization + WebSite）
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Organization',
+          '@id': 'https://docs.skillxm.cn/#organization',
+          'name': '小二郎资源分享站',
+          'url': 'https://docs.skillxm.cn/',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://docs.skillxm.cn/logo.png'
+          },
+          'sameAs': [
+            'https://github.com/jm6-lang/resource-portal'
+          ]
+        },
+        {
+          '@type': 'WebSite',
+          '@id': 'https://docs.skillxm.cn/#website',
+          'url': 'https://docs.skillxm.cn/',
+          'name': '小二郎资源分享站',
+          'publisher': { '@id': 'https://docs.skillxm.cn/#organization' },
+          'description': '全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。',
+          'potentialAction': {
+            '@type': 'SearchAction',
+            'target': {
+              '@type': 'EntryPoint',
+              'urlTemplate': 'https://docs.skillxm.cn/?search={search_term_string}'
+            },
+            'query-input': 'required name=search_term_string'
+          }
+        }
+      ]
+    }, null, 0)],
+    // 动态注入 BreadcrumbList（各分类页面专用）
+    ['script', {}, `
+      (function(){
+        var path = location.pathname;
+        // 只在分类/内容页注入面包屑，首页不注入
+        var catMap = {
+          '/AIknowledge/':        { name: 'AI 知识',     path: '/AIknowledge/' },
+          '/book/':              { name: '书籍文献',    path: '/book/' },
+          '/movies/':            { name: '在线影视',    path: '/movies/' },
+          '/tools/':             { name: '常用工具',    path: '/tools/' },
+          '/self-media/':        { name: '自媒体电商',  path: '/self-media/' },
+          '/curriculum/':        { name: '互联网教程',  path: '/curriculum/' },
+          '/healthy/':           { name: '健康养生',    path: '/healthy/' },
+          '/chinese-traditional/': { name: '传统文化', path: '/chinese-traditional/' },
+          '/cross-border/':      { name: '跨境电商',    path: '/cross-border/' },
+          '/music/':             { name: '音乐',        path: '/music/' },
+          '/edu-knowlege/':      { name: '教育资料',    path: '/edu-knowlege/' },
+          '/exclusive/':         { name: '独家资源',    path: '/exclusive/' },
+          '/nav/':               { name: '资源导航',    path: '/nav/' }
+        };
+        for (var prefix in catMap) {
+          if (path.indexOf(prefix) === 0 && path !== prefix) {
+            var cat = catMap[prefix];
+            var itemListElement = [
+              { '@type': 'ListItem', 'position': 1, 'name': '首页', 'item': 'https://docs.skillxm.cn/' },
+              { '@type': 'ListItem', 'position': 2, 'name': cat.name, 'item': 'https://docs.skillxm.cn' + cat.path }
+            ];
+            var breadcrumb = {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              'itemListElement': itemListElement
+            };
+            var script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(breadcrumb);
+            document.head.appendChild(script);
+            break;
+          }
+        }
+      })();
+    `],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
     ['script', {}, `
       (function() {

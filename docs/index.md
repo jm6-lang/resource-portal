@@ -3,11 +3,20 @@ layout: home
 
 title: 小二郎资源分享站 - 全球优质资源聚合平台
 description: 小二郎资源分享站：专注分享 200TB+ 免费优质资源，包含 AI 知识、书籍、跨境电商、自媒体、影视、工具等，每日更新，极速下载。
-keywords: 免费资源, 资源下载, AI知识, 跨境电商, 电子书下载, 自媒体运营, 软件工具, 影视资源, 200TB资源, 小二郎, 资源分享站
+keywords: 小二郎资源站, 免费资源聚合, AI知识大全, 精品书籍推荐, 跨境电商教程, 自媒体运营, 影视资源下载, 会员版工具
 head:
   - - meta
     - name: keywords
-      content: 免费资源, 资源下载, AI知识, 跨境电商, 电子书下载, 自媒体运营, 软件工具, 影视资源, 200TB资源, 小二郎, 资源分享站
+      content: 小二郎资源站, 免费资源聚合, AI知识大全, 精品书籍推荐, 跨境电商教程, 自媒体运营, 影视资源下载, 会员版工具
+  - - meta
+    - property: og:title
+    - content: 小二郎资源分享站 - 全球优质资源聚合平台
+  - - meta
+    - property: og:description
+    - content: 全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。
+  - - meta
+    - property: og:url
+    - content: https://docs.skillxm.cn/
 
 hero:
   name: "小二郎资源分享站"
