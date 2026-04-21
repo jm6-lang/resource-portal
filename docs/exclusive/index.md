@@ -2,7 +2,7 @@
 layout: home
 
 title: 独家资源专区 - 小二郎资源分享站
-description: 小二郎资源分享站独家资源专区，提供注册卡采购、四大运营商大流量卡、电话号码标记清除等特色服务。
+description: "独家原创资源：平台专属原创内容、精选合集、独家整理的稀缺资源与精品资料推荐。"
 ---
 
 <div class="exclusive-hero">

@@ -1,4 +1,5 @@
 ---
+description: "软件工具资源：VIP会员版软件、办公效率工具、Adobe全家桶、VPN网盘资源等实用工具软件推荐与下载。"
 title: "tools"
 ---
 
