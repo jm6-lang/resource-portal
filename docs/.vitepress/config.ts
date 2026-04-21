@@ -43,7 +43,7 @@ function getSidebarItems(dir: string, recursive = false) {
 export default defineConfig({
   base: process.env.BASE || '/',
   title: "小二郎资源分享站",
-  titleTemplate: "全网优质资源聚合平台",
+  titleTemplate: "全球优质资源聚合平台",
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
