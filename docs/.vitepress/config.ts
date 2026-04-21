@@ -69,18 +69,16 @@ export default defineConfig({
     `],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js' }],
-    // 百度自动推送 - 每次页面访问自动提交URL给百度
+    // 百度主动推送 - 使用新版推送接口
     ['script', {}, `
       (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
+        // 仅在 HTTPS 环境下使用百度推送脚本
+        if (location.protocol === 'https:') {
+          var bp = document.createElement('script');
           bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        } else {
-          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
         }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
       })();
     `]
   ],
