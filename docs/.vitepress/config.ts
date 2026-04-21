@@ -51,7 +51,7 @@ export default defineConfig({
   description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
 
   sitemap: {
-    hostname: 'https://www.skillxm.cn',
+    hostname: 'https://docs.skillxm.cn',
     lastmodDateOnly: false
   },
 
@@ -73,7 +73,7 @@ export default defineConfig({
     ['script', {}, `
       (function(){
         if (location.protocol === 'https:') {
-          var site = 'https://www.skillxm.cn';
+          var site = 'https://docs.skillxm.cn';
           var token = 'zJsDaj5ibt8ZlVgz';
           fetch('https://www.skillxm.cn/sitemap.xml')
             .then(function(r){ return r.text(); })
