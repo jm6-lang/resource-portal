@@ -69,10 +69,9 @@ export default defineConfig({
     `],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js' }],
-    // 百度主动推送 - 使用新版推送接口
+    // 百度主动推送 - 每次页面访问自动提交URL给百度（使用新版API）
     ['script', {}, `
       (function(){
-        // 仅在 HTTPS 环境下使用百度推送脚本
         if (location.protocol === 'https:') {
           var bp = document.createElement('script');
           bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
