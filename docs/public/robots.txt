@@ -34,6 +34,5 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-# Sitemap
-Sitemap: https://www.skillxm.cn/sitemap.xml
+# 主动推送 sitemap（仅主站，www 已重定向到 docs）
 Sitemap: https://docs.skillxm.cn/sitemap.xml

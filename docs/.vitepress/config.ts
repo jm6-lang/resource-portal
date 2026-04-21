@@ -58,6 +58,14 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-2us9nStCe1' }],
+    // Open Graph - 社交分享
+    ['meta', { property: 'og:site_name', content: '小二郎资源分享站' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: 'https://docs.skillxm.cn/logo.png' }],
+    ['meta', { property: 'og:image:width', content: '200' }],
+    ['meta', { property: 'og:image:height', content: '200' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://docs.skillxm.cn/logo.png' }],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
     ['script', {}, `
       (function() {
