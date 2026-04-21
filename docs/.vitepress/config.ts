@@ -51,7 +51,7 @@ export default defineConfig({
   description: "小二郎资源分享站：全网最全的 200TB+ 免费资源下载站，包含 AI 知识、精品书籍、跨境电商、自媒体、教育、健康、影视、提效工具等分类资源，每日持续更新。",
 
   sitemap: {
-    hostname: 'https://docs.skillxm.cn',
+    hostname: 'https://www.skillxm.cn',
     lastmodDateOnly: false
   },
 
@@ -73,10 +73,24 @@ export default defineConfig({
     ['script', {}, `
       (function(){
         if (location.protocol === 'https:') {
-          var bp = document.createElement('script');
-          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(bp, s);
+          var site = 'https://www.skillxm.cn';
+          var token = 'zJsDaj5ibt8ZlVgz';
+          fetch('https://www.skillxm.cn/sitemap.xml')
+            .then(function(r){ return r.text(); })
+            .then(function(xml){
+              var urls = [];
+              var locs = xml.match(/<loc>(.*?)<\\/loc>/g) || [];
+              locs.forEach(function(l){
+                var u = l.replace(/<loc>|<\/loc>/g, '');
+                if (u.indexOf(site) === 0) urls.push(u);
+              });
+              if (urls.length === 0) return;
+              var body = urls.join('\n');
+              var xhr = new XMLHttpRequest();
+              xhr.open('POST', 'https://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
+              xhr.setRequestHeader('Content-Type', 'text/plain');
+              xhr.send(body);
+            });
         }
       })();
     `]
