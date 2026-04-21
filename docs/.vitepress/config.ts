@@ -57,6 +57,7 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-2us9nStCe1' }],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
     ['script', {}, `
       (function() {
