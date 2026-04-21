@@ -175,3 +175,29 @@ title: "tools"
 | 高清图片壁纸搜索下载神器（全网范围） | 夸克网盘 | [点击进入](/tools/post_284) |
 | 百度文库文档下载工具（不保证不会失效） | 夸克网盘 | [点击进入](/tools/post_285) |
 | 阿里云盘最强辅助神器！小白羊3.11最新版！ | 阿里云盘 | [点击进入](/tools/post_286) |
+| 头尾批量剪切器 v2.0 | 夸克网盘 | [点击进入](/tools/post_287) |
+| 文件批量重命名工具大合集 | 夸克网盘 | [点击进入](/tools/post_288) |
+| 超级护眼宝CareUeyes | 夸克网盘 | [点击进入](/tools/post_289) |
+| Navicat Premium 16.2.10 多连接数据库管理开发 | 夸克网盘 | [点击进入](/tools/post_290) |
+| 屏幕放大镜Zoomit | 夸克网盘 | [点击进入](/tools/post_291) |
+| PS人像精修磨皮插件 Ultimate Retouch Panel 3.9.2 | 夸克网盘 | [点击进入](/tools/post_292) |
+| PS AI 人工智能修图插件 | 夸克网盘 | [点击进入](/tools/post_293) |
+| 电视直播录制器 v2.0 | 夸克网盘 | [点击进入](/tools/post_294) |
+| 网络抓包工具Wireshark v4.2.0 | 夸克网盘 | [点击进入](/tools/post_295) |
+| 云萌Windows系统激活工具 支持Win10/11(x86/x64/ARM64) | 夸克网盘 | [点击进入](/tools/post_296) |
+| 截图工具 | 夸克网盘 | [点击进入](/tools/post_297) |
+| 重复文件查找与删除 | 夸克网盘 | [点击进入](/tools/post_298) |
+| 开源字幕编辑器 Subtitle Edit v4.0.2 便携版 | 夸克网盘 | [点击进入](/tools/post_299) |
+| 夸克云盘辅助工具 | 夸克网盘 | [点击进入](/tools/post_300) |
+| 开心电视助手 | 夸克网盘 | [点击进入](/tools/post_301) |
+| 图片降噪Topaz Photo AI便携版 | 夸克网盘 | [点击进入](/tools/post_302) |
+| Photoshop CS6绿色版+单文件版 | 夸克网盘 | [点击进入](/tools/post_303) |
+| Adobe Photoshop 2023 AI版 | 夸克网盘 | [点击进入](/tools/post_304) |
+| 文件批量复制工具 | 夸克网盘 | [点击进入](/tools/post_305) |
+| Bandicam-8.0.0.2509-x64-Portable 录屏便携版 | 夸克网盘 | [点击进入](/tools/post_306) |
+| Adobe Premiere Pro 2024 特别版 | 夸克网盘 | [点击进入](/tools/post_307) |
+| My Family Tree 家谱族谱制作工具 v14.0.0.0 | 夸克网盘 | [点击进入](/tools/post_308) |
+| 素材获取工具高级版 | 夸克网盘 | [点击进入](/tools/post_309) |
+| 视频增强工具 Topaz Video AI | 夸克网盘 | [点击进入](/tools/post_310) |
+| ImgDrive虚拟化光驱 | 夸克网盘 | [点击进入](/tools/post_311) |
+| 12306Bypass分流抢票工具 | 夸克网盘 | [点击进入](/tools/post_312) |
