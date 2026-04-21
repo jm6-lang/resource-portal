@@ -87,7 +87,7 @@ export default defineConfig({
               if (urls.length === 0) return;
               var body = urls.join('\n');
               var xhr = new XMLHttpRequest();
-              xhr.open('POST', 'https://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
+              xhr.open('POST', 'http://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
               xhr.setRequestHeader('Content-Type', 'text/plain');
               xhr.send(body);
             });
