@@ -73,9 +73,9 @@ export default defineConfig({
     ['script', {}, `
       (function(){
         if (location.protocol === 'https:') {
-          var site = 'https://www.skillxm.cn';
+          var site = 'https://docs.skillxm.cn';
           var token = 'zJsDaj5ibt8ZlVgz';
-          fetch('https://www.skillxm.cn/sitemap.xml')
+          fetch('https://docs.skillxm.cn/sitemap.xml')
             .then(function(r){ return r.text(); })
             .then(function(xml){
               var urls = [];
