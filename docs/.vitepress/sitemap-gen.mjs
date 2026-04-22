@@ -21,9 +21,10 @@ if (!fs.existsSync(inputPath)) {
 
 let xml = fs.readFileSync(inputPath, 'utf-8')
 
-// 1. 去除 news 命名空间声明和所有 news: 条目
+// 1. 去除 news 命名空间声明和所有 news: 条目（修复正则匹配同一行多个属性）
 xml = xml
-  .replace(/\s*xmlns:news="[^"]*"\n?/g, '')
+  .replace(/xmlns:news="[^"]*"/g, '')
+  .replace(/\s*xmlns:news="[^"]*"/g, '')
   .replace(/<url>[\s\S]*?<\/url>\n?/g, (urlBlock) => {
     if (/<news:/.test(urlBlock)) return '' // 跳过含 news 的 url 条目
     return urlBlock
