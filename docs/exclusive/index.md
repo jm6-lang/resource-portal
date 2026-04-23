@@ -49,8 +49,18 @@ description: "独家原创资源：平台专属原创内容、精选合集、独
     <div class="ecard-icon">🔍</div>
     <div class="ecard-body">
       <h3>企业法人号码核验</h3>
-      <p>批量核验企业法人号码实名一致性，98%准确率，秒级返回。过滤空号、停机号、代理记账号，只留真实法人号码，外呼效率提升80%。</p>
+      <p>核验企业法人号码实名一致性，98%准确率，秒级返回。过滤空号、停机号、代理记账号，只留真实法人号码，外呼效率提升80%。</p>
       <span class="ecard-tag">精准高效</span>
+    </div>
+    <div class="ecard-arrow">→</div>
+  </a>
+
+  <a href="/exclusive/enterprise-batch-verify" class="exclusive-card" style="--accent: #06b6d4;">
+    <div class="ecard-icon">📊</div>
+    <div class="ecard-body">
+      <h3>企业法人号码批量核验</h3>
+      <p>一键导入企业名单，批量核验法人实名一致性。支持天眼查、企查查等平台导出数据清洗，秒级返回结果，大幅提升外呼效率。</p>
+      <span class="ecard-tag">批量高效</span>
     </div>
     <div class="ecard-arrow">→</div>
   </a>
