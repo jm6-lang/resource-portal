@@ -11,8 +11,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const hostname = 'https://docs.skillxm.cn'
-const inputPath = path.join(process.cwd(), '.vitepress/dist/sitemap.xml')
-const outputPath = path.join(process.cwd(), '.vitepress/dist/sitemap.xml')
+const inputPath = path.join(process.cwd(), 'docs/.vitepress/dist/sitemap.xml')
+const outputPath = path.join(process.cwd(), 'docs/.vitepress/dist/sitemap.xml')
 
 if (!fs.existsSync(inputPath)) {
   console.warn('[sitemap-gen] dist/sitemap.xml not found, skipping.')

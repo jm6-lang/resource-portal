@@ -163,13 +163,20 @@ export default defineConfig({
             .then(function(r){ return r.text(); })
             .then(function(xml){
               var urls = [];
-              var locs = xml.match(new RegExp('<loc>'+'(.*?)'+'</loc>', 'g')) || [];
-              locs.forEach(function(l){
-                                var u = l.replace(new RegExp('<loc>'+'|'+'</loc>', 'g'), '');
-                if (u.indexOf(site) === 0) urls.push(u);
-              });
+              var start = 0;
+              var startTag = String.fromCharCode(60, 108, 111, 99, 62);
+              var endTag = String.fromCharCode(60, 47, 108, 111, 99, 62);
+              while (true) {
+                var s = xml.indexOf(startTag, start);
+                if (s === -1) break;
+                var e = xml.indexOf(endTag, s);
+                if (e === -1) break;
+                urls.push(xml.substring(s + 5, e));
+                start = e + 6;
+              }
               if (urls.length === 0) return;
-              var body = urls.join('\n');
+              var newline = String.fromCharCode(10);
+              var body = urls.join(newline);
               var xhr = new XMLHttpRequest();
               xhr.open('POST', 'http://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
               xhr.setRequestHeader('Content-Type', 'text/plain');

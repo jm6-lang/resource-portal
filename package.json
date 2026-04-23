@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs && node .vitepress/sitemap-gen.mjs",
+    "build": "vitepress build docs && node docs/.vitepress/sitemap-gen.mjs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
