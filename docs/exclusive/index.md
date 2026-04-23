@@ -45,7 +45,17 @@ description: "独家原创资源：平台专属原创内容、精选合集、独
     <div class="ecard-arrow">→</div>
   </a>
 
-  <!-- 💡 新增服务时，在下方添加同类卡片即可 -->
+  <a href="/exclusive/enterprise-verify" class="exclusive-card" style="--accent: #3b82f6;">
+    <div class="ecard-icon">🔍</div>
+    <div class="ecard-body">
+      <h3>企业法人号码核验</h3>
+      <p>批量核验企业法人号码实名一致性，98%准确率，秒级返回。过滤空号、停机号、代理记账号，只留真实法人号码，外呼效率提升80%。</p>
+      <span class="ecard-tag">精准高效</span>
+    </div>
+    <div class="ecard-arrow">→</div>
+  </a>
+
+  <!-- 💡 新增服务时，在下方添加同类卡片 -->
 
 </div>
 
