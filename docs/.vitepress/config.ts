@@ -204,7 +204,7 @@ export default defineConfig({
         text: '📖 资源导航',
         items: [
           { text: '🗺️ 全部资源索引', link: '/nav/' },
-          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }] },
+          { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '📱 大流量卡', link: '/exclusive/data-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }, { text: '🔍 企业法人号码核验', link: '/exclusive/enterprise-verify.html' }] },
           { text: '🤖 AI 知识专区', link: '/AIknowledge/' },
           { text: '📚 书籍文献库', link: '/book/' },
           { text: '🎬 在线影视/音乐', link: '/movies/' },
