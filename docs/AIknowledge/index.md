@@ -1,6 +1,6 @@
 ---
 description: "AI知识资源聚合：ChatGPT、Claude、Midjourney、Grok等AI工具教程、大模型资讯、AI写作绘画工具、AIGC应用案例与免费资源。"
-title: "AIknowledge"
+title: "AI 知识 - ChatGPT/大模型/AIGC 资源大全"
 ---
 
 # AI 知识 / 人工智能 资源合集

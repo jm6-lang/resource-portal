@@ -52,12 +52,18 @@ export default defineConfig({
 
   sitemap: {
     hostname: 'https://docs.skillxm.cn',
-    lastmodDateOnly: false
+    lastmodDateOnly: false,
+    // 排除不需要收录的页面
+    exclude: ['/ads', '/404']
   },
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-2us9nStCe1' }],
+    // 百度移动适配声明（自适应/响应式）
+    ['meta', { name: 'applicable-device', content: 'pc,mobile' }],
+    ['meta', { name: 'MobileOptimized', content: 'width' }],
+    ['meta', { name: 'HandheldFriendly', content: 'true' }],
     // Open Graph - 社交分享
     ['meta', { property: 'og:site_name', content: '小二郎资源分享站' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -101,87 +107,20 @@ export default defineConfig({
         }
       ]
     }, null, 0)],
-    // 动态注入 BreadcrumbList（各分类页面专用）
-    ['script', {}, `
-      (function(){
-        var path = location.pathname;
-        // 只在分类/内容页注入面包屑，首页不注入
-        var catMap = {
-          '/AIknowledge/':        { name: 'AI 知识',     path: '/AIknowledge/' },
-          '/book/':              { name: '书籍文献',    path: '/book/' },
-          '/movies/':            { name: '在线影视',    path: '/movies/' },
-          '/tools/':             { name: '常用工具',    path: '/tools/' },
-          '/self-media/':        { name: '自媒体电商',  path: '/self-media/' },
-          '/curriculum/':        { name: '互联网教程',  path: '/curriculum/' },
-          '/healthy/':           { name: '健康养生',    path: '/healthy/' },
-          '/chinese-traditional/': { name: '传统文化', path: '/chinese-traditional/' },
-          '/cross-border/':      { name: '跨境电商',    path: '/cross-border/' },
-          '/music/':             { name: '音乐',        path: '/music/' },
-          '/edu-knowlege/':      { name: '教育资料',    path: '/edu-knowlege/' },
-          '/exclusive/':         { name: '独家资源',    path: '/exclusive/' },
-          '/nav/':               { name: '资源导航',    path: '/nav/' }
-        };
-        for (var prefix in catMap) {
-          if (path.indexOf(prefix) === 0 && path !== prefix) {
-            var cat = catMap[prefix];
-            var itemListElement = [
-              { '@type': 'ListItem', 'position': 1, 'name': '首页', 'item': 'https://docs.skillxm.cn/' },
-              { '@type': 'ListItem', 'position': 2, 'name': cat.name, 'item': 'https://docs.skillxm.cn' + cat.path }
-            ];
-            var breadcrumb = {
-              '@context': 'https://schema.org',
-              '@type': 'BreadcrumbList',
-              'itemListElement': itemListElement
-            };
-            var script = document.createElement('script');
-            script.type = 'application/ld+json';
-            script.textContent = JSON.stringify(breadcrumb);
-            document.head.appendChild(script);
-            break;
-          }
-        }
-      })();
-    `],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4710405779358793', crossorigin: 'anonymous' }],
-    ['script', {}, `
-      (function() {
-        var link = document.createElement('link');
-        link.rel = 'canonical';
-        link.href = window.location.protocol + '//' + window.location.host + window.location.pathname;
-        document.head.appendChild(link);
-      })();
-    `],
     ['script', { async: '', src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/iztro@2.2.3/dist/iztro.min.js' }],
-    // 百度主动推送 - 每次页面访问自动提交URL给百度（使用新版API）
+    // 百度主动推送 - 仅推送当前页面URL（避免每次访问推送全站sitemap导致配额浪费）
     ['script', {}, `
       (function(){
         if (location.protocol === 'https:') {
           var site = 'https://docs.skillxm.cn';
           var token = 'zJsDaj5ibt8ZlVgz';
-          fetch('https://docs.skillxm.cn/sitemap.xml')
-            .then(function(r){ return r.text(); })
-            .then(function(xml){
-              var urls = [];
-              var start = 0;
-              var startTag = String.fromCharCode(60, 108, 111, 99, 62);
-              var endTag = String.fromCharCode(60, 47, 108, 111, 99, 62);
-              while (true) {
-                var s = xml.indexOf(startTag, start);
-                if (s === -1) break;
-                var e = xml.indexOf(endTag, s);
-                if (e === -1) break;
-                urls.push(xml.substring(s + 5, e));
-                start = e + 6;
-              }
-              if (urls.length === 0) return;
-              var newline = String.fromCharCode(10);
-              var body = urls.join(newline);
-              var xhr = new XMLHttpRequest();
-              xhr.open('POST', 'http://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
-              xhr.setRequestHeader('Content-Type', 'text/plain');
-              xhr.send(body);
-            });
+          var url = location.protocol + '//' + location.host + location.pathname;
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', 'https://data.zz.baidu.com/urls?site=' + site + '&token=' + token, true);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(url);
         }
       })();
     `]
