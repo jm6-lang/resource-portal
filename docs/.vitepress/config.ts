@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+﻿import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
 
@@ -163,9 +163,9 @@ export default defineConfig({
             .then(function(r){ return r.text(); })
             .then(function(xml){
               var urls = [];
-              var locs = xml.match(/<loc>(.*?)<\\/loc>/g) || [];
+              var locs = xml.match(new RegExp('<loc>'+'(.*?)'+'</loc>', 'g')) || [];
               locs.forEach(function(l){
-                var u = l.replace(/<loc>|<\/loc>/g, '');
+                                var u = l.replace(new RegExp('<loc>'+'|'+'</loc>', 'g'), '');
                 if (u.indexOf(site) === 0) urls.push(u);
               });
               if (urls.length === 0) return;
