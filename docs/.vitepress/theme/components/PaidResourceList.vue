@@ -8,7 +8,7 @@ interface Resource {
   id: string
   title: string
   description: string
-  price: number
+  price?: number
   category: string
   coverImage?: string
 }
@@ -31,6 +31,7 @@ const categoryLabels: Record<string, string> = {
   tool: '效率工具',
   course: '教程课程',
   media: '自媒体',
+  education: '教育资料',
   other: '其他'
 }
 
@@ -56,11 +57,9 @@ onMounted(async () => {
     if (data.code === 0 && Array.isArray(data.data)) {
       resources.value = data.data
     } else {
-      // Use demo data if API not available
       resources.value = getDemoResources()
     }
   } catch {
-    // Fallback to demo data
     resources.value = getDemoResources()
   } finally {
     loading.value = false
@@ -70,46 +69,60 @@ onMounted(async () => {
 function getDemoResources(): Resource[] {
   return [
     {
-      id: 'demo-001',
+      id: 'chatgpt-prompt-guide',
       title: 'ChatGPT 高级提示词工程指南',
       description: '系统学习 Prompt Engineering，掌握与 AI 高效对话的核心技巧，包含 200+ 实战案例。',
-      price: 29.9,
+      price: 5.9,
       category: 'ai'
     },
     {
-      id: 'demo-002',
+      id: 'cross-border-shopify',
       title: '跨境电商独立站从零到一',
       description: 'Shopify 建站全流程教程，涵盖选品、建站、引流、转化四大核心环节。',
-      price: 49.9,
+      price: 5.9,
       category: 'course'
     },
     {
-      id: 'demo-003',
+      id: 'short-video-ops',
       title: '2024 短视频运营实战手册',
       description: '抖音/快手/视频号运营全攻略，从内容策划到变现的完整方法论。',
-      price: 39.9,
+      price: 5.9,
       category: 'media'
     },
     {
-      id: 'demo-004',
+      id: 'dev-tools-collection',
       title: '程序员效率工具合集',
       description: '精选 50+ 开发者必备工具，含激活教程和配置指南，大幅提升工作效率。',
-      price: 19.9,
+      price: 5.9,
       category: 'tool'
     },
     {
-      id: 'demo-005',
+      id: 'midjourney-guide',
       title: 'AI 绘画 Midjourney 完全指南',
       description: '从入门到精通的 Midjourney 教程，掌握 AI 绘画的核心参数和高级技巧。',
-      price: 35,
+      price: 5.9,
       category: 'ai'
     },
     {
-      id: 'demo-006',
+      id: 'personal-ip',
       title: '个人 IP 打造与知识付费',
       description: '如何打造个人品牌并通过知识付费实现收入增长，包含完整实操案例。',
-      price: 59.9,
+      price: 5.9,
       category: 'media'
+    },
+    {
+      id: 'notion-templates',
+      title: 'Notion 高效模板大全',
+      description: '100+ 精选 Notion 模板，覆盖项目管理、知识库、个人成长等场景。',
+      price: 5.9,
+      category: 'tool'
+    },
+    {
+      id: 'python-data-analysis',
+      title: 'Python 数据分析实战教程',
+      description: '从零基础到数据分析实战，Pandas/NumPy/Matplotlib 全面讲解。',
+      price: 5.9,
+      category: 'course'
     }
   ]
 }
@@ -147,11 +160,6 @@ function getDemoResources(): Resource[] {
       <p>正在加载资源列表...</p>
     </div>
 
-    <!-- Error -->
-    <div v-else-if="error" class="paid-resource-error">
-      <p>{{ error }}</p>
-    </div>
-
     <!-- Empty -->
     <div v-else-if="filteredResources.length === 0" class="paid-resource-empty">
       <div class="paid-resource-empty-icon">&#x1F50D;</div>
@@ -170,7 +178,7 @@ function getDemoResources(): Resource[] {
 
     <!-- Count -->
     <div v-if="!loading && filteredResources.length > 0" class="paid-resource-count">
-      共 {{ filteredResources.length }} 个资源
+      共 {{ filteredResources.length }} 个资源，每个 &yen;5.9 &middot; 会员免费
     </div>
   </div>
 </template>

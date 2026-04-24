@@ -8,6 +8,7 @@ import PayResult from './components/PayResult.vue'
 import ResourceCard from './components/ResourceCard.vue'
 import MembershipCard from './components/MembershipCard.vue'
 import PaidResourceList from './components/PaidResourceList.vue'
+import ResourceDetail from './components/ResourceDetail.vue'
 import './custom.css'
 
 const VisitorStats = {
@@ -52,6 +53,7 @@ export default {
     app.component('ResourceCard', ResourceCard)
     app.component('MembershipCard', MembershipCard)
     app.component('PaidResourceList', PaidResourceList)
+    app.component('ResourceDetail', ResourceDetail)
   },
   Layout() {
     return h(DefaultTheme.Layout, null, {

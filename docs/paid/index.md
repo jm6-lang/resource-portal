@@ -40,7 +40,7 @@ async function handleQuery() {
   <p class="paid-hero-desc">精选高质量付费资源，一次购买永久使用。支持单资源购买和会员订阅，会员可畅享全部资源。</p>
 </div>
 
-## 会员计划
+## 会员计划 {#membership}
 
 开通会员，解锁全部付费资源，享受持续更新的优质内容。
 

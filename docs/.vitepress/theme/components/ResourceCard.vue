@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import PayButton from './PayButton.vue'
 
 const props = defineProps<{
   resource: {
     id: string
     title: string
     description: string
-    price: number
+    price?: number
     category: string
     coverImage?: string
   }
@@ -21,21 +20,23 @@ onMounted(() => {
   purchased.value = !!(token || membership)
 })
 
+const displayPrice = computed(() => props.resource.price || 5.9)
+
 const categoryLabel = computed(() => {
   const map: Record<string, string> = {
-    ai: 'AI 知识',
-    book: '书籍文献',
-    tool: '效率工具',
-    course: '教程课程',
-    media: '自媒体',
-    other: '其他'
+    ai: 'AI 知识', book: '书籍文献', tool: '效率工具',
+    course: '教程课程', media: '自媒体', education: '教育资料', other: '其他'
   }
   return map[props.resource.category] || props.resource.category
 })
+
+function goToDetail() {
+  window.location.href = `/paid/resources/${props.resource.id}.html`
+}
 </script>
 
 <template>
-  <div class="resource-card" :class="{ 'is-purchased': purchased }">
+  <div class="resource-card" :class="{ 'is-purchased': purchased }" @click="goToDetail">
     <div class="resource-card-cover">
       <img
         v-if="resource.coverImage"
@@ -53,15 +54,11 @@ const categoryLabel = computed(() => {
       <h3 class="resource-card-title">{{ resource.title }}</h3>
       <p class="resource-card-desc">{{ resource.description }}</p>
       <div class="resource-card-footer">
-        <span class="resource-card-price">&yen;{{ resource.price }}</span>
-        <PayButton
-          v-if="!purchased"
-          type="resource"
-          :resource-id="resource.id"
-          :resource-name="resource.title"
-          :price="resource.price"
-        />
-        <span v-else class="resource-card-owned">已拥有</span>
+        <span class="resource-card-price">&yen;{{ displayPrice }}</span>
+        <span class="resource-card-action">
+          <span v-if="purchased" class="resource-card-owned">查看资源</span>
+          <span v-else class="resource-card-buy">查看详情</span>
+        </span>
       </div>
     </div>
   </div>
@@ -76,6 +73,7 @@ const categoryLabel = computed(() => {
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .resource-card:hover {
@@ -86,6 +84,10 @@ const categoryLabel = computed(() => {
 
 .resource-card.is-purchased {
   border-color: rgba(34, 197, 94, 0.3);
+}
+
+.resource-card.is-purchased:hover {
+  border-color: rgba(34, 197, 94, 0.5);
 }
 
 /* Cover */
@@ -200,14 +202,29 @@ const categoryLabel = computed(() => {
   flex-shrink: 0;
 }
 
-.resource-card-footer :deep(.pay-button-wrapper) {
-  flex: 1;
-  max-width: 180px;
+.resource-card-action {
+  flex-shrink: 0;
 }
 
-.resource-card-footer :deep(.pay-btn) {
-  padding: 10px 14px;
+.resource-card-buy {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #1a1a2e;
   font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: all 0.25s;
+}
+
+.dark .resource-card-buy {
+  color: #fff;
+}
+
+.resource-card-buy:hover {
+  box-shadow: 0 2px 8px rgba(255, 165, 0, 0.3);
 }
 
 .resource-card-owned {
@@ -221,9 +238,6 @@ const categoryLabel = computed(() => {
   color: #22c55e;
   font-size: 0.85rem;
   font-weight: 600;
-  flex: 1;
-  max-width: 180px;
-  justify-content: center;
 }
 
 /* Mobile */
@@ -238,10 +252,6 @@ const categoryLabel = computed(() => {
 
   .resource-card-price {
     font-size: 1.1rem;
-  }
-
-  .resource-card-footer :deep(.pay-button-wrapper) {
-    max-width: 150px;
   }
 }
 </style>
