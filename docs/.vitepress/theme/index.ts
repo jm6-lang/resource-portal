@@ -1,14 +1,7 @@
 import { h } from 'vue'
-import type { HeadConfig, TransformContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import SocialShare from './components/SocialShare.vue'
 import ZiWeiCalculator from './components/ZiWeiCalculator.vue'
-import PayButton from './components/PayButton.vue'
-import PayResult from './components/PayResult.vue'
-import ResourceCard from './components/ResourceCard.vue'
-import MembershipCard from './components/MembershipCard.vue'
-import PaidResourceList from './components/PaidResourceList.vue'
-import ResourceDetail from './components/ResourceDetail.vue'
 import './custom.css'
 
 const VisitorStats = {
@@ -48,12 +41,6 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('ZiWeiCalculator', ZiWeiCalculator)
-    app.component('PayButton', PayButton)
-    app.component('PayResult', PayResult)
-    app.component('ResourceCard', ResourceCard)
-    app.component('MembershipCard', MembershipCard)
-    app.component('PaidResourceList', PaidResourceList)
-    app.component('ResourceDetail', ResourceDetail)
   },
   Layout() {
     return h(DefaultTheme.Layout, null, {
@@ -63,8 +50,6 @@ export default {
   }
 }
 
-// 使用 VitePress 的 setupBuild 钩子在构建时注入 canonical 和面包屑
-// 这比 transformHead 更可靠，因为它直接修改构建产物
 if (typeof globalThis !== 'undefined') {
   (globalThis as any).__VITEPRESS_BREADCRUMB_MAP__ = breadcrumbMap
 }

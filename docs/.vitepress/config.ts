@@ -132,7 +132,7 @@ export default defineConfig({
       { text: '🏠 首页', link: '/' },
       { text: '🗺️ 资源导航', link: '/nav/' },
       { text: '💎 独家资源', link: '/exclusive/' },
-      { text: '👑 付费资源', link: '/paid/' }
+      { text: '👑 付费资源', link: 'https://pay.skillxm.cn' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
@@ -148,7 +148,7 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: '📖 免费资源',
+        text: '📖 资源导航',
         items: [
           { text: '🗺️ 全部资源索引', link: '/nav/' },
           { text: '💎 独家资源专区', collapsed: false, items: [{ text: '✨ 专区首页', link: '/exclusive/' }, { text: '💳 注册卡采购', link: '/exclusive/registration-card.html' }, { text: '📱 大流量卡', link: '/exclusive/data-card.html' }, { text: '🛠️ 电话标记清除', link: '/exclusive/phone-label-clean.html' }, { text: '🔍 企业法人号码核验', link: '/exclusive/enterprise-verify.html' }, { text: '📊 企业法人号码批量核验', link: '/exclusive/enterprise-batch-verify.html' }] },
@@ -161,13 +161,6 @@ export default defineConfig({
           { text: '🛠️ 常用工具/会员版', link: '/tools/' },
           { text: '🔮 紫微斗数排盘', link: '/chinese-traditional/ziwei.html' },
           { text: '🏛️ 传统文化阁', link: '/chinese-traditional/' },
-        ]
-      },
-      {
-        text: '👑 付费资源',
-        items: [
-          { text: '💎 付费精品资源', link: '/paid/' },
-          { text: '📋 订单查询', link: '/paid/order-query.html' },
         ]
       }
     ],
