@@ -131,7 +131,8 @@ export default defineConfig({
     nav: [
       { text: '🏠 首页', link: '/' },
       { text: '🗺️ 资源导航', link: '/nav/' },
-      { text: '💎 独家资源', link: '/exclusive/' }
+      { text: '💎 独家资源', link: '/exclusive/' },
+      { text: '👑 付费资源', link: '/paid/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jm6-lang/resource-portal' }
@@ -160,6 +161,7 @@ export default defineConfig({
           { text: '🛠️ 常用工具/会员版', link: '/tools/' },
           { text: '🔮 紫微斗数排盘', link: '/chinese-traditional/ziwei.html' },
           { text: '🏛️ 传统文化阁', link: '/chinese-traditional/' },
+          { text: '👑 付费精品资源', link: '/paid/' },
         ]
       }
     ],

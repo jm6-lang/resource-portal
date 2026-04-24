@@ -40,6 +40,8 @@ const priorityRules = [
   { pattern: /^\/nav\/?$/, priority: '0.9', changefreq: 'weekly' },
   { pattern: /^\/exclusive\/?$/, priority: '0.9', changefreq: 'weekly' },
   { pattern: /^\/exclusive\//, priority: '0.8', changefreq: 'monthly' },
+  { pattern: /^\/paid\/?$/, priority: '0.9', changefreq: 'weekly' },
+  { pattern: /^\/paid\//, priority: '0.8', changefreq: 'monthly' },
   { pattern: /^\/AIknowledge\/?$/, priority: '0.8', changefreq: 'daily' },
   { pattern: /^\/book\/?$/, priority: '0.8', changefreq: 'daily' },
   { pattern: /^\/movies\/?$/, priority: '0.8', changefreq: 'daily' },
@@ -93,6 +95,7 @@ const breadcrumbMap = {
   '/music/':             { name: '音乐',        path: '/music/' },
   '/edu-knowlege/':      { name: '教育资料',    path: '/edu-knowlege/' },
   '/exclusive/':         { name: '独家资源',    path: '/exclusive/' },
+  '/paid/':              { name: '付费资源',    path: '/paid/' },
   '/nav/':               { name: '资源导航',    path: '/nav/' }
 }
 

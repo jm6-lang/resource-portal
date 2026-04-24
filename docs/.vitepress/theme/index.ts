@@ -3,6 +3,11 @@ import type { HeadConfig, TransformContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import SocialShare from './components/SocialShare.vue'
 import ZiWeiCalculator from './components/ZiWeiCalculator.vue'
+import PayButton from './components/PayButton.vue'
+import PayResult from './components/PayResult.vue'
+import ResourceCard from './components/ResourceCard.vue'
+import MembershipCard from './components/MembershipCard.vue'
+import PaidResourceList from './components/PaidResourceList.vue'
 import './custom.css'
 
 const VisitorStats = {
@@ -42,6 +47,11 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('ZiWeiCalculator', ZiWeiCalculator)
+    app.component('PayButton', PayButton)
+    app.component('PayResult', PayResult)
+    app.component('ResourceCard', ResourceCard)
+    app.component('MembershipCard', MembershipCard)
+    app.component('PaidResourceList', PaidResourceList)
   },
   Layout() {
     return h(DefaultTheme.Layout, null, {

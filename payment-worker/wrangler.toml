@@ -1,0 +1,39 @@
+name = "skillxm-payment"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# KV Namespace bindings
+# Replace "YOUR_KV_NAMESPACE_ID" with actual KV namespace IDs after creation
+# Create KV namespaces with: wrangler kv:namespace create "ORDERS"
+
+[[kv_namespaces]]
+binding = "ORDERS"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[[kv_namespaces]]
+binding = "MEMBERSHIPS"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[[kv_namespaces]]
+binding = "RESOURCES"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[[kv_namespaces]]
+binding = "ACCESS_TOKENS"
+id = "YOUR_KV_NAMESPACE_ID"
+
+# Environment variables (secrets)
+# Set secrets with: wrangler secret put PAYMENT_KEY
+# Set non-secret vars with: wrangler secret put PAYMENT_PID
+#
+# Required secrets:
+# - PAYMENT_PID: Merchant ID
+# - PAYMENT_KEY: Merchant secret key
+# - PAYMENT_GATEWAY: Payment gateway URL (default: https://ezfp.cn)
+# - PAYMENT_NOTIFY_URL: Callback URL for payment notifications
+# - ADMIN_PASSWORD: Admin password
+# - SITE_URL: Site URL (e.g. https://docs.skillxm.cn)
+
+[vars]
+SITE_URL = "https://docs.skillxm.cn"
+PAYMENT_GATEWAY = "https://ezfp.cn"
