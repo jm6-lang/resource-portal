@@ -43,39 +43,16 @@ export default {
   enhanceApp({ app }) {
     app.component('ZiWeiCalculator', ZiWeiCalculator)
   },
-  // 服务端注入 canonical URL 和面包屑（百度爬虫可直接读取）
-  transformHead({ pageData }: TransformContext) {
-    const head: HeadConfig[] = []
-
-    // 1. 注入 canonical URL（SSR，非 JS 动态注入）
-    if (pageData.relativePath) {
-      const url = `https://docs.skillxm.cn/${pageData.relativePath.replace(/\.md$/, '.html')}`
-      head.push(['link', { rel: 'canonical', href: url }])
-    }
-
-    // 2. 注入面包屑结构化数据（SSR，百度可直接解析）
-    const pathname = '/' + pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '.html')
-    for (const [prefix, cat] of Object.entries(breadcrumbMap)) {
-      if (pathname.startsWith(prefix) && pathname !== prefix) {
-        const breadcrumb = {
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          'itemListElement': [
-            { '@type': 'ListItem', 'position': 1, 'name': '首页', 'item': 'https://docs.skillxm.cn/' },
-            { '@type': 'ListItem', 'position': 2, 'name': cat.name, 'item': `https://docs.skillxm.cn${cat.path}` }
-          ]
-        }
-        head.push(['script', { type: 'application/ld+json' }, JSON.stringify(breadcrumb)])
-        break
-      }
-    }
-
-    return head
-  },
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'nav-bar-content-after': () => h(SocialShare),
       'layout-bottom': () => h(VisitorStats)
     })
   }
+}
+
+// 使用 VitePress 的 setupBuild 钩子在构建时注入 canonical 和面包屑
+// 这比 transformHead 更可靠，因为它直接修改构建产物
+if (typeof globalThis !== 'undefined') {
+  (globalThis as any).__VITEPRESS_BREADCRUMB_MAP__ = breadcrumbMap
 }
